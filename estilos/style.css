@@ -1,0 +1,1139 @@
+c:\users\matia\desktop\tute\programacion\v-c-proyects\webpersonaltrainner\index.html
+  c:\users\matia\desktop\tute\programacion\v-c-proyects\webpersonaltrainner\programas.js
+  c:\users\matia\desktop\tute\programacion\v-c-proyects\webpersonaltrainner\style.css
+  c:\users\matia\desktop\tute\programacion\v-c-proyects\webpersonaltrainner\imagenes* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  padding: 140px 20px 0;
+  background-color: rgb(255, 254, 254);
+  margin: 0;
+  justify-content: center;
+}
+
+/*________________________________Seccion del navegador principal_______________________________________*/
+
+.header {
+  background-image: url(https://i.ibb.co/jHhhrHj/imagenfondo-cabezaramodif2.jpg);
+  background-size: 100% 100%;
+  background-position: start;
+  background-repeat: no-repeat;
+  height: 8em;
+  width: 97%;
+  position: fixed;
+  top: 0px;
+  border: solid 1px rgb(0, 0, 0);
+  border-radius: 25px;
+  box-shadow: 2px 5px 15px rgb(184, 184, 184);
+  overflow: hidden;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  overflow: hidden;
+}
+
+.nav-link {
+  color: rgb(248, 246, 246);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-menu {
+  display: flex;
+  margin-right: left;
+  list-style: none;
+  margin-top: 0;
+}
+
+.nav-menu-item {
+  font-size: 1.5rem;
+  margin: 0 20px;
+  line-height: 130px;
+  text-transform: uppercase;
+  width: max-content;
+  align-items: center;
+}
+
+.fondo-seleccionado {
+  background-color: rgba(216, 236, 42, 0.452);
+  border-radius: 20px;
+}
+
+.nav-menu-link {
+  padding: 8px 14px;
+}
+
+.nav-menu-link:hover {
+  background-color: rgba(216, 236, 42, 0.452);
+  transition: 0.5;
+  border-radius: 20px;
+}
+
+.nav-toggle {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  padding: 0 30px;
+  display: none;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.fa-solid fa-bars {
+  color: #070707;
+}
+
+.fa-solid fa-times {
+  color: #070707;
+}
+
+.imagen {
+  width: 110px;
+  height: 110px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  text-align: center;
+}
+
+/*_________________________________________Seccion main___________________________________________ */
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.bloque1,
+.bloque2,
+.bloque3 {
+  border: solid 3px rgb(0, 0, 0);
+  width: 30%;
+  height: auto;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+  border-radius: 15px;
+  margin-bottom: 10px;
+  overscroll-behavior-x: 15px;
+}
+
+.bloque1 {
+  background-image: url(https://i.ibb.co/G2tq4Pc/Fondo-bloques-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  margin-top: 0px;
+}
+
+.bloque1 h2 {
+  color: rgb(0, 0, 0);
+  padding: 1.2em;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #f0f0f073;
+}
+
+.bloque1 p {
+  padding: 2em;
+  font-weight: bold;
+  color: rgb(7, 7, 7);
+  font-size: 1.2em;
+  text-decoration: double;
+  background-color: #f0f0f073;
+}
+
+.bloque1 a {
+  display: block;
+  margin: 15px 30px;
+  margin-top: 5em;
+  background-color: rgba(216, 236, 42, 0.452);
+  padding: 1em;
+  color: rgb(12, 12, 12);
+  font-size: 1.2em;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+  border: solid 2px black;
+}
+
+.bloque1 a:hover {
+  background-color: rgb(216, 236, 42);
+  color: white;
+}
+
+.bloque2 {
+  background-image: url(https://i.ibb.co/chJTXW3/Fondo-bloques-2-new.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.bloque2 h2 {
+  padding: 2em;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: rgb(14, 13, 13);
+  background-color: #f0f0f073;
+}
+
+.bloque2 p {
+  padding: 1.6em;
+  font-weight: bold;
+  color: rgb(7, 7, 7);
+  font-size: 1.2em;
+  text-decoration: double;
+  background-color: #f0f0f073;
+}
+
+.bloque2 a {
+  display: block;
+  margin: 15px 30px;
+  margin-top: 3em;
+  padding: 1em;
+  background-color: rgba(216, 236, 42, 0.452);
+  text-decoration: none;
+  margin-bottom: 4em;
+  border-radius: 5px;
+  color: black;
+  font-size: 1.2em;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+  border: solid 2px black;
+}
+
+.bloque2 a:hover {
+  background-color: rgb(216, 236, 42);
+  color: white;
+}
+
+.bloque3 {
+  background-image: url(https://i.ibb.co/d7PfFHj/bloque-strecink2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  border-radius: 15px;
+}
+
+.bloque3 h2 {
+  padding-top: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 2em;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: rgb(14, 13, 13);
+  background-color: #f0f0f073;
+}
+
+.bloque3 p {
+  padding: 2em;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  text-decoration: double;
+  background-color: #f0f0f073;
+}
+
+.bloque3 a {
+  display: block;
+  margin: 15px 30px;
+  background-color: rgba(216, 236, 42, 0.452);
+  padding: 1em;
+  color: rgb(10, 10, 10);
+  font-size: 1.2em;
+  text-decoration: none;
+  margin-top: 2.5em;
+  border-radius: 5px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+  border: solid 2px black;
+}
+
+.bloque3 a:hover {
+  background-color: rgb(216, 236, 42);
+  color: white;
+}
+
+.whatapp {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  top: 62rem;
+  right: 17px;
+  z-index: 2;
+}
+
+/* ______________________________Seccion del Carrucel________________________________________________*/
+
+.videos-incio {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.carrucel-pc,
+.cuestionario-form1 {
+  flex: 1;
+  padding: 1em;
+  border: solid 3px black;
+  margin: auto 5px;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+  margin-bottom: 5px;
+}
+
+.carrucel-pc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 30%;
+  margin-left: 48px;
+  height: auto;
+  margin-top: 15px;
+}
+.carrucel-pc h2 {
+  margin-bottom: 1.5em;
+}
+
+.carrucel-pading {
+  padding: 0 20px 20px 20px;
+}
+.boton-color {
+  background-color: #070707;
+  height: auto;
+}
+
+/*___________________________Seccion Formulario pagina Inicio______________________________________________*/
+
+.cuestionario-form1 {
+  margin-top: 15px;
+  width: auto;
+  background-image: url(https://i.ibb.co/gmp92mP/Fondo-bloques-2.jpg);
+  margin-right: 48px;
+}
+
+.cuestionario-form1 h2 {
+  font-size: 1.2em;
+}
+
+.formulario1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.formulario1 label {
+  display: block;
+  margin-right: auto;
+  margin-left: 20%;
+}
+
+.formulario1 input {
+  width: 55%;
+  border: solid 1px black;
+  height: 2em;
+  border-radius: 5px;
+}
+
+.barra-tarea {
+  border: solid 2px black;
+  border-radius: 5px;
+  width: 75%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.form1-item {
+  border: solid 1px black;
+}
+
+.form1-item:hover {
+  background-color: rgba(216, 236, 42, 0.452);
+}
+
+.button-item {
+  padding: 2px;
+  border: solid 1px black;
+  background-color: rgba(216, 236, 42, 0.452);
+  box-shadow: 2px 15px 15px rgba(0, 0, 0, 0.568);
+  margin-bottom: 1em;
+}
+
+.button-item:hover {
+  background-color: rgba(216, 236, 42, 0.452);
+  color: white;
+}
+
+/*_________________________________Seccion Footer, redes y legales____________________________________*/
+
+.contacto-legales {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background-color: white;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.contacto-legales ol {
+  margin: 0;
+}
+
+.contacto-legales li {
+  display: inline-block;
+}
+
+.contacto-legales li a {
+  text-decoration: none;
+  color: #070707;
+}
+
+.contacto-legales img {
+  width: 20px;
+  height: 20px;
+}
+
+.contacto-legales h3 {
+  margin-right: 40px;
+  margin-left: 15px;
+}
+
+.legal {
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 2em;
+}
+
+/*_________________Paginas Alumnos, Info, Videos,  "En contruccion"_________________________*/
+
+.contenedorConstruccion {
+  position: relative;
+  top: 12em;
+}
+
+/*_________________________________"Pagina Contactos"___________________________________________*/
+
+.contacto-contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  border: solid 3px black;
+  padding: 1em 5em 2em 5em;
+  margin: 3em 8em 2em 8em;
+  border-radius: 25px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+}
+
+.contacto-contenedor-titulo {
+  border: solid 1px black;
+  padding: 1em;
+  
+  font-size: 2.5em;
+}
+
+.contacto-contenedor p {
+  font-size: 1.5em;
+}
+
+.sangria {
+  text-indent: 0.5em;
+  text-align: justify;
+}
+
+/*___________________________pag. "Contacto" Formulario_____________________________________*/
+
+.contacto-formulario {
+  background-image: url(https://i.ibb.co/19PNmb9/Imagen-de-What34234234242433-51.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45em;
+  height: auto;
+  border: solid 3px black;
+  padding: 1em 5em 2em 5em;
+  margin: 0 auto;
+  margin-bottom: 5em;
+  border-radius: 25px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+}
+
+.form2 {
+  background-color: rgba(255, 255, 255, 0.562);
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+  border-radius: 15px;
+  gap: 0.5em;
+}
+
+.contato-name {
+  border: solid 2px black;
+  border-radius: 5px;
+  width: 25em;
+  font-size: 1em;
+}
+
+.form2 label {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.form2 input {
+  height: 2em;
+  background-color: rgba(232, 247, 96, 0.24);
+}
+
+.form2 input:hover {
+  background-color: rgba(216, 236, 42, 0.452);
+}
+
+.contacto-opciones {
+  background-color: rgba(232, 247, 96, 0.24);
+}
+
+.contacto-opciones:hover {
+  background-color: rgba(216, 236, 42, 0.452);
+}
+
+#contacto-date {
+  width: 12em;
+  font-size: 1.4em;
+  text-align: center;
+  margin-left: 5em;
+}
+
+#estado,
+#objetivo {
+  border: solid 2px black;
+  border-radius: 5px;
+  width: 25em;
+  height: 2.5em;
+  font-size: 1em;
+}
+
+.texto-form2 {
+  background-color: rgba(232, 247, 96, 0.24);
+  border: solid 2px black;
+  border-radius: 10px;
+  width: 98%;
+  height: 27em;
+}
+
+.contacto-boton {
+  background-color: rgb(209, 209, 209);
+  border-radius: 25px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+  width: 15em;
+  margin: auto;
+  font-size: 1.2em;
+}
+
+.tildes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/*_____________________________"Pagina Sobre Mi"____________________________________________*/
+
+.sobre-mi-encabezado {
+  display: flex;
+  justify-content: center;
+  border: solid 1px black;
+  padding: 0 1em 0 1em;
+  margin: 0 15px 15px 35px;
+  width: 95%;
+}
+
+.sobre-mi-encabezado h2 {
+  font-size: 3em;
+}
+
+.sobre-mi-presentacion {
+  display: flex;
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 15px;
+  margin: 0 15px 15px 35px;
+  width: 95%;
+  overflow-wrap: normal;
+}
+
+.sobre-mi-presentacion img {
+  height: 200px;
+  padding: 1em;
+  margin-left: 2em;
+}
+
+.sobre-mi-presentacion p {
+  padding: 0 4em 0 1em;
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+/*_________bloke Planes_____________*/
+
+.sobre-mi-planes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid 1px black;
+  padding: 1em;
+  margin: 0 15px 15px 35px;
+  width: 95%;
+  border-radius: 14px;
+}
+
+.sobre-mi-planes h3 {
+  font-size: 1.8em;
+  padding: 0.5em 1em 1em 1em;
+}
+
+.sobre-mi-planes p {
+  font-size: 1.3em;
+  padding: 0 4em 1em 4em;
+  text-align: justify;
+}
+
+/*_________bloke clases_____________*/
+
+.sobre-mi-clases {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid 1px black;
+  border-radius: 15px;
+  padding: 1em;
+  margin: 0 15px 15px 35px;
+  width: 95%;
+}
+
+.sobre-mi-clases h3 {
+  font-size: 1.8em;
+  padding: 0.5em 1em 1em 1em;
+}
+
+.sobre-mi-clases p {
+  font-size: 1.3em;
+  padding: 0 4em 1em 4em;
+  text-align: justify;
+}
+.sobre-mi-imagenes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 15px;
+  padding: 1em;
+  margin: 0 15px 15px 35px;
+ 
+}
+
+.sobre-mi-imagenes img {
+  width: 800px;
+  margin-bottom: 5px;
+}
+
+.sobre-mi-formacion {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid 1px black;
+  border-radius: 15px;
+  padding: 1em;
+  margin: 0 15px 15px 35px;
+  width: 95%;
+}
+
+.sobre-mi-formacion-img {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  border: solid 1px black;
+  border-radius: 15px;
+  padding: 1em;
+  margin: 0 15px 15px 35px;
+  width: 95%;
+}
+
+.sobre-mi-despedida {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid 1px black;
+  border-radius: 15px;
+  padding: 1em;
+  margin: 0 15px 15px 35px;
+  width: 95%;
+  margin-bottom: 5em;
+}
+/*______________________________________________________________________________________________*/
+/*___________________________________ SECCION MOVIL_____________________________________________*/
+/*______________________________________________________________________________________________*/
+
+
+@media (max-width: 1100px) {
+  body {
+    padding-top: 110px;
+    margin: 0;
+  }
+
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    .bloque1 p,
+    .bloque2 p,
+    .bloque3 p {
+      font-size: 1.2rem;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 1024px) {
+  }
+
+  .header {
+    background-color: white;
+    height: 70px;
+    border: solid 2px rgb(212, 211, 211);
+    border-radius: 10px;
+    box-shadow: 2px 15px 15px rgba(0, 0, 0, 0.568);
+    left: 3px;
+    min-width: none;
+  }
+
+  .imagen {
+    margin-bottom: 10px;
+    height: 70px;
+    width: 70px;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 80px;
+    list-style: none;
+    background-color: rgb(231, 231, 231);
+    position: fixed;
+    left: 0;
+    top: 75px;
+    width: 100%;
+    padding: 15px 0;
+    height: calc(100% - 60px);
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s;
+    border-radius: 5px 0 0 5px;
+    border: solid black 2px;
+  }
+
+  .nav-menu-item {
+    font-size: 1rem;
+    margin: 0 15px;
+    margin-top: 20px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+  }
+
+  .nav-menu-link {
+    padding: 8px 14px;
+  }
+
+  .nav-menu-link:hover,
+  .nav-menu-link-active {
+    background: none;
+    color: rgb(66, 172, 17);
+  }
+
+  .nav-toggle {
+    color: rgb(209, 209, 209);
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin-top: 13px;
+    margin-right: 25px;
+    padding: 2px;
+    font-size: 1.5rem;
+  }
+
+  .nav-menu_visible {
+    left: 4%;
+    z-index: 2;
+  }
+
+  /*________________________________________Seccion main Movil_______________________________________ */
+
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contenedor,
+  h1 {
+    margin-top: 5px;
+    height: auto;
+  }
+
+  .bloque1,
+  .bloque2,
+  .bloque3 {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 14px;
+    width: 95%;
+    height: 650px;
+    margin-bottom: 5px;
+    text-align: center;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+  }
+
+  .bloque1 {
+    background-position: center;
+    height: auto;
+  }
+
+  .bloque1 h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    padding: 0px;
+  }
+
+  .bloque1 p {
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    margin-top: 0.2rem;
+    font-size: 1.2rem;
+  }
+
+  .bloque1 a {
+    border-radius: 5px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+    margin-top: 5px;
+    padding: 4px;
+  }
+
+  .bloque2 {
+    background-image: url(https://i.ibb.co/chJTXW3/Fondo-bloques-2-new.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+  }
+
+  .bloque2 h2 {
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .bloque2 p {
+    padding: 1rem;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    text-decoration: blink;
+    margin-top: 1px;
+  }
+
+  .bloque2 a {
+    margin: 1.5rem;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+    padding: 4px;
+  }
+
+  .bloque3 {
+    background-color: white;
+    height: auto;
+  }
+
+  .bloque3 h2 {
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 1rem;
+  }
+
+  .bloque3 p {
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-decoration: blink;
+  }
+
+  .bloque3 a {
+    border-radius: 5px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+    margin-top: 5px;
+    padding: 4px;
+  }
+
+  .whatapp {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 85%;
+    right: 15px;
+    z-index: 1;
+  }
+
+  /* ______________________________Seccion del Carrucel Movil________________________________________*/
+
+  .videos-incio {
+    flex-direction: row;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .carrucel-pc {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0;
+    padding: 0;
+    border: solid 2px black;
+  }
+  .carrucel-pc h2 {
+    margin-top: 15px;
+    margin-bottom: 12px;
+    font-size: 1.3em;
+  }
+
+  .tam-img-mov {
+    height: 150px;
+  }
+
+  .margen-boton-izq {
+    margin-left: 5px;
+  }
+  .margen-boton-der {
+    margin-right: 5px;
+  }
+  /*___________________________Seccion Formulario Movil ______________________________________________*/
+
+  .cuestionario-form1 {
+    padding: 0;
+    margin-bottom: 15px;
+    margin-right: 0;
+    min-width: 300px;
+    border: solid 2px black;
+  }
+  .cuestionario-form1 h2 {
+    margin-top: 13px;
+  }
+  /*_______________________________Seccion Legales Movil ______________________________________________*/
+
+  .contacto-legales {
+    justify-content: center;
+    margin-right: 0px;
+    left: 0;
+  }
+
+  .contacto-legales ol {
+    margin: 0;
+    padding: 0;
+  }
+
+  .contacto-legales img {
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px 0px 10px;
+  }
+
+  .contacto-legales h3 {
+    display: none;
+  }
+
+  .legal {
+    margin-top: 15px;
+    font-size: 0.5rem;
+  }
+
+  .legal p {
+    margin-bottom: 50px;
+  }
+
+  /*____________________________"Pag Alumnos" Movil_________________________________*/
+
+  .contenedorConstruccion {
+    z-index: -1;
+  }
+
+  /*_____________________________"Pagina Contactos" Movil___________________________*/
+
+  .contacto-contenedor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    height: auto;
+    border: solid 3px black;
+    border-radius: 25px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+    margin: 0.1em 0 0.5em 0;
+    padding: 0.5em 0.8em 0.5em 0.8em;
+  }
+
+  .contacto-contenedor h2 {
+    background-image: url(https://i.ibb.co/0J2VR4t/fondo-harder.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0.1em 0.3em 0 0.3em;
+    font-size: 1.4em;
+    border: solid 2px rgba(255, 255, 255, 0.322);
+    border-radius: 25px;
+    padding: 0.3em;
+  }
+
+  .contacto-contenedor p {
+    font-size: 1em;
+    font-weight: bold;
+    border: solid 2px rgba(255, 255, 255, 0.322);
+    border-radius: 25px;
+    padding: 0.3em;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+
+  .sangria {
+    text-indent: 0.5em;
+    text-align: justify;
+  }
+
+  /*___________________________pag. "Contacto" Formulario_____________________________________*/
+
+  .contacto-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 0.5em 0 2.5em 0;
+    border: solid 3px black;
+    border-radius: 25px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+  }
+  .form2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+  }
+
+  .contato-name {
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 23em;
+    font-size: 0.7em;
+  }
+
+  .form2 label {
+    font-size: 0.9em;
+  }
+  .form2 input {
+    height: 2em;
+    background-color: rgb(208, 241, 208);
+  }
+
+  .form2 input:hover {
+    background-color: rgba(43, 230, 43, 0.534);
+  }
+
+  .contacto-opciones {
+    background-color: rgb(208, 241, 208);
+  }
+
+  .contacto-opciones:hover {
+    background-color: rgba(43, 230, 43, 0.534);
+  }
+
+  #contacto-date {
+    width: 16em;
+    font-size: 0.9em;
+    text-align: center;
+    margin-left: 2em;
+  }
+
+  #estado,
+  #objetivo {
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 18em;
+    height: 2em;
+    font-size: 0.9em;
+    margin-top: 0.4em;
+    margin-bottom: 0.3em;
+  }
+
+  .texto-form2 {
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 100%;
+    height: 17em;
+    margin-top: 0.4em;
+  }
+
+  .contacto-boton {
+    border-radius: 25px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+    width: 10em;
+    margin: auto;
+    font-size: 1.2em;
+  }
+
+  .tildes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/*_____________________________"Pagina Sobre Mi" Movil_____________________________*/
