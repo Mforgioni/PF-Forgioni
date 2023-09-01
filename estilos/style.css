@@ -444,6 +444,9 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(https://i.ibb.co/0J2VR4t/fondo-harder.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   height: auto;
   border: solid 3px black;
   padding: 1em 5em 2em 5em;
@@ -453,11 +456,14 @@ h1 {
 }
 
 .contacto-contenedor-titulo {
-  border: solid 1px rgba(0, 0, 0, 0.726);
+  background-image: url(https://i.ibb.co/0J2VR4t/fondo-harder.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 1em 3em 1em 3em;
   margin-bottom: 1em;
   border-radius: 14px;
   font-size: 2.5em;
+  text-align: center;
 }
 
 .contacto-contenedor p {
@@ -628,6 +634,10 @@ h1 {
 
 /*_________bloke clases_____________*/
 
+.sobre-mi-presentacion {
+flex-wrap: wrap;
+}
+
 .sobre-mi-clases {
   display: flex;
   align-items: center;
@@ -655,7 +665,7 @@ h1 {
   align-items: center;
   border: solid 1px black;
   border-radius: 15px;
-  padding: 1em;
+  padding: 4em;
   margin: 0 15px 15px 35px;
  
 }
@@ -663,6 +673,7 @@ h1 {
 .sobre-mi-imagenes img {
   width: 800px;
   margin-bottom: 5px;
+  margin-bottom: 25px;
 }
 
 .sobre-mi-formacion {
@@ -1149,6 +1160,59 @@ h1 {
     justify-content: center;
     text-align: center;
   }
+/*_____________________________"Pagina Sobre Mi" Movil_____________________________*/
+
+
+.sobre-mi-encabezado {
+  display: flex;
+  justify-content: center;
+  border: solid 1px black;
+  padding: 0 0.5em 0 0.5em;
+  margin: 0 10px 20px 15px;
+
 }
 
-/*_____________________________"Pagina Sobre Mi" Movil_____________________________*/
+.sobre-mi-presentacion {
+  border: solid 1px black;
+  border-radius: 10px;
+  margin: 0 10px 10px 10px;
+  width: 95%;
+  overflow: hidden;
+}
+
+.sobre-mi-clases {
+  border: solid 1px black;
+  border-radius: 10px;
+  margin: 0 10px 10px 10px;
+  width: 95%;
+  overflow: hidden;
+}
+
+.sobre-mi-planes {
+  border: solid 1px black;
+  border-radius: 10px;
+  margin: 0 10px 10px 10px;
+  width: 95%;
+  overflow: hidden;
+}
+.sobre-mi-imagenes {
+  border-color: #ffffff;
+  overflow: hidden;
+}
+  .sobre-mi-imagenes img {
+    width: 410px;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+    overflow: wrap;
+  
+}
+.textps-p- {
+  text-align: center;
+}
+.sobre-mi-clases p {
+  padding: 0;
+}
+.adaptacion-letra {
+  font-size: 0.5rem;
+}
+}
