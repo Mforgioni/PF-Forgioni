@@ -1,0 +1,30 @@
+ProyectoFinalCodehause
+Descripción
+ProyectoFinalCodehause es una página web orientada a personal trainers y sus clientes. Proporciona una plataforma responsive que permite a los personal trainers compartir videos, fotos, formularios de inscripción y planes de entrenamiento con sus alumnos a través de la página web o la aplicación móvil.
+
+Características clave
+Visualización de videos y fotos de entrenamiento.
+Formularios de inscripción para nuevos clientes.
+Área de inicio de sesión para que los alumnos accedan a los planes de entrenamiento compartidos por el personal trainer.
+Instalación
+No se requiere instalación para utilizar la plataforma ya que es una aplicación web accesible a través de un navegador compatible.
+
+Uso
+Visita URL del sitio web.
+Regístrate como alumno o inicia sesión si ya tienes una cuenta siendo el usuario principal.
+Accede a videos, fotos y tips de entrenamiento con tus alumnos.
+Los alumnos pueden acceder a sus planes de entrenamiento completos a través del área de inicio de sesión.
+Contribución
+Si deseas contribuir al proyecto, sigue estos pasos:
+
+Haz un fork del repositorio.
+Clona tu fork localmente: git clone https://github.com/TU_USUARIO/ProyectoFinalCodehause.git
+Crea una nueva rama para tu contribución: git checkout -b mi-contribucion
+Realiza los cambios y commits en tu rama.
+Envía tus cambios al repositorio remoto: git push origin mi-contribucion
+Abre una solicitud de extracción en GitHub.
+Licencia
+Este proyecto está bajo la Licencia [Nombre de la Licencia]. Consulta el archivo LICENSE.md para obtener más detalles.
+
+Contacto
+Si tienes preguntas o sugerencias, puedes contactarme a través de [matiasforgioni@hotmail.com] ; [matiasforgioni@oulook.com].
