@@ -320,7 +320,8 @@ h1 {
   color: aliceblue;
   background-color: #00000085;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon {
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   background-color: red;
   color: white;
   border-radius: 50px;
@@ -577,6 +578,8 @@ h1 {
   display: flex;
   justify-content: center;
   border: solid 1px black;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+  border-radius: 8px;
   padding: 0 1em 0 1em;
   margin: 0 15px 15px 35px;
   width: 95%;
@@ -594,6 +597,7 @@ h1 {
   margin: 0 15px 15px 35px;
   width: 95%;
   overflow-wrap: normal;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
 }
 
 .sobre-mi-presentacion img {
@@ -603,8 +607,8 @@ h1 {
 }
 
 .sobre-mi-presentacion p {
-  padding: 0 4em 0 1em;
-  font-size: 1.5em;
+  padding: 0 2em 0 2em;
+  font-size: 2em;
   text-align: justify;
 }
 
@@ -619,30 +623,38 @@ h1 {
   margin: 0 15px 15px 35px;
   width: 95%;
   border-radius: 14px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
 }
 
 .sobre-mi-planes h3 {
-  font-size: 1.8em;
-  padding: 0.5em 1em 1em 1em;
+  font-size: 2.8em;
+  padding: 0.5em 0.8em 1em 0.8em;
 }
 
 .sobre-mi-planes p {
-  font-size: 1.3em;
-  padding: 0 4em 1em 4em;
+  font-size: 2em;
+  padding: 0 2em 1em 2em;
   text-align: justify;
 }
 
 /*_________bloke clases_____________*/
 
 .sobre-mi-presentacion {
-flex-wrap: wrap;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
 }
-
+.foto-perfil-usuario {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 .sobre-mi-clases {
   display: flex;
   align-items: center;
   flex-direction: column;
   border: solid 1px black;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
   border-radius: 15px;
   padding: 1em;
   margin: 0 15px 15px 35px;
@@ -650,24 +662,23 @@ flex-wrap: wrap;
 }
 
 .sobre-mi-clases h3 {
-  font-size: 1.8em;
+  text-align: center;
+  font-size: 2.5em;
   padding: 0.5em 1em 1em 1em;
 }
 
 .sobre-mi-clases p {
-  font-size: 1.3em;
-  padding: 0 4em 1em 4em;
+  font-size: 2em;
+  padding: 0 2em 1em 2em;
   text-align: justify;
 }
 .sobre-mi-imagenes {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: solid 1px black;
   border-radius: 15px;
-  padding: 4em;
-  margin: 0 15px 15px 35px;
- 
+  padding: 0 4em 0 4em;
+  margin: 0 15px 10px 15px;
 }
 
 .sobre-mi-imagenes img {
@@ -683,21 +694,38 @@ flex-wrap: wrap;
   border: solid 1px black;
   border-radius: 15px;
   padding: 1em;
-  margin: 0 15px 15px 35px;
+  margin-top: 1rem;
   width: 95%;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
 }
 
 .sobre-mi-formacion-img {
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  border: solid 1px black;
   border-radius: 15px;
   padding: 1em;
-  margin: 0 15px 15px 35px;
+  margin-bottom: 3rem;
   width: 95%;
+  overflow: hidden;
 }
 
+.sobre-mi-formacion p {
+  font-size: 2rem;
+  padding: 1rem 2rem 1rem 2rem;
+  text-align: center;
+}
+
+.sobre-mi-formacion-img img {
+  width: 400px;
+  margin: auto;
+  border: solid 1px black;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.568);
+}
+.sobre-mi-formacio-titulo h5 {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
 .sobre-mi-despedida {
   display: flex;
   align-items: center;
@@ -705,14 +733,21 @@ flex-wrap: wrap;
   border: solid 1px black;
   border-radius: 15px;
   padding: 1em;
-  margin: 0 15px 15px 35px;
   width: 95%;
   margin-bottom: 5em;
+  margin-top: 1.2rem;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+}
+
+.sobre-mi-despedida p {
+  font-size: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  margin-top: 2rem;
 }
 /*______________________________________________________________________________________________*/
 /*___________________________________ SECCION MOVIL_____________________________________________*/
 /*______________________________________________________________________________________________*/
-
 
 @media (max-width: 1100px) {
   body {
@@ -731,8 +766,6 @@ flex-wrap: wrap;
       font-size: 1.2rem;
     }
   }
-
-
 
   @media only screen and (max-width: 1024px) {
   }
@@ -962,9 +995,9 @@ flex-wrap: wrap;
     border: solid 2px black;
   }
 
-.ancho-max-carrusel {
-  min-width: 330px;
-}
+  .ancho-max-carrusel {
+    min-width: 330px;
+  }
   .carrucel-pc h2 {
     margin-top: 15px;
     margin-bottom: 12px;
@@ -1160,59 +1193,84 @@ flex-wrap: wrap;
     justify-content: center;
     text-align: center;
   }
-/*_____________________________"Pagina Sobre Mi" Movil_____________________________*/
+  /*_____________________________"Pagina Sobre Mi" Movil_____________________________*/
 
+  .sobre-mi-encabezado {
+    display: flex;
+    justify-content: center;
+    border: solid 1px black;
+    padding: 0 0.5em 0 0.5em;
+    margin: 0 10px 20px 15px;
+  }
 
-.sobre-mi-encabezado {
-  display: flex;
-  justify-content: center;
-  border: solid 1px black;
-  padding: 0 0.5em 0 0.5em;
-  margin: 0 10px 20px 15px;
+  .sobre-mi-encabezado h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
 
-}
+  .sobre-mi-presentacion {
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 0 10px 10px 10px;
+    width: 95%;
+    overflow: hidden;
+  }
+  .sobre-mi-presentacion img {
+    margin: auto;
+  }
 
-.sobre-mi-presentacion {
-  border: solid 1px black;
-  border-radius: 10px;
-  margin: 0 10px 10px 10px;
-  width: 95%;
-  overflow: hidden;
-}
+  .sobre-mi-clases {
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 1rem 10px 10px 10px;
+    width: 95%;
+    overflow: hidden;
+  }
 
-.sobre-mi-clases {
-  border: solid 1px black;
-  border-radius: 10px;
-  margin: 0 10px 10px 10px;
-  width: 95%;
-  overflow: hidden;
-}
-
-.sobre-mi-planes {
-  border: solid 1px black;
-  border-radius: 10px;
-  margin: 0 10px 10px 10px;
-  width: 95%;
-  overflow: hidden;
-}
-.sobre-mi-imagenes {
-  border-color: #ffffff;
-  overflow: hidden;
-}
+  .sobre-mi-planes {
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 1rem 10px 10px 10px;
+    width: 95%;
+    overflow: hidden;
+  }
+  .sobre-mi-imagenes {
+    border-color: #ffffff;
+    overflow: hidden;
+  }
   .sobre-mi-imagenes img {
     width: 410px;
     margin-bottom: 5px;
     margin-bottom: 10px;
     overflow: wrap;
-  
-}
-.textps-p- {
-  text-align: center;
-}
-.sobre-mi-clases p {
-  padding: 0;
-}
-.adaptacion-letra {
-  font-size: 0.5rem;
-}
+  }
+  .textps-p- {
+    text-align: center;
+  }
+  .sobre-mi-clases p {
+    padding: 0;
+  }
+  .adaptacion-letra {
+    font-size: 0.5rem;
+  }
+  .sobre-mi-formacion-img {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sobre-mi-formacion h5 {
+    font-size: 1.7rem;
+    margin-top: 0.8rem;
+  }
+  .sobre-mi-formacion p {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  .sobre-mi-formacion-img img {
+    width: 250px;
+    margin-top: 0.8rem;
+  }
+  .sobre-mi-despedida p {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+  }
 }
