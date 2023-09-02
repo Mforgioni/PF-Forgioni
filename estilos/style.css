@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap");
+
 c:\users\matia\desktop\tute\programacion\v-c-proyects\webpersonaltrainner\index.html
   c:\users\matia\desktop\tute\programacion\v-c-proyects\webpersonaltrainner\programas.js
   c:\users\matia\desktop\tute\programacion\v-c-proyects\webpersonaltrainner\style.css
@@ -6,12 +8,17 @@ c:\users\matia\desktop\tute\programacion\v-c-proyects\webpersonaltrainner\index.
   box-sizing: border-box;
 }
 
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
 body {
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
   padding: 140px 20px 0;
-  background-color: rgb(255, 254, 254);
+  background-color: rgb(218, 213, 213);
   margin: 0;
   justify-content: center;
 }
@@ -590,6 +597,10 @@ h1 {
 }
 
 .sobre-mi-presentacion {
+  background-image: url(https://i.ibb.co/zHhb4pw/fondo-gym-22.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   align-items: center;
   border: solid 1px black;
@@ -598,6 +609,7 @@ h1 {
   width: 95%;
   overflow-wrap: normal;
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+  text-align: center;
 }
 
 .sobre-mi-presentacion img {
@@ -607,9 +619,11 @@ h1 {
 }
 
 .sobre-mi-presentacion p {
-  padding: 0 2em 0 2em;
+  padding: 0 4em 0 4em;
   font-size: 2em;
-  text-align: justify;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.507);
+  border-radius: 14px;
 }
 
 /*_________bloke Planes_____________*/
@@ -618,23 +632,35 @@ h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-image: url(https://i.ibb.co/QkGHz7d/fondo-3333-333.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   border: solid 1px black;
   padding: 1em;
   margin: 0 15px 15px 35px;
   width: 95%;
   border-radius: 14px;
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
+  text-align: center;
 }
 
 .sobre-mi-planes h3 {
   font-size: 2.8em;
-  padding: 0.5em 0.8em 1em 0.8em;
+  padding: 0 0.8em 0 0.8em;
+  background-color: rgba(255, 255, 255, 0.438);
+  border-radius: 14px;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .sobre-mi-planes p {
   font-size: 2em;
-  padding: 0 2em 1em 2em;
-  text-align: justify;
+  padding: 0 4em 1em 4em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.438);
+  border-radius: 14px;
 }
 
 /*_________bloke clases_____________*/
@@ -653,6 +679,10 @@ h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-image: url(https://i.ibb.co/zHhb4pw/fondo-gym-22.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   border: solid 1px black;
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
   border-radius: 15px;
@@ -665,12 +695,19 @@ h1 {
   text-align: center;
   font-size: 2.5em;
   padding: 0.5em 1em 1em 1em;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.507);
+  padding: 0.5rem;
+  border-radius: 14px;
 }
 
 .sobre-mi-clases p {
   font-size: 2em;
-  padding: 0 2em 1em 2em;
+  padding: 0 4em 1em 4em;
   text-align: justify;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.507);
+  border-radius: 14px;
 }
 .sobre-mi-imagenes {
   display: flex;
@@ -691,6 +728,10 @@ h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-image: url(https://i.ibb.co/QkGHz7d/fondo-3333-333.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   border: solid 1px black;
   border-radius: 15px;
   padding: 1em;
@@ -714,6 +755,9 @@ h1 {
   font-size: 2rem;
   padding: 1rem 2rem 1rem 2rem;
   text-align: center;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.562);
+  border-radius: 14px;
 }
 
 .sobre-mi-formacion-img img {
@@ -725,14 +769,21 @@ h1 {
 .sobre-mi-formacio-titulo h5 {
   font-size: 3rem;
   margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.582);
+  padding: 1rem;
+  border-radius: 14px;
 }
 .sobre-mi-despedida {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-image: url(https://i.ibb.co/zHhb4pw/fondo-gym-22.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   border: solid 1px black;
   border-radius: 15px;
-  padding: 1em;
+  padding: 1em 4em 1em 4em;
   width: 95%;
   margin-bottom: 5em;
   margin-top: 1.2rem;
@@ -744,6 +795,9 @@ h1 {
   padding: 0.5rem;
   text-align: center;
   margin-top: 2rem;
+  font-weight: bold;
+  background-color: rgba(240, 255, 255, 0.459);
+  border-radius: 14px;
 }
 /*______________________________________________________________________________________________*/
 /*___________________________________ SECCION MOVIL_____________________________________________*/
@@ -1198,6 +1252,10 @@ h1 {
   .sobre-mi-encabezado {
     display: flex;
     justify-content: center;
+    background-image: url(https://i.ibb.co/0J2VR4t/fondo-harder.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     border: solid 1px black;
     padding: 0 0.5em 0 0.5em;
     margin: 0 10px 20px 15px;
@@ -1218,6 +1276,11 @@ h1 {
   .sobre-mi-presentacion img {
     margin: auto;
   }
+  .sobre-mi-presentacion p {
+    padding: 0 1em 0 1em;
+    background-color: rgba(255, 255, 255, 0.507);
+    border-radius: 14px;
+  }
 
   .sobre-mi-clases {
     border: solid 1px black;
@@ -1234,6 +1297,12 @@ h1 {
     width: 95%;
     overflow: hidden;
   }
+
+  .sobre-mi-planes p {
+    padding: 0 1em 1em 1em;
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius: 14px;
+  }
   .sobre-mi-imagenes {
     border-color: #ffffff;
     overflow: hidden;
@@ -1249,6 +1318,7 @@ h1 {
   }
   .sobre-mi-clases p {
     padding: 0;
+    padding: 0 0.3em 0 0.3em;
   }
   .adaptacion-letra {
     font-size: 0.5rem;
@@ -1260,10 +1330,15 @@ h1 {
   .sobre-mi-formacion h5 {
     font-size: 1.7rem;
     margin-top: 0.8rem;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.548);
+    padding: 0.5rem;
+    border-radius: 14px;
   }
   .sobre-mi-formacion p {
     font-size: 1rem;
     margin-bottom: 0;
+    font-weight: bold;
   }
   .sobre-mi-formacion-img img {
     width: 250px;
