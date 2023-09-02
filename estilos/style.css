@@ -292,6 +292,10 @@ h1 {
 
 .carrucel-pc,
 .cuestionario-form1 {
+  background-image: url(https://i.ibb.co/gmp92mP/Fondo-bloques-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   flex: 1;
   padding: 1em;
   border: solid 3px black;
@@ -301,6 +305,7 @@ h1 {
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
   margin-bottom: 5px;
 }
+
 
 .carrucel-pc {
   display: flex;
@@ -314,6 +319,7 @@ h1 {
 }
 .carrucel-pc h2 {
   margin-bottom: 1em;
+  font-weight: bold;
 }
 
 .carrucel-pading {
@@ -345,7 +351,8 @@ h1 {
 }
 
 .cuestionario-form1 h2 {
-  font-size: 1.2em;
+  font-size: 1.8em;
+  font-weight: bold;
 }
 
 .formulario1 {
@@ -360,13 +367,18 @@ h1 {
   display: block;
   margin-right: auto;
   margin-left: 20%;
+  font-size: 1.3rem;
 }
 
 .formulario1 input {
   width: 55%;
   border: solid 1px black;
-  height: 2em;
+  height: 2.5em;
   border-radius: 5px;
+  font-weight: bold;
+}
+.button-item {
+  font-size: 1.3rem;
 }
 
 .barra-tarea {
@@ -613,9 +625,13 @@ h1 {
 }
 
 .sobre-mi-presentacion img {
-  height: 200px;
-  padding: 1em;
-  margin-left: 2em;
+  height: 500px;
+  padding: 2em;
+  margin-left: 1rem auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-color: rgba(255, 255, 255, 0.288);
+  border-radius: 14px;
 }
 
 .sobre-mi-presentacion p {
@@ -1079,6 +1095,18 @@ h1 {
   }
   .cuestionario-form1 h2 {
     margin-top: 13px;
+    font-weight: bold;
+  }
+
+  .formulario1 input {
+    width: 55%;
+    border: solid 2px rgb(75, 74, 74);
+    height: 2em;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .button-item {
+    font-size: 1rem;
   }
   /*_______________________________Seccion Legales Movil ______________________________________________*/
 
@@ -1192,7 +1220,7 @@ h1 {
     font-size: 0.9em;
   }
   .form2 input {
-    height: 2em;
+    height: 2.5em;
     background-color: rgb(208, 241, 208);
   }
 
@@ -1274,7 +1302,13 @@ h1 {
     overflow: hidden;
   }
   .sobre-mi-presentacion img {
-    margin: auto;
+    height: 300px;
+    padding: 2em;
+    margin-left: 1rem auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: rgba(255, 255, 255, 0.288);
+    border-radius: 14px;
   }
   .sobre-mi-presentacion p {
     padding: 0 1em 0 1em;
