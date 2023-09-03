@@ -476,7 +476,7 @@ h1 {
 }
 
 .video-disp::-webkit-media-controls {
-  opacity: 0;
+  opacity: 5;
 }
 .accordion {
   display: flex;
