@@ -308,7 +308,6 @@ h1 {
   margin-bottom: 5px;
 }
 
-
 .carrucel-pc {
   display: flex;
   flex-direction: column;
@@ -463,6 +462,15 @@ h1 {
   top: 12em;
 }
 /*__________________________________Paginas "Videos"__________________________________________*/
+.fondo-videos {
+  background-color: rgb(212, 214, 214);
+  padding: 1rem 0 1rem 0;
+  width: 97%;
+  margin-left: 25px;
+  border: solid 2px black;
+  border-radius: 15px;
+}
+
 .video-disp::-webkit-media-controls {
   opacity: 0;
 }
@@ -480,8 +488,30 @@ h1 {
   width: 25rem;
   z-index: 1;
 }
-.fondo-videos {
-background-color: aqua;
+.accordion-button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(216, 236, 42);
+}
+
+.accordion-body {
+  background-color: #df7a7a;
+}
+.video-disp {
+  padding: 0 0.4rem 0 0;
+}
+@media only screen and (max-width: 480px) {
+  .accordion-button {
+    width: 310px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(216, 236, 42);
+  }
+  .fondo-videos {
+    width: 100%;
+    margin-left: 25px;
+    border: solid 1px black;
+    border-radius: 15px;
+    margin: 0;
+  }
 }
 /*_________________________________"Pagina Contactos"___________________________________________*/
 
