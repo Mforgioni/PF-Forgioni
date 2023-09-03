@@ -7,9 +7,6 @@ c:\users\matia\desktop\tute\programacion\v-c-proyects\webpersonaltrainner\index.
   margin: 0;
   box-sizing: border-box;
 }
-.col {
-
-}
 
 * {
   font-family: "Roboto", sans-serif;
@@ -23,7 +20,7 @@ body {
   padding: 140px 20px 0;
   background-color: rgb(218, 213, 213);
   margin: 0;
-  margin-bottom: 12rem;
+  margin-bottom: 2rem;
   justify-content: center;
 }
 
@@ -455,6 +452,9 @@ h1 {
   text-align: center;
   margin-top: 2em;
 }
+.legal p {
+  font-size: 0.7rem;
+}
 
 /*_________________Paginas Alumnos,  "En contruccion"_________________________*/
 
@@ -471,6 +471,7 @@ h1 {
   justify-content: center;
   width: auto;
 }
+
 .accordion-button {
   width: 25rem;
   z-index: 1;
@@ -478,6 +479,9 @@ h1 {
 .accordion-item {
   width: 25rem;
   z-index: 1;
+}
+.fondo-videos {
+background-color: aqua;
 }
 /*_________________________________"Pagina Contactos"___________________________________________*/
 
