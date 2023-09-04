@@ -48,851 +48,698 @@
 
   <div class="fondo-videos">
 
-    <div class="container text-center">
-
+    <div class="container text-center ciudad-cuerpo">
+      <h2 class="texto-titulo"> Sitios de interés en la Ciudad:</h2>
       <div class="row">
-        <div class="col">
-          titulo
+        <div class="col d-flex justify-content-center">
+          <!-- Card 1 -->
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <img src="../imagenes/cards-abdominales.jpg" class="card-img-top" alt="Imagen anatomia">
+              <h5 class="card-title">Ejercicios de abdomen</h5>
+              <p class="card-text">
+                Hacer abdominales fortalece el núcleo, mejora la postura, previene lesiones y beneficia la salud general
+                y la estética. Soporte medio del cuerpo.</p>
+
+              <!-- Button modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCentro">
+                Abrir Galería
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="modalCentro" tabindex="-1" aria-labelledby="modalCentroLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="modalCentroLabel">Galería de Videos</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                      <!-- Slider carrusel -->
+                      <div id="carouselExample1" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <video controls width="100%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-1.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Crunch Invertido</p>
+                          </div>
+                          <div class="carousel-item">
+                            <video controls width="100%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-2.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Tijeras Horizontales</p>
+                          </div>
+                          <div class="carousel-item">
+                            <video controls width="100%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-3.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Tijeras Laterales</p>
+                          </div>
+                          <div class="carousel-item">
+                            <video controls width="100%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-4.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Crunch Sentado</p>
+                          </div>
+                          <div class="carousel-item">
+                            <video controls width="100%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-5.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Crunch</p>
+                          </div>
+                          <div class="carousel-item">
+                            <video controls width="100%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-6.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Crunch Manos a la Rodilla</p>
+                          </div>
+                          <div class="carousel-item">
+                            <video controls width="100%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-7.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Crunch Rodillas 90°</p>
+                          </div>
+                          <!-- Agrega aquí los otros videos -->
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                    <!-- Acordion -->
+                    <div class="modal-footer">
+                      <div class="accordion" id="accordionCentro">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseCentro" aria-expanded="true" aria-controls="collapseCentro">
+                              Musculos Trabajados
+                            </button>
+                          </h2>
+                          <div id="collapseCentro" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionCentro">
+                            <div class="accordion-body">
+                              <p>
+                                <img src="../imagenes/video-info-1.jpg" alt="foto anatomia">
+                                <img src="../imagenes/video-info-9.jpg" alt="foto anatomia">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="col d-flex justify-content-center">
+          <!-- Card 2 -->
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <img src="../imagenes/card-gluteos.jpg" class="card-img-top" alt="Imagen anatomia">
+              <h5 class="card-title">Ejercicios de Gluteos</h5>
+              <p class="card-text">Trabajar los glúteos es importante para fortalecer la parte inferior del cuerpo,
+                mejorar la postura y previene lesiones de la espalda baja.</p>
+
+              <!-- Button modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCentro2">
+                Abrir Galería
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="modalCentro2" tabindex="-1" aria-labelledby="modalCentroLabel2"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="modalCentroLabel1">Galería de Videos</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                      <!-- Slider carrusel -->
+                      <div id="carouselExample2" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <video controls width="100%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-8.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Flexion de Caderas</p>
+                          </div>
+                          <div class="carousel-item">
+                            <video controls width="100%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-11.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Tijera Horizontal en Plancha,</p>
+                          </div>
+
+                          <!-- Agrega aquí los otros videos -->
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                    <!-- Acordion -->
+                    <div class="modal-footer">
+                      <div class="accordion" id="accordionCentro">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseCentro" aria-expanded="true" aria-controls="collapseCentro">
+                              Musculos trabajados
+                            </button>
+                          </h2>
+                          <div id="collapseCentro" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionCentro">
+                            <div class="accordion-body">
+                              <p>
+                                <img src="../imagenes/video-info-8.jpg" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <!-- Card 3 -->
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <img src="../imagenes/card-espalda.jpg" class="card-img-top" alt="Imagen anatomia">
+              <h5 class="card-title">Ejercicios de Espalda</h5>
+              <p class="card-text">Entrenar la espalda es crucial para una postura saludable y prevenir lesiones y
+                corregir la postura. Es el soporte pricipal de todo nuestro cuerpo.</p>
+
+              <!-- Button modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCentro3">
+                Abrir Galería
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="modalCentro3" tabindex="-1" aria-labelledby="modalCentroLabel3"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="modalCentroLabel3">Galería de Videos</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                      <!-- Slider carrusel -->
+                      <div id="carouselExample3" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <video controls width="100%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-10.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Superman</p>
+                          </div>
+                          <div class="carousel-item">
+                            <video controls width="93%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-15.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Lumbares</p>
+                          </div>
+                          <div class="carousel-item">
+                            <video controls width="93%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-17.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Gato Bueno, Gato Malo</p>
+                          </div>
+                          <div class="carousel-item">
+                            <video controls width="100%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-19.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Polea al Pecho, Agarre Supino.</p>
+                          </div>
+                          <div class="carousel-item">
+                            <video controls width="100%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-20.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Polea al Pecho, Agárre Prono.</p>
+                          </div>
+                          <div class="carousel-item">
+                            <video controls width="96%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-21.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Remo Polea, Agarre Supino</p>
+                          </div>
+                          <div class="carousel-item">
+                            <video controls width="96%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-22.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Remo Polea, Agarre Prono</p>
+                          </div>
+                          <div class="carousel-item">
+
+                            <video controls width="96%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-24.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Remo Polea, Agarre Neutro</p>
+                          </div>
+                          <div class="carousel-item">
+                            <video controls width="100%" height="auto" autoplay loop>
+                              <source src="../videos-gif/video-25.mp4" type="video/mp4">
+                              Tu navegador no soporta la reproducción de video.
+                            </video>
+                            <p>Buelo Trasero, Polea Invertida</p>
+                          </div>
+
+                          <!-- Agregar aquí los otros videos -->
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                    <!-- Acordion -->
+                    <div class="modal-footer">
+                      <div class="accordion" id="accordionCentro">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseCentro" aria-expanded="true" aria-controls="collapseCentro">
+                              Musculos trabajados
+                            </button>
+                          </h2>
+                          <div id="collapseCentro" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionCentro">
+                            <div class="accordion-body">
+                              <p>
+                                <img src="../imagenes/vieo-info-espalda-alta.jpg" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Agrega más bloques similares para los otros videos -->
       </div>
-    </div>
+      <div class="container text-centers contenedor-extra">
+        <!-- Cards 4 -->
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+              <img src="../imagenes/card-hombros.jpg" class="card-img-top" alt="imagen anatomica">
+              <div class="card-body">
+                <h5 class="card-title">Ejercicios de Hombros</h5>
+                <p class="card-text">Entrenar los hombros es esencial para mejorar la estabilidad de la parte superior
+                  del cuerpo, permitiendo movimientos más funcionales y previniendo lesiones en esta área crítica.
+                  También contribuye a una apariencia física más equilibrada y saludable.</p>
 
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-
-          <!-- video 1 -->
-          <video class=" video-disp" width="320" height="240" controls onended="this.play()">
-            <source src="../videos-gif/video-1.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample1">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Crunch Invertido #1
+                <!-- Button modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMuseo">
+                  Abrir Galería
                 </button>
-              </h2>
-              <div id="collapseOne1" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-1.jpg" alt="Tu navegador no soporta el elemento de video.">
+
+                <!-- Modal -->
+                <div class="modal fade" id="modalMuseo" tabindex="-1" aria-labelledby="modalMuseoLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modalMuseoLabel">Galería de Videos</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+
+                        <!-- Slider carrusel -->
+                        <div id="carouselExample" class="carousel slide">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <video controls width="100%" height="auto" autoplay loop>
+                                <source src="../videos-gif/video-25.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de video.
+                              </video>
+                              <p>Vuelo trasero, Polea Invertida.</p>
+                            </div>
+                            <div class="carousel-item">
+                              <video controls width="100%" height="auto" autoplay loop>
+                                <source src="../videos-gif/video-28.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de video.
+                              </video>
+                              <p>Vuelo Frontal con mancuernas.</p>
+                            </div>
+                            <div class="carousel-item">
+                              <video controls width="100%" height="auto" autoplay loop>
+                                <source src="../videos-gif/video-30.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de video.
+                              </video>
+                              <p>Vuelo fronta a un brazo.</p>
+                            </div>
+                            <div class="carousel-item">
+                              <video controls width="100%" height="auto" autoplay loop>
+                                <source src="../videos-gif/video-26.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de video.
+                              </video>
+                              <p>Vuelo Lateral.</p>
+                            </div>
+                            <div class="carousel-item">
+                              <video controls width="100%" height="auto" autoplay loop>
+                                <source src="../videos-gif/video-27.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de video.
+                              </video>
+                              <p>Vuelo frontal, agarre Prono.</p>
+                            </div>
+                            <div class="carousel-item">
+                              <video controls width="100%" height="auto" autoplay loop>
+                                <source src="../videos-gif/video-29.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de video.
+                              </video>
+                              <p>Vuelo frontal, agarre neutro.</p>
+                            </div>
+
+                            <!-- Agregar aquí los otros videos -->
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <!-- Acordion -->
+                      <div class="modal-footer">
+                        <div class="accordion" id="accordionGluteo10">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseGluteo1" aria-expanded="true" aria-controls="collapseGluteo1">
+                                Musculos Comprometidos.
+                              </button>
+                            </h2>
+                            <div id="collapseGluteo1" class="accordion-collapse collapse"
+                              data-bs-parent="#accordionGluteo10">
+                              <div class="accordion-body">
+                                <img src="../imagenes/video-info-hombro.jpg" alt="foto anatomia">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col">
+          <div class="col d-flex justify-content-center">
+            <!-- Cards 5 -->
+            <div class="card" style="width: 18rem;">
+              <img src="../imagenes/card-pirnas.jpg" class="card-img-top" alt="Foto Nueva Cordoba">
+              <div class="card-body">
+                <h5 class="card-title">Ejercicios de Piernas.</h5>
+                <p class="card-text">""Fortalecer las piernas no solo mejora la apariencia, sino también la salud y el
+                  rendimiento. Ayuda a prevenir lesiones, promueve la estabilidad y aumenta la capacidad para realizar
+                  actividades diarias con facilidad.""</p>
+                <!-- Button modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalIglesia">
+                  Abrir Galería
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="modalIglesia" tabindex="-1" aria-labelledby="modalNvaCordobaLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modalIglesiaLabel">Galería de Videos</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
 
-          <!-- video 2 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-2.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample2">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Tijera Vertical #2
-                </button>
-              </h2>
-              <div id="collapseOne2" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-1.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+                        <!-- Slider carrusel -->
+                        <div id="carouselExample4" class="carousel slide">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <video controls width="100%" height="auto" autoplay loop>
+                                <source src="../videos-gif/video-11.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de video.
+                              </video>
+                              <p>Tijeras horizontales en plancha.</p>
+                            </div>
+                            <div class="carousel-item">
+                              <video controls width="100%" height="auto" autoplay loop>
+                                <source src="../videos-gif/video-33.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de video.
+                              </video>
+                              <p>Estocada Bulgara.</p>
+                            </div>
 
+                            <!-- Agregar aquí los otros videos -->
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <!-- Acordion -->
+                      <div class="modal-footer">
+                        <div class="accordion" id="accordionNvaCordobas">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseNvaCordobas" aria-expanded="true"
+                                aria-controls="collapseNvaCordoba">
+                                Musculos comprometidos.
+                              </button>
+                            </h2>
+                            <div id="collapseNvaCordobas" class="accordion-collapse collapse"
+                              data-bs-parent="#accordionNvaCordobas">
+                              <div class="accordion-body">
+                                <img src="../imagenes/video-info-piernas-1.jpg" alt="">
+                                <img src="../imagenes/video-info-piernas-2.jpg" alt="">
+                                <img src="../imagenes/video-info-piernas-3.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <!-- Cards 6 -->
+            <div class="card" style="width: 18rem;">
+              <img src="../imagenes/card-brazos.jpg" class="card-img-top" alt="Foto Guemes">
+              <div class="card-body">
+                <h5 class="card-title">Ejersicios de brazos</h5>
+                <p class="card-text">En contruccion</p>
+                <!-- Button modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                  data-bs-target="#modalBarrioGuemesss">
+                  Abrir Galería
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="modalBarrioGuemesss" tabindex="-1"
+                  aria-labelledby="modalBarrioGuemesssLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modalBarrioGuemesssLabel">Galería
+                          de Fotos</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
 
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-
-          <!-- video 3 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-3.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample3">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne3"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Tijeras Horrizontal #3
-                </button>
-              </h2>
-              <div id="collapseOne3" class="accordion-collapse collapse" data-bs-parent="#accordionExample3">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-1.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-
-          <!-- video 4 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-4.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample4">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne4"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Crunch sentado #4
-                </button>
-              </h2>
-              <div id="collapseOne4" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-1.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-
-          <!-- video 5 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-5.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample5">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne5"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Crunch #5
-                </button>
-              </h2>
-              <div id="collapseOne5" class="accordion-collapse collapse" data-bs-parent="#accordionExample5">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-1.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-
-          <!-- video 6 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-6.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample6">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne6"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Crunch manos a a la rodilla #6
-                </button>
-              </h2>
-              <div id="collapseOne6" class="accordion-collapse collapse" data-bs-parent="#accordionExample6">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-1.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-
-          <!-- video 7 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-7.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample7">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne7"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Crunch rodillas 90° Item #7
-                </button>
-              </h2>
-              <div id="collapseOne7" class="accordion-collapse collapse" data-bs-parent="#accordionExample7">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-1.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-
-          <!-- video 8 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-8.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample8">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne8"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Elevaciión de cadera #8
-                </button>
-              </h2>
-              <div id="collapseOne8" class="accordion-collapse collapse" data-bs-parent="#accordionExample8">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-8.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-
-          <!-- video 9 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-9.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample9">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne9"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Oblicuos en Plancha #9
-                </button>
-              </h2>
-              <div id="collapseOne9" class="accordion-collapse collapse" data-bs-parent="#accordionExample9">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-9.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-
-          <!-- video 10 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-10.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample10">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne10"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Superman #10
-                </button>
-              </h2>
-              <div id="collapseOne10" class="accordion-collapse collapse" data-bs-parent="#accordionExample10">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-lumbar-hombre.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-
-          <!-- video 11 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-11.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample11">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne11"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Tijera vertical en plancha #11
-                </button>
-              </h2>
-              <div id="collapseOne11" class="accordion-collapse collapse" data-bs-parent="#accordionExample11">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-8.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-
-          <!-- video 12 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-12.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample12">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne12"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Prot. Rectracción Escap codos apollados #12
-                </button>
-              </h2>
-              <div id="collapseOne12" class="accordion-collapse collapse" data-bs-parent="#accordionExample12">
-                <div class="accordion-body">
-                  <img src="../imagenes/vieo-info-espalda-alta.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-  
-          <!-- video 13 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-13.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample13">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne13"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Plancha #13
-                </button>
-              </h2>
-              <div id="collapseOne13" class="accordion-collapse collapse" data-bs-parent="#accordionExample13">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> info
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-  
-          <!-- video 14 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-14.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample14">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne14"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Plancha oblicuos lado opuesto #14
-                </button>
-              </h2>
-              <div id="collapseOne14" class="accordion-collapse collapse" data-bs-parent="#accordionExample14">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> info.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-  
-          <!-- video 15 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-15.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample15">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne15"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Lumbares #15
-                </button>
-              </h2>
-              <div id="collapseOne15" class="accordion-collapse collapse" data-bs-parent="#accordionExample15">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> info
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-  
-          <!-- video 16 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-16.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample16">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne16"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Tijera Vertical repit #16
-                </button>
-              </h2>
-              <div id="collapseOne16" class="accordion-collapse collapse" data-bs-parent="#accordionExample16">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> info.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-  
-          <!-- video 17 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-17.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample17">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne17"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Gato bueno, gato malo #17
-                </button>
-              </h2>
-              <div id="collapseOne17" class="accordion-collapse collapse" data-bs-parent="#accordionExample17">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> info
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-  
-          <!-- video 18 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-18.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample18">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne18"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Isquio peso muerto 1 pierna c/mancuerna #18
-                </button>
-              </h2>
-              <div id="collapseOne18" class="accordion-collapse collapse" data-bs-parent="#accordionExample18">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> info.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-  
-          <!-- video 19 -->
-          <video class=" video-disp" width="320" height="240" controls onended="this.play()">
-            <source src="../videos-gif/video-19.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample19">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne19"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Polea barra al pecho Supino #19
-                </button>
-              </h2>
-              <div id="collapseOne19" class="accordion-collapse collapse" data-bs-parent="#accordionExample19">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> info
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-  
-          <!-- video 20 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-20.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample20">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne20"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Polea al pecho agarre #20
-                </button>
-              </h2>
-              <div id="collapseOne20" class="accordion-collapse collapse" data-bs-parent="#accordionExample20">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> info.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-
-          <!-- video 21 -->
-          <video class=" video-disp" width="320" height="240" controls onended="this.play()">
-            <source src="../videos-gif/video-21.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample21">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne21"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  nombrar #21
-                </button>
-              </h2>
-              <div id="collapseOne21" class="accordion-collapse collapse" data-bs-parent="#accordionExample21">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-1.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-
-          <!-- video 22 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-22.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample22">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne22"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  nombrar #22
-                </button>
-              </h2>
-              <div id="collapseOne22" class="accordion-collapse collapse" data-bs-parent="#accordionExample22">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-1.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-
-          <!-- video 23 -->
-          <video class=" video-disp" width="320" height="240" controls onended="this.play()">
-            <source src="../videos-gif/video-23.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample23">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne23"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  nombrar #23
-                </button>
-              </h2>
-              <div id="collapseOne23" class="accordion-collapse collapse" data-bs-parent="#accordionExample23">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-1.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-
-          <!-- video 24 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-24.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample24">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne24"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  nombrar #24
-                </button>
-              </h2>
-              <div id="collapseOne24" class="accordion-collapse collapse" data-bs-parent="#accordionExample24">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-1.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-
-          <!-- video 25 -->
-          <video class=" video-disp" width="320" height="240" controls onended="this.play()">
-            <source src="../videos-gif/video-25.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample25">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne25"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  nombrar #25
-                </button>
-              </h2>
-              <div id="collapseOne25" class="accordion-collapse collapse" data-bs-parent="#accordionExample25">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-1.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-
-          <!-- video 26 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-26.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample26">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne26"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  nombrar #26
-                </button>
-              </h2>
-              <div id="collapseOne26" class="accordion-collapse collapse" data-bs-parent="#accordionExample26">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-1.jpg" alt="Tu navegador no soporta el elemento de video.">
+                        <!-- Slider carrusel -->
+                        <div id="carouselExample6" class="carousel slide">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              video proximamente
+                            </div>
+                            <div class="carousel-item">
+                              video proximamente
+                            </div>
+                            <div class="carousel-item">
+                              video proximamente
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample6"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample6"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <!-- Acordion -->
+                      <div class="modal-footer">
+                        <div class="accordion" id="arrioaccordionBGuemesss">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseBarrioGuemesss" aria-expanded="true"
+                                aria-controls="collapseBarrioGuemesss">
+                                Musculos trabajados.
+                              </button>
+                            </h2>
+                            <div id="collapseBarrioGuemesss" class="accordion-collapse collapse"
+                              data-bs-parent="#accordionBarrioGuemesss">
+                              <div class="accordion-body">
+                                <p>info proximamente.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- finaliza contenedor fondo -->
     </div>
-
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-
-          <!-- video 27 -->
-          <video class=" video-disp" width="320" height="240" controls onended="this.play()">
-            <source src="../videos-gif/video-27.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample27">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne27"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  nombrar #27
-                </button>
-              </h2>
-              <div id="collapseOne27" class="accordion-collapse collapse" data-bs-parent="#accordionExample27">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-1.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-
-          <!-- video 28 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-28.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample28">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne28"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  nombrar #28
-                </button>
-              </h2>
-              <div id="collapseOne28" class="accordion-collapse collapse" data-bs-parent="#accordionExample28">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-1.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-
-          <!-- video 29 -->
-          <video class=" video-disp" width="320" height="240" controls onended="this.play()">
-            <source src="../videos-gif/video-29.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample29">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne21"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  nombrar #29
-                </button>
-              </h2>
-              <div id="collapseOne29" class="accordion-collapse collapse" data-bs-parent="#accordionExample29">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-1.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-
-          <!-- video 30 -->
-          <video class=" video-disp" width="320" height="240" controls  onended="this.play()">
-            <source src="../videos-gif/video-30.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-          </video>
-          <div class="accordion" id="accordionExample30">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne30"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  nombrar #30
-                </button>
-              </h2>
-              <div id="collapseOne30" class="accordion-collapse collapse" data-bs-parent="#accordionExample30">
-                <div class="accordion-body">
-                  <img src="../imagenes/video-info-1.jpg" alt="Tu navegador no soporta el elemento de video.">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- finaliza contenedor fondo -->
   </div>
+    <footer class=" contacto-legales">
+      <ol>
+        <li>
+          <a href="https://www.facebook.com/Tfit.Cba?mibextid=2JQ9oc" target="_blank">
+            <img src="https://i.ibb.co/DQYQ8s1/facebook-2504903.png" alt="Facebook icon">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100064064528929" target="_blank">
+            <h3>t_fitcba</h3>
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com/t_fitcba?igshid=MzRlODBiNWFlZA==" target="_blank"></a>
+          <img src="https://i.ibb.co/r5bKxNW/instagram-3955027.png" alt="Istagram incon">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/t_fitcba/" target="_blank">
+            <h3>@T_fitcba</h3>
+          </a>
+        </li>
+        <li>
+          <a href=<a href="mailto:tfitcba@gmail.com" target="_blank">
+            <img src="https://i.ibb.co/RBwLztD/gmail-732200.png" alt="Mail icon">
+          </a>
+        </li>
+        <li>
+          <a href="mailto:tfitcba@gmail.com" target="_blank">
+            <h3>t-fitcba@gmail.com</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="https://i.ibb.co/qrnGbsg/phone-call-5585856.png" alt="Phone icon">
+          </a>
+        </li>
+        <li>
+          <h3>351-3488449</h3>
+        </li>
+      </ol>
+    </footer>
 
-  <footer class=" contacto-legales">
-    <ol>
-      <li>
-        <a href="https://www.facebook.com/Tfit.Cba?mibextid=2JQ9oc" target="_blank">
-          <img src="https://i.ibb.co/DQYQ8s1/facebook-2504903.png" alt="Facebook icon">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/profile.php?id=100064064528929" target="_blank">
-          <h3>t_fitcba</h3>
-        </a>
-      </li>
-      <li>
-        <a href="https://instagram.com/t_fitcba?igshid=MzRlODBiNWFlZA==" target="_blank"></a>
-        <img src="https://i.ibb.co/r5bKxNW/instagram-3955027.png" alt="Istagram incon">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/t_fitcba/" target="_blank">
-          <h3>@T_fitcba</h3>
-        </a>
-      </li>
-      <li>
-        <a href=<a href="mailto:tfitcba@gmail.com" target="_blank">
-          <img src="https://i.ibb.co/RBwLztD/gmail-732200.png" alt="Mail icon">
-        </a>
-      </li>
-      <li>
-        <a href="mailto:tfitcba@gmail.com" target="_blank">
-          <h3>t-fitcba@gmail.com</h3>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="https://i.ibb.co/qrnGbsg/phone-call-5585856.png" alt="Phone icon">
-        </a>
-      </li>
-      <li>
-        <h3>351-3488449</h3>
-      </li>
-    </ol>
-  </footer>
+    <div class="legal">
+      <p>Aviso Legal y Política de Privacidad.
 
-  <div class="legal">
-    <p>Aviso Legal y Política de Privacidad.
+        Bienvenido a t-fitcba.com.ar, el sitio web de Mario Retamal. Al acceder y utilizar este sitio, aceptas
+        cumplir con estos términos. Si no estás de acuerdo con alguno de ellos, te recomendamos que no utilices
+        este sitio.
 
-      Bienvenido a t-fitcba.com.ar, el sitio web de Mario Retamal. Al acceder y utilizar este sitio, aceptas
-      cumplir con estos términos. Si no estás de acuerdo con alguno de ellos, te recomendamos que no utilices
-      este sitio.
+        1. Privacidad y Protección de Datos Personales: Respetamos tu privacidad y nos comprometemos a proteger
+        tus datos personales. Nuestra Política de Privacidad describe cómo recopilamos, utilizamos y protegemos
+        la información que nos proporcionas.
+        2. Propiedad Intelectual: Todo el contenido y diseño de este sitio web, incluyendo texto, imágenes,
+        logotipos y otros elementos, están protegidos por derechos de autor y otras leyes de propiedad
+        intelectual. No está permitida la reproducción, distribución o uso no autorizado de ningún contenido sin
+        nuestro consentimiento escrito.
+        3. Uso Adecuado: Este sitio web es proporcionado con fines informativos y educativos. No proporcionamos
+        asesoramiento médico ni profesional. Te recomendamos que consultes a un profesional de la salud antes de
+        realizar cualquier cambio en tu rutina de ejercicios o dieta.
+        4. Enlaces a Terceros: Este sitio web puede contener enlaces a sitios web de terceros. No tenemos
+        control sobre el contenido o las prácticas de estos sitios enlazados y no asumimos ninguna
+        responsabilidad por ellos.
+        5. Cambios en los Términos: Nos reservamos el derecho de realizar cambios en estos términos y
+        condiciones en cualquier momento. Los cambios entrarán en vigencia inmediatamente después de su
+        publicación en este sitio.
 
-      1. Privacidad y Protección de Datos Personales: Respetamos tu privacidad y nos comprometemos a proteger
-      tus datos personales. Nuestra Política de Privacidad describe cómo recopilamos, utilizamos y protegemos
-      la información que nos proporcionas.
-      2. Propiedad Intelectual: Todo el contenido y diseño de este sitio web, incluyendo texto, imágenes,
-      logotipos y otros elementos, están protegidos por derechos de autor y otras leyes de propiedad
-      intelectual. No está permitida la reproducción, distribución o uso no autorizado de ningún contenido sin
-      nuestro consentimiento escrito.
-      3. Uso Adecuado: Este sitio web es proporcionado con fines informativos y educativos. No proporcionamos
-      asesoramiento médico ni profesional. Te recomendamos que consultes a un profesional de la salud antes de
-      realizar cualquier cambio en tu rutina de ejercicios o dieta.
-      4. Enlaces a Terceros: Este sitio web puede contener enlaces a sitios web de terceros. No tenemos
-      control sobre el contenido o las prácticas de estos sitios enlazados y no asumimos ninguna
-      responsabilidad por ellos.
-      5. Cambios en los Términos: Nos reservamos el derecho de realizar cambios en estos términos y
-      condiciones en cualquier momento. Los cambios entrarán en vigencia inmediatamente después de su
-      publicación en este sitio.
+        Al utilizar este sitio web, aceptas estos términos y condiciones en su totalidad. Gracias por visitar
+        www.t-fitcba.com.ar
+      </p>
+    </div>
 
-      Al utilizar este sitio web, aceptas estos términos y condiciones en su totalidad. Gracias por visitar
-      www.t-fitcba.com.ar
-    </p>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
