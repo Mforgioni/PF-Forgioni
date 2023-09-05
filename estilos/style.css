@@ -515,6 +515,7 @@ h1 {
   font-weight: bold;
 }
 
+
 .botones-videos {
   background-color: rgba(216, 236, 42, 0.938);
 }
@@ -570,6 +571,9 @@ h1 {
   height: 380px;
 }
 @media only screen and (max-width: 480px) {
+  .video-espesicico {
+    margin-right: 2rem;
+  }
   .accordion-body {
     padding: 0;
   }
