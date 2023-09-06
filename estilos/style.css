@@ -455,12 +455,137 @@ h1 {
   font-size: 0.7rem;
 }
 
-/*_________________Paginas Alumnos,  "En contruccion"_________________________*/
-
-.contenedorConstruccion {
-  position: relative;
-  top: 12em;
+/*_________________Paginas "Info"_________________________*/
+.borde-control {
+  background-color: #000000b9;
+  color: rgb(183, 185, 47);
+  padding: 0.5rem;
+  border: solid white 3px;
 }
+.borde-control h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.borde-control h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.plan-musculacion {
+  background-image: url(https://i.ibb.co/zHhb4pw/fondo-gym-22.jpg);
+  border-right: 3px solid #ffffff;
+  padding: 0.5rem;
+}
+.plan-musculacion h3 {
+  margin-top: 0.5rem;
+  color: rgb(253, 253, 252);
+  background-color: rgba(5, 5, 5, 0.664);
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.4rem;
+  border: solid rgba(255, 255, 255, 0.808) 2px;
+}
+
+.plan-musculacion p {
+  text-align: justify;
+  font-size: 1.1rem;
+  background-color: rgba(2, 2, 2, 0.705);
+  font-weight: bold;
+  color: rgb(247, 250, 59);
+  padding: 0.2rem;
+  border-radius: 8px;
+  border: solid 1px rgba(255, 254, 254, 0.692);
+}
+
+.sangria-parrafos-info {
+  text-indent: 10px;
+}
+
+.plan-musculacion-info-2 {
+  background-image: url(https://i.ibb.co/th2k7zB/Sin-t-tulo-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: solid white;
+  padding: 1rem;
+}
+
+.plan-musculacion-info-2 h3 {
+  margin-top: 0.5rem;
+  color: rgb(253, 253, 252);
+  background-color: rgba(5, 5, 5, 0.788);
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.4rem;
+  border: solid rgba(255, 255, 255, 0.808) 2px;
+}
+
+.plan-musculacion-info-2 p {
+  text-align: justify;
+  font-size: 1.1rem;
+  background-color: rgba(0, 0, 0, 0.733);
+  font-weight: bold;
+  color: rgb(247, 250, 59);
+  padding: 0.2rem;
+  border-radius: 8px;
+  border: solid 2px rgba(255, 254, 254, 0.692);
+}
+
+.plan-musculacion-info-parrafo-final {
+  display: flex;
+  justify-content: center;
+}
+
+.plan-musculacion-info-parrafo-final p {
+  text-align: center;
+  font-size: 1.8rem;
+  color: white;
+  border: solid 3px rgba(255, 254, 254, 0.692);
+}
+
+.plan-musculacion-info-parrafo-final img {
+  width: 160px;
+}
+
+.content-img-info {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: rgb(5, 5, 5);
+  border-left: 3px solid #ffffff; 
+  border-right: 3px solid #ffffff;
+}
+ .content-img-info img {
+  max-width: 350px;
+  border: solid white 3px;
+ }
+
+ @media only screen and (max-width: 1199px) {
+  .borde-control h2 {
+    text-align: center;
+  }
+  
+  .borde-control h3 {
+    text-align: center;
+  }
+ }
+ @media only screen and (max-width: 476px) {
+  .borde-control h2 {
+    font-size: 1.5rem;
+  }
+  .borde-control h3 {
+    font-size: 1.1rem;
+  }
+ }
+
+ @media only screen and (max-width: 395px) {
+  .content-img-info img {
+    max-width: 310px;
+   }
+ }
+
 /*__________________________________Paginas "Videos"__________________________________________*/
 .texto-titulo-videos {
   background-color: rgba(255, 255, 255, 0.568);
@@ -517,7 +642,7 @@ h1 {
 
 
 .botones-videos {
-  background-color: rgba(216, 236, 42, 0.938);
+  background-color: rgba(5, 5, 5, 0.795);
 }
 .modal-footer {
   border: solid 1px rgb(255, 254, 254);
@@ -956,6 +1081,13 @@ h1 {
   font-weight: bold;
   background-color: rgba(240, 255, 255, 0.459);
   border-radius: 14px;
+}
+
+/*_________________Paginas Alumnos,  "En contruccion"_________________________*/
+
+.contenedorConstruccion {
+  position: relative;
+  top: 12em;
 }
 /*______________________________________________________________________________________________*/
 /*___________________________________ SECCION MOVIL_____________________________________________*/
