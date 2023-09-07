@@ -667,18 +667,18 @@ h1 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border: solid  rgb(255, 255, 255) 3px;
+  border: solid rgb(255, 255, 255) 3px;
   padding: 0.5rem;
 }
 
 .plan-streching h3 {
   margin-top: 0.5rem;
   color: rgb(0, 0, 0);
-  background-color:rgba(227, 157, 233, 0.692);
+  background-color: rgba(227, 157, 233, 0.692);
   display: inline-block;
   border-radius: 8px;
   padding: 0.4rem;
-  border: solid  rgb(208, 114, 216) 2px;
+  border: solid rgb(208, 114, 216) 2px;
 }
 
 .plan-streching p {
@@ -689,7 +689,7 @@ h1 {
   color: rgb(0, 0, 0);
   padding: 0.2rem;
   border-radius: 8px;
-  border: solid  rgb(208, 114, 216) 2px;
+  border: solid rgb(208, 114, 216) 2px;
 }
 
 .plan-strechin-info {
@@ -728,7 +728,7 @@ h1 {
 }
 
 .plan-musculacion-info-parrafo-final-2 {
-text-align: center;
+  text-align: center;
 }
 .plan-musculacion-info-parrafo-final-2 img {
   margin-top: 0.5rem;
@@ -792,7 +792,7 @@ text-align: center;
   }
 
   .borde-control-2 p {
-font-size: 1rem;
+    font-size: 1rem;
   }
 
   .plan-musculacion-info-parrafo-final-2 p {
@@ -824,9 +824,199 @@ font-size: 1rem;
 
 /*_________Articulo suplementos _________*/
 
-.correcion-p {
-  padding-left: 0;
+
+.borde-control-3 {
+  margin-top: 1rem;
+  background-color: #f3a136d0;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem;
+  border: solid rgb(117, 66, 6) 3px;
+  border-radius: 24px;
 }
+
+.borde-control-3 h2 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.borde-control-3 h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.borde-control-3 p {
+  font-size: 1.2rem;
+}
+
+.content-img-info-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3a136d0;
+  border-left: 3px solid  rgb(117, 66, 6) ;
+}
+
+.plan-suplemento {
+  background-image: url(https://i.ibb.co/mbBsSfQ/fondo-prote-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid  rgb(117, 66, 6) 3px;
+  padding: 0.5rem;
+}
+
+.plan-suplemento h3 {
+  margin-top: 0.5rem;
+  color: rgb(0, 0, 0);
+  background-color:  #f3a13680;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.4rem;
+  border: solid #f3a136d0 2px;
+}
+
+.plan-suplemento p {
+  text-align: justify;
+  font-size: 1.4rem;
+  background-color: rgba(227, 157, 233, 0.692);
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  padding: 0.2rem;
+  border-radius: 8px;
+  border: solid #f3a136d0 2px;
+}
+
+.plan-suplemento-info {
+  background-image: url(https://i.ibb.co/sv74M2F/streching-fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: start;
+  border: solid  #f3a13680;
+  padding: 1rem;
+}
+
+.plan-suplemento-info h3 {
+  margin-top: 0.5rem;
+  color: rgb(0, 0, 0);
+  background-color:  #f3a136d0;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.4rem;
+  border: solid #d295ee 2px;
+}
+
+.plan-suplemento-info p {
+  text-align: justify;
+  font-size: 1.6rem;
+  background-color: #d295eeb9;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  padding: 0.2rem;
+  border-radius: 8px;
+  border: solid 2px rgba(255, 254, 254, 0.692);
+}
+
+.lista-suplemento li {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.plan-suplemento-info-parrafo-final-2 {
+  text-align: center;
+}
+.plan-suplemento-info-parrafo-final-2 img {
+  margin-top: 0.5rem;
+  width: 200px;
+  height: 200px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .lista-suplemento li {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .borde-control-3 {
+    text-align: center;
+  }
+  .borde-control-3 h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .borde-control-3 h3 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .borde-control-3 p {
+    font-size: 1rem;
+  }
+
+  .plan-suplemento-info-parrafo-final-2 p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .plan-suplemento-info-parrafo-final-2 img {
+    margin-top: 0.5rem;
+    width: 130px;
+    height: 130px;
+  }
+}
+
+@media only screen and (max-width: 476px) {
+  .lista-suplemento {
+    text-align: start;
+    margin-right: 0.3rem;
+  }
+  .lista-suplemento li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .borde-control-3 {
+    text-align: center;
+  }
+
+  .borde-control-3 h2 {
+    font-size: 3rem;
+  }
+
+  .borde-control-3 h3 {
+    font-size: 1.7rem;
+  }
+
+  .borde-control-3 p {
+    font-size: 1rem;
+  }
+
+  .plan-suplemento-info-parrafo-final-2 p {
+    font-size: 1rem;
+  }
+
+  .plan-suplemento-info-parrafo-final-2 img {
+    margin-top: 0.5rem;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .content-img-info-3 img {
+    max-width: 310px;
+  }
+
+  .plan-suplemento-info-parrafo-final-2 p {
+    font-size: 0.8rem;
+  }
+
+  .plan-suplemento-info-parrafo-final-2 img {
+    margin-top: 1rem;
+    width: 70px;
+    height: 70px;
+  }
+}
+
 
 /*__________________________________Paginas "Videos"__________________________________________*/
 
