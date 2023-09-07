@@ -822,6 +822,12 @@ font-size: 1rem;
   }
 }
 
+/*_________Articulo suplementos _________*/
+
+.correcion-p {
+  padding-left: 0;
+}
+
 /*__________________________________Paginas "Videos"__________________________________________*/
 
 .texto-titulo-videos {
