@@ -4,7 +4,7 @@
   background-color: #000000b9;
   color: rgb(183, 185, 47);
   padding: 0.5rem;
-  border: solid white 3px;
+  border: solid $color-blanco 3px;
   border-radius: 24px;
 
   h2 {
@@ -55,7 +55,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: solid white;
+  border: solid $color-blanco;
   padding: 1rem;
 
   h3 {
@@ -87,7 +87,7 @@
   p {
     text-align: center;
     font-size: 1.8rem;
-    color: white;
+    color: $color-blanco;
     border: solid 3px rgba(255, 254, 254, 0.692);
   }
 
@@ -106,7 +106,7 @@
 
   img {
     max-width: 350px;
-    border: solid white 3px;
+    border: solid $color-blanco 3px;
   }
 }
 
@@ -138,7 +138,7 @@
   background-color: #d295eeb9;
   color: rgb(0, 0, 0);
   padding: 0.5rem;
-  border: solid white 3px;
+  border: solid $color-blanco 3px;
   border-radius: 24px;
 
   h2 {
@@ -201,7 +201,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: start;
-  border: solid white;
+  border: solid $color-blanco;
   padding: 1rem;
 
   h3 {
@@ -232,6 +232,114 @@
 }
 
 .plan-musculacion-info-parrafo-final-2 {
+  text-align: center;
+
+  img {
+    margin-top: 0.5rem;
+    width: 200px;
+    height: 200px;
+  }
+}
+/*_________Articulo suplementos _________*/
+
+.borde-control-3 {
+  margin-top: 1rem;
+  background-color: $color-naranja;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem;
+  border: solid rgb(117, 66, 6) 3px;
+  border-radius: 24px;
+
+  h2 {
+    font-size: 2.6rem;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+.content-img-info-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-naranja;
+  border-left: 3px solid rgb(117, 66, 6);
+}
+
+.plan-suplemento {
+  background-image: url(https://i.ibb.co/mbBsSfQ/fondo-prote-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid rgb(117, 66, 6) 3px;
+  padding: 0.5rem;
+
+  h3 {
+    margin-top: 0.5rem;
+    color: rgb(0, 0, 0);
+    background-color: #f3a13680;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 0.4rem;
+    border: solid #f3a136d0 2px;
+  }
+
+  p {
+    text-align: justify;
+    font-size: 1.4rem;
+    background-color: rgba(227, 157, 233, 0.692);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 0.2rem;
+    border-radius: 8px;
+    border: solid #f3a136d0 2px;
+  }
+}
+
+.plan-suplemento-info-3 {
+  background-image: url(https://i.ibb.co/sv74M2F/streching-fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: start;
+  border: solid #f3a13680;
+  padding: 1rem;
+
+  h3 {
+    margin-top: 0.5rem;
+    color: rgb(0, 0, 0);
+    background-color: $color-naranja;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 0.4rem;
+    border: solid #d295ee 2px;
+  }
+
+  p {
+    text-align: justify;
+    font-size: 1.6rem;
+    background-color: $color-naranja;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 0.2rem;
+    border-radius: 8px;
+    border: solid 2px rgba(255, 254, 254, 0.692);
+  }
+}
+
+.lista-suplemento li {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.plan-suplemento-info-parrafo-final-2 {
   text-align: center;
 
   img {

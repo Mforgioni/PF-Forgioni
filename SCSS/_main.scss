@@ -56,11 +56,11 @@
     text-decoration: none;
     border-radius: 5px;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
-    border: solid 2px black;
+    border: solid 2px $color-negro;
 
     &:hover {
-      background-color: rgb(216, 236, 42);
-      color: white;
+      background-color: $color-verde-tfit;
+      color: $color-blanco;
     }
   }
 }
@@ -97,14 +97,14 @@
     text-decoration: none;
     margin-bottom: 4em;
     border-radius: 5px;
-    color: black;
+    color: $color-negro;
     font-size: 1.2em;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
-    border: solid 2px black;
+    border: solid 2px $color-negro;
 
     &:hover {
-      background-color: rgb(216, 236, 42);
-      color: white;
+      background-color: $color-verde-tfit;
+      color: $color-blanco;
     }
   }
 }
@@ -147,11 +147,11 @@
     margin-top: 2.5em;
     border-radius: 5px;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
-    border: solid 2px black;
+    border: solid 2px $color-negro;
 
     &:hover {
-      background-color: rgb(216, 236, 42);
-      color: white;
+      background-color: $color-verde-tfit;
+      color: $color-blanco;
     }
   }
 }
@@ -180,7 +180,7 @@
   background-repeat: no-repeat;
   flex: 1;
   padding: 1em;
-  border: solid 3px black;
+  border: solid 3px $color-negro;
   margin: auto 5px;
   text-align: center;
   border-radius: 25px;
@@ -221,7 +221,7 @@
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   background-color: red;
-  color: white;
+  color: $color-blanco;
   border-radius: 50px;
   padding: 0.5rem;
 }
@@ -255,7 +255,7 @@
 
   input {
     width: 55%;
-    border: solid 1px black;
+    border: solid 1px $color-negro;
     height: 2.5em;
     border-radius: 5px;
     font-weight: bold;
@@ -267,7 +267,7 @@
 }
 
 .barra-tarea {
-  border: solid 2px black;
+  border: solid 2px $color-negro;
   border-radius: 5px;
   width: 75%;
   margin-top: 1em;
@@ -275,7 +275,7 @@
 }
 
 .form1-item {
-  border: solid 1px black;
+  border: solid 1px $color-negro;
 
   &:hover {
     background-color: rgba(216, 236, 42, 0.452);
@@ -284,14 +284,14 @@
 
 .button-item {
   padding: 2px;
-  border: solid 1px black;
+  border: solid 1px $color-negro;
   background-color: rgba(216, 236, 42, 0.452);
   box-shadow: 2px 15px 15px rgba(0, 0, 0, 0.568);
   margin-bottom: 1em;
 
   &:hover {
     background-color: rgba(216, 236, 42, 0.452);
-    color: white;
+    color: $color-blanco;
   }
 }
 /*_________________________________"Seccion Pagina Contactos"___________________________________________*/
@@ -304,7 +304,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;
-  border: solid 3px black;
+  border: solid 3px $color-negro;
   padding: 1em 5em 2em 5em;
   margin: 3em 8em 2em 8em;
   border-radius: 25px;
@@ -342,7 +342,7 @@
   align-items: center;
   width: 45em;
   height: auto;
-  border: solid 3px black;
+  border: solid 3px $color-negro;
   padding: 1em 5em 2em 5em;
   margin: 0 auto;
   margin-bottom: 5em;
@@ -360,7 +360,7 @@
 }
 
 .contato-name {
-  border: solid 2px black;
+  border: solid 2px $color-negro;
   border-radius: 5px;
   width: 25em;
   font-size: 1em;
@@ -399,7 +399,7 @@
 
 #estado,
 #objetivo {
-  border: solid 2px black;
+  border: solid 2px $color-negro;
   border-radius: 5px;
   width: 25em;
   height: 2.5em;
@@ -408,7 +408,7 @@
 
 .texto-form2 {
   background-color: rgba(232, 247, 96, 0.24);
-  border: solid 2px black;
+  border: solid 2px $color-negro;
   border-radius: 10px;
   width: 98%;
   height: 27em;
@@ -433,7 +433,7 @@
 .sobre-mi-encabezado {
   display: flex;
   justify-content: center;
-  border: solid 1px black;
+  border: solid 1px $color-negro;
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
   border-radius: 8px;
   padding: 0 1em 0 1em;
@@ -452,7 +452,7 @@
   background-position: center;
   display: flex;
   align-items: center;
-  border: solid 1px black;
+  border: solid 1px $color-negro;
   border-radius: 15px;
   margin: 0 15px 15px 35px;
   width: 95%;
@@ -489,7 +489,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border: solid 1px black;
+  border: solid 1px $color-negro;
   padding: 1em;
   margin: 0 15px 15px 35px;
   width: 95%;
@@ -538,7 +538,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border: solid 1px black;
+  border: solid 1px $color-negro;
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
   border-radius: 15px;
   padding: 1em;
@@ -588,7 +588,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border: solid 1px black;
+  border: solid 1px $color-negro;
   border-radius: 15px;
   padding: 1em;
   margin-top: 1rem;
@@ -619,7 +619,7 @@
 .sobre-mi-formacion-img img {
   width: 400px;
   margin: auto;
-  border: solid 1px black;
+  border: solid 1px $color-negro;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.568);
 }
 
@@ -639,7 +639,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border: solid 1px black;
+  border: solid 1px $color-negro;
   border-radius: 15px;
   padding: 1em 4em 1em 4em;
   width: 95%;

@@ -1,44 +1,44 @@
 /*_________________________________Seccion Footer, redes y legales____________________________________*/
 
 .contacto-legales {
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    background-color: white;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    z-index: 1;
-  
-    ol {
-      margin: 0;
-    }
-  
-    li {
-      display: inline-block;
-  
-      a {
-        text-decoration: none;
-        color: #070707;
-      }
-    }
-  
-    img {
-      width: 20px;
-      height: 20px;
-    }
-  
-    h3 {
-      margin-right: 40px;
-      margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background-color: $color-blanco;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+
+  ol {
+    margin: 0;
+  }
+
+  li {
+    display: inline-block;
+
+    a {
+      text-decoration: none;
+      color: #070707;
     }
   }
-  
-  .legal {
-    text-align: center;
-    margin-top: 2em;
-  
-    p {
-      font-size: 0.7rem;
-    }
+
+  img {
+    width: 20px;
+    height: 20px;
   }
+
+  h3 {
+    margin-right: 15px;
+    margin-left: 1px;
+  }
+}
+
+.legal {
+  text-align: center;
+  margin-top: 2em;
+
+  p {
+    font-size: 0.7rem;
+  }
+}
