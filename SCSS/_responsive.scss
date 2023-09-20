@@ -613,3 +613,145 @@
     margin-top: 0.5rem;
   }
 }
+
+/*____________________________pag. info plan musculaciom_____________________________________*/
+
+@media only screen and (max-width: 476px) {
+  .borde-control {
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+    }
+  }
+
+  .plan-musculacion-info-parrafo-final {
+    p {
+      font-size: 1rem;
+    }
+
+    img {
+      margin-top: 0.5rem;
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .content-img-info img {
+    max-width: 310px;
+  }
+
+  .plan-musculacion-info-parrafo-final {
+    p {
+      font-size: 0.8rem;
+    }
+
+    img {
+      margin-top: 1rem;
+      width: 70px;
+      height: 70px;
+    }
+  }
+}
+
+/*_________Articulo Streching _________*/
+
+@media only screen and (max-width: 1199px) {
+  .lista-strechin li {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .borde-control-2 {
+    text-align: center;
+
+    h2 {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 1.7rem;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .plan-musculacion-info-parrafo-final-2 {
+    p {
+      font-size: 1.4rem;
+      text-align: center;
+    }
+
+    img {
+      margin-top: 0.5rem;
+      width: 130px;
+      height: 130px;
+    }
+  }
+}
+
+@media only screen and (max-width: 476px) {
+  .lista-strechin {
+    text-align: start;
+    margin-right: 0.3rem;
+
+    li {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .borde-control-2 {
+    text-align: center;
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-size: 1.7rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .plan-musculacion-info-parrafo-final-2 {
+    p {
+      font-size: 1rem;
+    }
+
+    img {
+      margin-top: 0.5rem;
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .content-img-info-2 img {
+    max-width: 310px;
+  }
+
+  .plan-musculacion-info-parrafo-final-2 {
+    p {
+      font-size: 0.8rem;
+    }
+
+    img {
+      margin-top: 1rem;
+      width: 70px;
+      height: 70px;
+    }
+  }
+}
