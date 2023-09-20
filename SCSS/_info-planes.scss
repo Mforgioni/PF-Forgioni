@@ -1,0 +1,379 @@
+/*_________________Paginas "Info"_________________________*/
+
+.borde-control {
+  background-color: #000000b9;
+  color: rgb(183, 185, 47);
+  padding: 0.5rem;
+  border: solid white 3px;
+  border-radius: 24px;
+
+  h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+}
+
+.plan-musculacion {
+  background-image: url(https://i.ibb.co/zHhb4pw/fondo-gym-22.jpg);
+  border-right: 3px solid #ffffff;
+  padding: 0.5rem;
+
+  h3 {
+    margin-top: 0.5rem;
+    color: rgb(253, 253, 252);
+    background-color: rgba(5, 5, 5, 0.664);
+    display: inline-block;
+    border-radius: 8px;
+    padding: 0.4rem;
+    border: solid rgba(255, 255, 255, 0.808) 2px;
+  }
+
+  p {
+    text-align: justify;
+    font-size: 1.1rem;
+    background-color: rgba(2, 2, 2, 0.705);
+    font-weight: bold;
+    color: rgb(247, 250, 59);
+    padding: 0.2rem;
+    border-radius: 8px;
+    border: solid 1px rgba(255, 254, 254, 0.692);
+  }
+}
+
+.sangria-parrafos-info {
+  text-indent: 10px;
+}
+
+.plan-musculacion-info-2 {
+  background-image: url(https://i.ibb.co/th2k7zB/Sin-t-tulo-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: solid white;
+  padding: 1rem;
+
+  h3 {
+    margin-top: 0.5rem;
+    color: rgb(253, 253, 252);
+    background-color: rgba(5, 5, 5, 0.788);
+    display: inline-block;
+    border-radius: 8px;
+    padding: 0.4rem;
+    border: solid rgba(255, 255, 255, 0.808) 2px;
+  }
+
+  p {
+    text-align: justify;
+    font-size: 1.1rem;
+    background-color: rgba(0, 0, 0, 0.733);
+    font-weight: bold;
+    color: rgb(247, 250, 59);
+    padding: 0.2rem;
+    border-radius: 8px;
+    border: solid 2px rgba(255, 254, 254, 0.692);
+  }
+}
+
+.plan-musculacion-info-parrafo-final {
+  display: flex;
+  justify-content: center;
+
+  p {
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+    border: solid 3px rgba(255, 254, 254, 0.692);
+  }
+
+  img {
+    width: 160px;
+  }
+}
+
+.content-img-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(5, 5, 5);
+  border-left: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+
+  img {
+    max-width: 350px;
+    border: solid white 3px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .borde-control {
+    h2,
+    h3 {
+      text-align: center;
+    }
+  }
+
+  .plan-musculacion-info-parrafo-final {
+    p {
+      font-size: 1.3rem;
+    }
+
+    img {
+      margin-top: 0.5rem;
+      width: 120px;
+      height: 120px;
+    }
+  }
+}
+
+@media only screen and (max-width: 476px) {
+  .borde-control {
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+    }
+  }
+
+  .plan-musculacion-info-parrafo-final {
+    p {
+      font-size: 1rem;
+    }
+
+    img {
+      margin-top: 0.5rem;
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .content-img-info img {
+    max-width: 310px;
+  }
+
+  .plan-musculacion-info-parrafo-final {
+    p {
+      font-size: 0.8rem;
+    }
+
+    img {
+      margin-top: 1rem;
+      width: 70px;
+      height: 70px;
+    }
+  }
+}
+/*_________Articulo Streching _________*/
+
+.borde-control-2 {
+  margin-top: 1rem;
+  background-color: #d295eeb9;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem;
+  border: solid white 3px;
+  border-radius: 24px;
+
+  h2 {
+    font-size: 2.6rem;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+.content-img-info-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(227, 157, 233, 0.692);
+  border-left: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+}
+
+.plan-streching {
+  background-image: url(https://i.ibb.co/d7PfFHj/bloque-strecink2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid rgb(255, 255, 255) 3px;
+  padding: 0.5rem;
+
+  h3 {
+    margin-top: 0.5rem;
+    color: rgb(0, 0, 0);
+    background-color: rgba(227, 157, 233, 0.692);
+    display: inline-block;
+    border-radius: 8px;
+    padding: 0.4rem;
+    border: solid rgb(208, 114, 216) 2px;
+  }
+
+  p {
+    text-align: justify;
+    font-size: 1.4rem;
+    background-color: rgba(227, 157, 233, 0.692);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 0.2rem;
+    border-radius: 8px;
+    border: solid rgb(208, 114, 216) 2px;
+  }
+}
+
+.plan-strechin-info {
+  background-image: url(https://i.ibb.co/sv74M2F/streching-fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: start;
+  border: solid white;
+  padding: 1rem;
+
+  h3 {
+    margin-top: 0.5rem;
+    color: rgb(0, 0, 0);
+    background-color: #d295eeb9;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 0.4rem;
+    border: solid #d295ee 2px;
+  }
+
+  p {
+    text-align: justify;
+    font-size: 1.6rem;
+    background-color: #d295eeb9;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 0.2rem;
+    border-radius: 8px;
+    border: solid 2px rgba(255, 254, 254, 0.692);
+  }
+}
+
+.lista-strechin li {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.plan-musculacion-info-parrafo-final-2 {
+  text-align: center;
+
+  img {
+    margin-top: 0.5rem;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .lista-strechin li {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .borde-control-2 {
+    text-align: center;
+
+    h2 {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 1.7rem;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .plan-musculacion-info-parrafo-final-2 {
+    p {
+      font-size: 1.4rem;
+      text-align: center;
+    }
+
+    img {
+      margin-top: 0.5rem;
+      width: 130px;
+      height: 130px;
+    }
+  }
+}
+
+@media only screen and (max-width: 476px) {
+  .lista-strechin {
+    text-align: start;
+    margin-right: 0.3rem;
+
+    li {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .borde-control-2 {
+    text-align: center;
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-size: 1.7rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .plan-musculacion-info-parrafo-final-2 {
+    p {
+      font-size: 1rem;
+    }
+
+    img {
+      margin-top: 0.5rem;
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .content-img-info-2 img {
+    max-width: 310px;
+  }
+
+  .plan-musculacion-info-parrafo-final-2 {
+    p {
+      font-size: 0.8rem;
+    }
+
+    img {
+      margin-top: 1rem;
+      width: 70px;
+      height: 70px;
+    }
+  }
+}

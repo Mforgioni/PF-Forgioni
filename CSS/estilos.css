@@ -1,9 +1,6 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap");
-
-c:\users\matia\desktop\tute\programacion\v-c-proyects\webpersonaltrainner\index.html
-  c:\users\matia\desktop\tute\programacion\v-c-proyects\webpersonaltrainner\programas.js
-  c:\users\matia\desktop\tute\programacion\v-c-proyects\webpersonaltrainner\style.css
-  c:\users\matia\desktop\tute\programacion\v-c-proyects\webpersonaltrainner\imagenes* {
+c:usersmatiaÞsktoptuteprogramacionv-c-proyectswebpersonaltrainnerindex.html c:usersmatiaÞsktoptuteprogramacionv-c-proyectswebpersonaltrainnerprogramas.js c:usersmatiaÞsktoptuteprogramacionv-c-proyectswebpersonaltrainnerstyle.css c:usersmatiaÞsktoptuteprogramacionv-c-proyectswebpersonaltrainnerimagenes* {
   margin: 0;
   box-sizing: border-box;
 }
@@ -25,7 +22,6 @@ body {
 }
 
 /*________________________________Seccion del navegador principal_______________________________________*/
-
 .header {
   background-image: url(https://i.ibb.co/jHhhrHj/imagenfondo-cabezaramodif2.jpg);
   background-size: 100% 100%;
@@ -79,7 +75,6 @@ body {
 .nav-menu-link {
   padding: 8px 14px;
 }
-
 .nav-menu-link:hover {
   background-color: rgba(216, 236, 42, 0.452);
   transition: 0.5;
@@ -96,11 +91,7 @@ body {
   margin-right: 15px;
 }
 
-.fa-solid fa-bars {
-  color: #070707;
-}
-
-.fa-solid fa-times {
+.fa-solid fa-bars, .fa-solid fa-times {
   color: #070707;
 }
 
@@ -117,8 +108,45 @@ h1 {
   text-align: center;
 }
 
-/*_________________________________________Seccion main___________________________________________ */
+/*_________________________________Seccion Footer, redes y legales____________________________________*/
+.contacto-legales {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background-color: white;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+.contacto-legales ol {
+  margin: 0;
+}
+.contacto-legales li {
+  display: inline-block;
+}
+.contacto-legales li a {
+  text-decoration: none;
+  color: #070707;
+}
+.contacto-legales img {
+  width: 20px;
+  height: 20px;
+}
+.contacto-legales h3 {
+  margin-right: 40px;
+  margin-left: 15px;
+}
 
+.legal {
+  text-align: center;
+  margin-top: 2em;
+}
+.legal p {
+  font-size: 0.7rem;
+}
+
+/*_________________________________________Seccion main___________________________________________ */
 .contenedor {
   display: flex;
   justify-content: center;
@@ -147,24 +175,21 @@ h1 {
   border-radius: 15px;
   margin-top: 0px;
 }
-
 .bloque1 h2 {
   color: rgb(0, 0, 0);
   padding: 1.2em;
   font-size: 1.2em;
   font-weight: bold;
-  background-color: #f0f0f073;
+  background-color: rgba(240, 240, 240, 0.4509803922);
 }
-
 .bloque1 p {
   padding: 2em;
   font-weight: bold;
   color: rgb(7, 7, 7);
   font-size: 1.2em;
   text-decoration: double;
-  background-color: #f0f0f073;
+  background-color: rgba(240, 240, 240, 0.4509803922);
 }
-
 .bloque1 a {
   display: block;
   margin: 15px 30px;
@@ -178,7 +203,6 @@ h1 {
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
   border: solid 2px black;
 }
-
 .bloque1 a:hover {
   background-color: rgb(216, 236, 42);
   color: white;
@@ -190,24 +214,21 @@ h1 {
   background-size: cover;
   border-radius: 15px;
 }
-
 .bloque2 h2 {
   padding: 2em;
   font-weight: bold;
   font-size: 1.2em;
   color: rgb(14, 13, 13);
-  background-color: #f0f0f073;
+  background-color: rgba(240, 240, 240, 0.4509803922);
 }
-
 .bloque2 p {
   padding: 1.6em;
   font-weight: bold;
   color: rgb(7, 7, 7);
   font-size: 1.2em;
   text-decoration: double;
-  background-color: #f0f0f073;
+  background-color: rgba(240, 240, 240, 0.4509803922);
 }
-
 .bloque2 a {
   display: block;
   margin: 15px 30px;
@@ -222,7 +243,6 @@ h1 {
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
   border: solid 2px black;
 }
-
 .bloque2 a:hover {
   background-color: rgb(216, 236, 42);
   color: white;
@@ -235,7 +255,6 @@ h1 {
   background-repeat: repeat;
   border-radius: 15px;
 }
-
 .bloque3 h2 {
   padding-top: 2em;
   padding-left: 0.5em;
@@ -244,18 +263,16 @@ h1 {
   font-weight: bold;
   font-size: 1.2em;
   color: rgb(14, 13, 13);
-  background-color: #f0f0f073;
+  background-color: rgba(240, 240, 240, 0.4509803922);
 }
-
 .bloque3 p {
   padding: 2em;
   font-weight: bold;
   color: rgb(0, 0, 0);
   font-size: 1.2em;
   text-decoration: double;
-  background-color: #f0f0f073;
+  background-color: rgba(240, 240, 240, 0.4509803922);
 }
-
 .bloque3 a {
   display: block;
   margin: 15px 30px;
@@ -269,7 +286,6 @@ h1 {
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
   border: solid 2px black;
 }
-
 .bloque3 a:hover {
   background-color: rgb(216, 236, 42);
   color: white;
@@ -284,8 +300,7 @@ h1 {
   z-index: 2;
 }
 
-/* ______________________________Seccion del Carrucel________________________________________________*/
-
+/* ______________________________Seccion Main del Carrucel________________________________________________*/
 .videos-incio {
   display: flex;
   flex-wrap: wrap;
@@ -318,7 +333,6 @@ h1 {
   height: auto;
   margin-top: 15px;
 }
-
 .carrucel-pc h2 {
   margin-bottom: 1em;
   font-weight: bold;
@@ -335,7 +349,7 @@ h1 {
 
 .carousel-caption h5 {
   color: aliceblue;
-  background-color: #00000085;
+  background-color: rgba(0, 0, 0, 0.5215686275);
 }
 
 .carousel-control-next-icon,
@@ -346,15 +360,13 @@ h1 {
   padding: 0.5rem;
 }
 
-/*___________________________Seccion Formulario pagina Inicio______________________________________________*/
-
+/*___________________________Seccion Main Formulario pagina Inicio______________________________________________*/
 .cuestionario-form1 {
   margin-top: 15px;
   width: auto;
   background-image: url(https://i.ibb.co/gmp92mP/Fondo-bloques-2.jpg);
   margin-right: 48px;
 }
-
 .cuestionario-form1 h2 {
   font-size: 1.8em;
   font-weight: bold;
@@ -367,14 +379,12 @@ h1 {
   flex-wrap: wrap;
   gap: 5px;
 }
-
 .formulario1 label {
   display: block;
   margin-right: auto;
   margin-left: 20%;
   font-size: 1.3rem;
 }
-
 .formulario1 input {
   width: 55%;
   border: solid 1px black;
@@ -398,7 +408,6 @@ h1 {
 .form1-item {
   border: solid 1px black;
 }
-
 .form1-item:hover {
   background-color: rgba(216, 236, 42, 0.452);
 }
@@ -410,766 +419,12 @@ h1 {
   box-shadow: 2px 15px 15px rgba(0, 0, 0, 0.568);
   margin-bottom: 1em;
 }
-
 .button-item:hover {
   background-color: rgba(216, 236, 42, 0.452);
   color: white;
 }
 
-/*_________________________________Seccion Footer, redes y legales____________________________________*/
-
-.contacto-legales {
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  background-color: white;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-  z-index: 1;
-}
-
-.contacto-legales ol {
-  margin: 0;
-}
-
-.contacto-legales li {
-  display: inline-block;
-}
-
-.contacto-legales li a {
-  text-decoration: none;
-  color: #070707;
-}
-
-.contacto-legales img {
-  width: 20px;
-  height: 20px;
-}
-
-.contacto-legales h3 {
-  margin-right: 40px;
-  margin-left: 15px;
-}
-
-.legal {
-  text-align: center;
-  margin-top: 2em;
-}
-.legal p {
-  font-size: 0.7rem;
-}
-
-/*_________________Paginas "Info"_________________________*/
-
-.borde-control {
-  background-color: #000000b9;
-  color: rgb(183, 185, 47);
-  padding: 0.5rem;
-  border: solid white 3px;
-  border-radius: 24px;
-}
-
-.borde-control h2 {
-  font-size: 2.4rem;
-  font-weight: bold;
-  display: inline-block;
-}
-
-.borde-control h3 {
-  font-size: 1.8rem;
-  font-weight: bold;
-}
-
-.plan-musculacion {
-  background-image: url(https://i.ibb.co/zHhb4pw/fondo-gym-22.jpg);
-  border-right: 3px solid #ffffff;
-  padding: 0.5rem;
-}
-
-.plan-musculacion h3 {
-  margin-top: 0.5rem;
-  color: rgb(253, 253, 252);
-  background-color: rgba(5, 5, 5, 0.664);
-  display: inline-block;
-  border-radius: 8px;
-  padding: 0.4rem;
-  border: solid rgba(255, 255, 255, 0.808) 2px;
-}
-
-.plan-musculacion p {
-  text-align: justify;
-  font-size: 1.1rem;
-  background-color: rgba(2, 2, 2, 0.705);
-  font-weight: bold;
-  color: rgb(247, 250, 59);
-  padding: 0.2rem;
-  border-radius: 8px;
-  border: solid 1px rgba(255, 254, 254, 0.692);
-}
-
-.sangria-parrafos-info {
-  text-indent: 10px;
-}
-
-.plan-musculacion-info-2 {
-  background-image: url(https://i.ibb.co/th2k7zB/Sin-t-tulo-1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border: solid white;
-  padding: 1rem;
-}
-
-.plan-musculacion-info-2 h3 {
-  margin-top: 0.5rem;
-  color: rgb(253, 253, 252);
-  background-color: rgba(5, 5, 5, 0.788);
-  display: inline-block;
-  border-radius: 8px;
-  padding: 0.4rem;
-  border: solid rgba(255, 255, 255, 0.808) 2px;
-}
-
-.plan-musculacion-info-2 p {
-  text-align: justify;
-  font-size: 1.1rem;
-  background-color: rgba(0, 0, 0, 0.733);
-  font-weight: bold;
-  color: rgb(247, 250, 59);
-  padding: 0.2rem;
-  border-radius: 8px;
-  border: solid 2px rgba(255, 254, 254, 0.692);
-}
-
-.plan-musculacion-info-parrafo-final {
-  display: flex;
-  justify-content: center;
-}
-
-.plan-musculacion-info-parrafo-final p {
-  text-align: center;
-  font-size: 1.8rem;
-  color: white;
-  border: solid 3px rgba(255, 254, 254, 0.692);
-}
-
-.plan-musculacion-info-parrafo-final img {
-  width: 160px;
-}
-
-.content-img-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(5, 5, 5);
-  border-left: 3px solid #ffffff;
-  border-right: 3px solid #ffffff;
-}
-.content-img-info img {
-  max-width: 350px;
-  border: solid white 3px;
-}
-
-@media only screen and (max-width: 1199px) {
-  .borde-control h2 {
-    text-align: center;
-  }
-
-  .borde-control h3 {
-    text-align: center;
-  }
-
-  .plan-musculacion-info-parrafo-final p {
-    font-size: 1.3rem;
-  }
-
-  .plan-musculacion-info-parrafo-final img {
-    margin-top: 0.5rem;
-    width: 120px;
-    height: 120px;
-  }
-}
-
-@media only screen and (max-width: 476px) {
-  .borde-control h2 {
-    font-size: 1.5rem;
-  }
-
-  .borde-control h3 {
-    font-size: 1.1rem;
-  }
-
-  .plan-musculacion-info-parrafo-final p {
-    font-size: 1rem;
-  }
-
-  .plan-musculacion-info-parrafo-final img {
-    margin-top: 0.5rem;
-    width: 100px;
-    height: 100px;
-  }
-}
-
-@media only screen and (max-width: 395px) {
-  .content-img-info img {
-    max-width: 310px;
-  }
-
-  .plan-musculacion-info-parrafo-final p {
-    font-size: 0.8rem;
-  }
-
-  .plan-musculacion-info-parrafo-final img {
-    margin-top: 1rem;
-    width: 70px;
-    height: 70px;
-  }
-}
-
-/*_________Articulo Streching _________*/
-
-.borde-control-2 {
-  margin-top: 1rem;
-  background-color: #d295eeb9;
-  color: rgb(0, 0, 0);
-  padding: 0.5rem;
-  border: solid white 3px;
-  border-radius: 24px;
-}
-
-.borde-control-2 h2 {
-  font-size: 2.6rem;
-  font-weight: bold;
-  display: inline-block;
-}
-
-.borde-control-2 h3 {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.borde-control-2 p {
-  font-size: 1.2rem;
-}
-
-.content-img-info-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(227, 157, 233, 0.692);
-  border-left: 3px solid #ffffff;
-  border-right: 3px solid #ffffff;
-}
-
-.plan-streching {
-  background-image: url(https://i.ibb.co/d7PfFHj/bloque-strecink2.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: solid rgb(255, 255, 255) 3px;
-  padding: 0.5rem;
-}
-
-.plan-streching h3 {
-  margin-top: 0.5rem;
-  color: rgb(0, 0, 0);
-  background-color: rgba(227, 157, 233, 0.692);
-  display: inline-block;
-  border-radius: 8px;
-  padding: 0.4rem;
-  border: solid rgb(208, 114, 216) 2px;
-}
-
-.plan-streching p {
-  text-align: justify;
-  font-size: 1.4rem;
-  background-color: rgba(227, 157, 233, 0.692);
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  padding: 0.2rem;
-  border-radius: 8px;
-  border: solid rgb(208, 114, 216) 2px;
-}
-
-.plan-strechin-info {
-  background-image: url(https://i.ibb.co/sv74M2F/streching-fondo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: start;
-  border: solid white;
-  padding: 1rem;
-}
-
-.plan-strechin-info h3 {
-  margin-top: 0.5rem;
-  color: rgb(0, 0, 0);
-  background-color: #d295eeb9;
-  display: inline-block;
-  border-radius: 8px;
-  padding: 0.4rem;
-  border: solid #d295ee 2px;
-}
-
-.plan-strechin-info p {
-  text-align: justify;
-  font-size: 1.6rem;
-  background-color: #d295eeb9;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  padding: 0.2rem;
-  border-radius: 8px;
-  border: solid 2px rgba(255, 254, 254, 0.692);
-}
-
-.lista-strechin li {
-  font-size: 1.8rem;
-  font-weight: bold;
-}
-
-.plan-musculacion-info-parrafo-final-2 {
-  text-align: center;
-}
-.plan-musculacion-info-parrafo-final-2 img {
-  margin-top: 0.5rem;
-  width: 200px;
-  height: 200px;
-}
-
-@media only screen and (max-width: 1199px) {
-  .lista-strechin li {
-    font-size: 1.1rem;
-    font-weight: bold;
-  }
-  .borde-control-2 {
-    text-align: center;
-  }
-  .borde-control-2 h2 {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-
-  .borde-control-2 h3 {
-    font-size: 1.7rem;
-    text-align: center;
-  }
-
-  .borde-control-2 p {
-    font-size: 1rem;
-  }
-
-  .plan-musculacion-info-parrafo-final-2 p {
-    font-size: 1.4rem;
-    text-align: center;
-  }
-
-  .plan-musculacion-info-parrafo-final-2 img {
-    margin-top: 0.5rem;
-    width: 130px;
-    height: 130px;
-  }
-}
-
-@media only screen and (max-width: 476px) {
-  .lista-strechin {
-    text-align: start;
-    margin-right: 0.3rem;
-  }
-  .lista-strechin li {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-  }
-  .borde-control-2 {
-    text-align: center;
-  }
-
-  .borde-control-2 h2 {
-    font-size: 3rem;
-  }
-
-  .borde-control-2 h3 {
-    font-size: 1.7rem;
-  }
-
-  .borde-control-2 p {
-    font-size: 1rem;
-  }
-
-  .plan-musculacion-info-parrafo-final-2 p {
-    font-size: 1rem;
-  }
-
-  .plan-musculacion-info-parrafo-final-2 img {
-    margin-top: 0.5rem;
-    width: 100px;
-    height: 100px;
-  }
-}
-
-@media only screen and (max-width: 395px) {
-  .content-img-info-2 img {
-    max-width: 310px;
-  }
-
-  .plan-musculacion-info-parrafo-final-2 p {
-    font-size: 0.8rem;
-  }
-
-  .plan-musculacion-info-parrafo-final-2 img {
-    margin-top: 1rem;
-    width: 70px;
-    height: 70px;
-  }
-}
-
-/*_________Articulo suplementos _________*/
-
-
-.borde-control-3 {
-  margin-top: 1rem;
-  background-color: #f3a136d0;
-  color: rgb(0, 0, 0);
-  padding: 0.5rem;
-  border: solid rgb(117, 66, 6) 3px;
-  border-radius: 24px;
-}
-
-.borde-control-3 h2 {
-  font-size: 2.6rem;
-  font-weight: bold;
-  display: inline-block;
-}
-
-.borde-control-3 h3 {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.borde-control-3 p {
-  font-size: 1.2rem;
-}
-
-.content-img-info-3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f3a136d0;
-  border-left: 3px solid  rgb(117, 66, 6) ;
-}
-
-.plan-suplemento {
-  background-image: url(https://i.ibb.co/mbBsSfQ/fondo-prote-1.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: solid  rgb(117, 66, 6) 3px;
-  padding: 0.5rem;
-}
-
-.plan-suplemento h3 {
-  margin-top: 0.5rem;
-  color: rgb(0, 0, 0);
-  background-color:  #f3a13680;
-  display: inline-block;
-  border-radius: 8px;
-  padding: 0.4rem;
-  border: solid #f3a136d0 2px;
-}
-
-.plan-suplemento p {
-  text-align: justify;
-  font-size: 1.4rem;
-  background-color: rgba(227, 157, 233, 0.692);
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  padding: 0.2rem;
-  border-radius: 8px;
-  border: solid #f3a136d0 2px;
-}
-
-.plan-suplemento-info {
-  background-image: url(https://i.ibb.co/sv74M2F/streching-fondo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: start;
-  border: solid  #f3a13680;
-  padding: 1rem;
-}
-
-.plan-suplemento-info h3 {
-  margin-top: 0.5rem;
-  color: rgb(0, 0, 0);
-  background-color:  #f3a136d0;
-  display: inline-block;
-  border-radius: 8px;
-  padding: 0.4rem;
-  border: solid #d295ee 2px;
-}
-
-.plan-suplemento-info p {
-  text-align: justify;
-  font-size: 1.6rem;
-  background-color: #d295eeb9;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  padding: 0.2rem;
-  border-radius: 8px;
-  border: solid 2px rgba(255, 254, 254, 0.692);
-}
-
-.lista-suplemento li {
-  font-size: 1.8rem;
-  font-weight: bold;
-}
-
-.plan-suplemento-info-parrafo-final-2 {
-  text-align: center;
-}
-.plan-suplemento-info-parrafo-final-2 img {
-  margin-top: 0.5rem;
-  width: 200px;
-  height: 200px;
-}
-
-@media only screen and (max-width: 1199px) {
-  .lista-suplemento li {
-    font-size: 1.1rem;
-    font-weight: bold;
-  }
-  .borde-control-3 {
-    text-align: center;
-  }
-  .borde-control-3 h2 {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-
-  .borde-control-3 h3 {
-    font-size: 1.7rem;
-    text-align: center;
-  }
-
-  .borde-control-3 p {
-    font-size: 1rem;
-  }
-
-  .plan-suplemento-info-parrafo-final-2 p {
-    font-size: 1.4rem;
-    text-align: center;
-  }
-
-  .plan-suplemento-info-parrafo-final-2 img {
-    margin-top: 0.5rem;
-    width: 130px;
-    height: 130px;
-  }
-}
-
-@media only screen and (max-width: 476px) {
-  .lista-suplemento {
-    text-align: start;
-    margin-right: 0.3rem;
-  }
-  .lista-suplemento li {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-  }
-  .borde-control-3 {
-    text-align: center;
-  }
-
-  .borde-control-3 h2 {
-    font-size: 3rem;
-  }
-
-  .borde-control-3 h3 {
-    font-size: 1.7rem;
-  }
-
-  .borde-control-3 p {
-    font-size: 1rem;
-  }
-
-  .plan-suplemento-info-parrafo-final-2 p {
-    font-size: 1rem;
-  }
-
-  .plan-suplemento-info-parrafo-final-2 img {
-    margin-top: 0.5rem;
-    width: 100px;
-    height: 100px;
-  }
-}
-
-@media only screen and (max-width: 395px) {
-  .content-img-info-3 img {
-    max-width: 310px;
-  }
-
-  .plan-suplemento-info-parrafo-final-2 p {
-    font-size: 0.8rem;
-  }
-
-  .plan-suplemento-info-parrafo-final-2 img {
-    margin-top: 1rem;
-    width: 70px;
-    height: 70px;
-  }
-}
-
-
-/*__________________________________Paginas "Videos"__________________________________________*/
-
-.texto-titulo-videos {
-  background-color: rgba(255, 255, 255, 0.568);
-  border-radius: 10px;
-  padding: 0.5rem;
-  font-weight: bold;
-  margin-top: 0.5rem;
-}
-
-.card {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  background-color: rgba(216, 236, 42, 0.452);
-  border: solid 1px black;
-}
-
-.card-imagen {
-  padding: 1rem 1rem 0 1rem;
-}
-
-.card-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-top: 1rem;
-}
-
-.card-cuerpo {
-  padding: 0 1rem 1rem 1rem;
-}
-
-.modal-header {
-  background-color: #000000;
-  border: solid 1px white;
-  font-weight: bold;
-}
-
-.modal-header h1 {
-  color: white;
-}
-
-.btn-close {
-  background-color: #ffffff;
-}
-
-.modal-body {
-  border: solid 1px white;
-}
-.modal-content {
-  background-color: rgba(216, 236, 42, 0.938);
-}
-.carousel-item p {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.botones-videos {
-  background-color: rgba(5, 5, 5, 0.795);
-}
-.modal-footer {
-  border: solid 1px rgb(255, 254, 254);
-  background-color: #000000;
-}
-.fondo-videos {
-  background-image: url(https://i.ibb.co/zHhb4pw/fondo-gym-22.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  padding: 2rem 0 1rem 0;
-  width: 97%;
-  margin-left: 25px;
-  border: solid 2px black;
-  border-radius: 15px;
-}
-
-.video-disp::-webkit-media-controls {
-  opacity: 5;
-}
-
-.accordion {
-  display: flex;
-  justify-content: center;
-  width: auto;
-}
-
-.accordion-item {
-  z-index: 1;
-}
-
-.accordion-button {
-  color: rgb(8, 8, 8);
-  background-color: rgb(216, 236, 42);
-  font-size: 2rem;
-  width: 28rem;
-  z-index: 1;
-}
-
-.accordion-body {
-  background-color: rgba(181, 181, 247, 0.425);
-  border: solid 4px rgba(157, 157, 243, 0.541);
-  font-size: 1.3rem;
-  border-radius: 0 0 14px 14px;
-}
-
-.accordion-body img {
-  width: 400px;
-}
-
-.video-disp {
-  padding: 0 0.4rem 0 0;
-  width: 460px;
-  height: 380px;
-}
-
-@media only screen and (max-width: 480px) {
-  .video-espesicico {
-    margin-right: 2rem;
-  }
-
-  .accordion-body {
-    padding: 0;
-  }
-
-  .accordion-body img {
-    width: 250px;
-  }
-
-  .video-disp {
-    width: 300px;
-    height: 210px;
-  }
-
-  .accordion-button {
-    width: 300px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(216, 236, 42);
-    font-size: 1.2rem;
-  }
-
-  .fondo-videos {
-    width: 100%;
-    margin-left: 25px;
-    border: solid 1px black;
-    border-radius: 15px;
-    margin-left: 0;
-    overflow: hidden;
-  }
-}
-
-/*_________________________________"Pagina Contactos"___________________________________________*/
-
+/*_________________________________"Seccion Pagina Contactos"___________________________________________*/
 .contacto-contenedor {
   display: flex;
   flex-direction: column;
@@ -1206,7 +461,6 @@ h1 {
 }
 
 /*___________________________pag. "Contacto" Formulario_____________________________________*/
-
 .contacto-formulario {
   background-image: url(https://i.ibb.co/NLSyyxw/fondo-222222-222.jpg);
   background-position: center;
@@ -1249,7 +503,6 @@ h1 {
   height: 2em;
   background-color: rgba(232, 247, 96, 0.24);
 }
-
 .form2 input:hover {
   background-color: rgba(216, 236, 42, 0.452);
 }
@@ -1257,7 +510,6 @@ h1 {
 .contacto-opciones {
   background-color: rgba(232, 247, 96, 0.24);
 }
-
 .contacto-opciones:hover {
   background-color: rgba(216, 236, 42, 0.452);
 }
@@ -1301,8 +553,7 @@ h1 {
   text-align: center;
 }
 
-/*_____________________________"Pagina Sobre Mi"____________________________________________*/
-
+/*_____________________________"Seccion Pagina Sobre Mi"____________________________________________*/
 .sobre-mi-encabezado {
   display: flex;
   justify-content: center;
@@ -1313,7 +564,6 @@ h1 {
   margin: 0 15px 15px 35px;
   width: 95%;
 }
-
 .sobre-mi-encabezado h2 {
   font-size: 3em;
 }
@@ -1333,7 +583,6 @@ h1 {
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
   text-align: center;
 }
-
 .sobre-mi-presentacion img {
   height: 500px;
   padding: 2em;
@@ -1343,7 +592,6 @@ h1 {
   background-color: rgba(255, 255, 255, 0.288);
   border-radius: 14px;
 }
-
 .sobre-mi-presentacion p {
   padding: 0 4em 0 4em;
   font-size: 2em;
@@ -1353,7 +601,6 @@ h1 {
 }
 
 /*_________bloke Planes_____________*/
-
 .sobre-mi-planes {
   display: flex;
   align-items: center;
@@ -1370,7 +617,6 @@ h1 {
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
   text-align: center;
 }
-
 .sobre-mi-planes h3 {
   font-size: 2.8em;
   padding: 0 0.8em 0 0.8em;
@@ -1380,7 +626,6 @@ h1 {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
-
 .sobre-mi-planes p {
   font-size: 2em;
   padding: 0 4em 1em 4em;
@@ -1390,7 +635,6 @@ h1 {
 }
 
 /*_________bloke clases_____________*/
-
 .sobre-mi-presentacion {
   flex-wrap: wrap;
   flex-direction: column;
@@ -1418,7 +662,6 @@ h1 {
   margin: 0 15px 15px 35px;
   width: 95%;
 }
-
 .sobre-mi-clases h3 {
   text-align: center;
   font-size: 2.5em;
@@ -1428,7 +671,6 @@ h1 {
   padding: 0.5rem;
   border-radius: 14px;
 }
-
 .sobre-mi-clases p {
   font-size: 2em;
   padding: 0 4em 1em 4em;
@@ -1437,6 +679,7 @@ h1 {
   background-color: rgba(255, 255, 255, 0.507);
   border-radius: 14px;
 }
+
 .sobre-mi-imagenes {
   display: flex;
   flex-direction: column;
@@ -1445,7 +688,6 @@ h1 {
   padding: 0 4em 0 4em;
   margin: 0 15px 10px 15px;
 }
-
 .sobre-mi-imagenes img {
   width: 800px;
   margin-bottom: 5px;
@@ -1519,7 +761,6 @@ h1 {
   margin-top: 1.2rem;
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
 }
-
 .sobre-mi-despedida p {
   font-size: 2rem;
   padding: 0.5rem;
@@ -1531,37 +772,680 @@ h1 {
 }
 
 /*_________________Paginas Alumnos,  "En contruccion"_________________________*/
-
 .contenedorConstruccion {
   position: relative;
   top: 12em;
 }
 
+/*_________________Paginas "Info"_________________________*/
+.borde-control {
+  background-color: rgba(0, 0, 0, 0.7254901961);
+  color: rgb(183, 185, 47);
+  padding: 0.5rem;
+  border: solid white 3px;
+  border-radius: 24px;
+}
+.borde-control h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  display: inline-block;
+}
+.borde-control h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.plan-musculacion {
+  background-image: url(https://i.ibb.co/zHhb4pw/fondo-gym-22.jpg);
+  border-right: 3px solid #ffffff;
+  padding: 0.5rem;
+}
+.plan-musculacion h3 {
+  margin-top: 0.5rem;
+  color: rgb(253, 253, 252);
+  background-color: rgba(5, 5, 5, 0.664);
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.4rem;
+  border: solid rgba(255, 255, 255, 0.808) 2px;
+}
+.plan-musculacion p {
+  text-align: justify;
+  font-size: 1.1rem;
+  background-color: rgba(2, 2, 2, 0.705);
+  font-weight: bold;
+  color: rgb(247, 250, 59);
+  padding: 0.2rem;
+  border-radius: 8px;
+  border: solid 1px rgba(255, 254, 254, 0.692);
+}
+
+.sangria-parrafos-info {
+  text-indent: 10px;
+}
+
+.plan-musculacion-info-2 {
+  background-image: url(https://i.ibb.co/th2k7zB/Sin-t-tulo-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: solid white;
+  padding: 1rem;
+}
+.plan-musculacion-info-2 h3 {
+  margin-top: 0.5rem;
+  color: rgb(253, 253, 252);
+  background-color: rgba(5, 5, 5, 0.788);
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.4rem;
+  border: solid rgba(255, 255, 255, 0.808) 2px;
+}
+.plan-musculacion-info-2 p {
+  text-align: justify;
+  font-size: 1.1rem;
+  background-color: rgba(0, 0, 0, 0.733);
+  font-weight: bold;
+  color: rgb(247, 250, 59);
+  padding: 0.2rem;
+  border-radius: 8px;
+  border: solid 2px rgba(255, 254, 254, 0.692);
+}
+
+.plan-musculacion-info-parrafo-final {
+  display: flex;
+  justify-content: center;
+}
+.plan-musculacion-info-parrafo-final p {
+  text-align: center;
+  font-size: 1.8rem;
+  color: white;
+  border: solid 3px rgba(255, 254, 254, 0.692);
+}
+.plan-musculacion-info-parrafo-final img {
+  width: 160px;
+}
+
+.content-img-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(5, 5, 5);
+  border-left: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+}
+.content-img-info img {
+  max-width: 350px;
+  border: solid white 3px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .borde-control h2,
+  .borde-control h3 {
+    text-align: center;
+  }
+  .plan-musculacion-info-parrafo-final p {
+    font-size: 1.3rem;
+  }
+  .plan-musculacion-info-parrafo-final img {
+    margin-top: 0.5rem;
+    width: 120px;
+    height: 120px;
+  }
+}
+@media only screen and (max-width: 476px) {
+  .borde-control h2 {
+    font-size: 1.5rem;
+  }
+  .borde-control h3 {
+    font-size: 1.1rem;
+  }
+  .plan-musculacion-info-parrafo-final p {
+    font-size: 1rem;
+  }
+  .plan-musculacion-info-parrafo-final img {
+    margin-top: 0.5rem;
+    width: 100px;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .content-img-info img {
+    max-width: 310px;
+  }
+  .plan-musculacion-info-parrafo-final p {
+    font-size: 0.8rem;
+  }
+  .plan-musculacion-info-parrafo-final img {
+    margin-top: 1rem;
+    width: 70px;
+    height: 70px;
+  }
+}
+/*_________Articulo Streching _________*/
+.borde-control-2 {
+  margin-top: 1rem;
+  background-color: rgba(210, 149, 238, 0.7254901961);
+  color: rgb(0, 0, 0);
+  padding: 0.5rem;
+  border: solid white 3px;
+  border-radius: 24px;
+}
+.borde-control-2 h2 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  display: inline-block;
+}
+.borde-control-2 h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.borde-control-2 p {
+  font-size: 1.2rem;
+}
+
+.content-img-info-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(227, 157, 233, 0.692);
+  border-left: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+}
+
+.plan-streching {
+  background-image: url(https://i.ibb.co/d7PfFHj/bloque-strecink2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid rgb(255, 255, 255) 3px;
+  padding: 0.5rem;
+}
+.plan-streching h3 {
+  margin-top: 0.5rem;
+  color: rgb(0, 0, 0);
+  background-color: rgba(227, 157, 233, 0.692);
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.4rem;
+  border: solid rgb(208, 114, 216) 2px;
+}
+.plan-streching p {
+  text-align: justify;
+  font-size: 1.4rem;
+  background-color: rgba(227, 157, 233, 0.692);
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  padding: 0.2rem;
+  border-radius: 8px;
+  border: solid rgb(208, 114, 216) 2px;
+}
+
+.plan-strechin-info {
+  background-image: url(https://i.ibb.co/sv74M2F/streching-fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: start;
+  border: solid white;
+  padding: 1rem;
+}
+.plan-strechin-info h3 {
+  margin-top: 0.5rem;
+  color: rgb(0, 0, 0);
+  background-color: rgba(210, 149, 238, 0.7254901961);
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.4rem;
+  border: solid #d295ee 2px;
+}
+.plan-strechin-info p {
+  text-align: justify;
+  font-size: 1.6rem;
+  background-color: rgba(210, 149, 238, 0.7254901961);
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  padding: 0.2rem;
+  border-radius: 8px;
+  border: solid 2px rgba(255, 254, 254, 0.692);
+}
+
+.lista-strechin li {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.plan-musculacion-info-parrafo-final-2 {
+  text-align: center;
+}
+.plan-musculacion-info-parrafo-final-2 img {
+  margin-top: 0.5rem;
+  width: 200px;
+  height: 200px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .lista-strechin li {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .borde-control-2 {
+    text-align: center;
+  }
+  .borde-control-2 h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .borde-control-2 h3 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .borde-control-2 p {
+    font-size: 1rem;
+  }
+  .plan-musculacion-info-parrafo-final-2 p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .plan-musculacion-info-parrafo-final-2 img {
+    margin-top: 0.5rem;
+    width: 130px;
+    height: 130px;
+  }
+}
+@media only screen and (max-width: 476px) {
+  .lista-strechin {
+    text-align: start;
+    margin-right: 0.3rem;
+  }
+  .lista-strechin li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .borde-control-2 {
+    text-align: center;
+  }
+  .borde-control-2 h2 {
+    font-size: 3rem;
+  }
+  .borde-control-2 h3 {
+    font-size: 1.7rem;
+  }
+  .borde-control-2 p {
+    font-size: 1rem;
+  }
+  .plan-musculacion-info-parrafo-final-2 p {
+    font-size: 1rem;
+  }
+  .plan-musculacion-info-parrafo-final-2 img {
+    margin-top: 0.5rem;
+    width: 100px;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .content-img-info-2 img {
+    max-width: 310px;
+  }
+  .plan-musculacion-info-parrafo-final-2 p {
+    font-size: 0.8rem;
+  }
+  .plan-musculacion-info-parrafo-final-2 img {
+    margin-top: 1rem;
+    width: 70px;
+    height: 70px;
+  }
+}
+/*_________Articulo suplementos _________*/
+.borde-control-3 {
+  margin-top: 1rem;
+  background-color: rgba(243, 161, 54, 0.8156862745);
+  color: rgb(0, 0, 0);
+  padding: 0.5rem;
+  border: solid rgb(117, 66, 6) 3px;
+  border-radius: 24px;
+}
+.borde-control-3 h2 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  display: inline-block;
+}
+.borde-control-3 h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.borde-control-3 p {
+  font-size: 1.2rem;
+}
+
+.content-img-info-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(243, 161, 54, 0.8156862745);
+  border-left: 3px solid rgb(117, 66, 6);
+}
+
+.plan-suplemento {
+  background-image: url(https://i.ibb.co/mbBsSfQ/fondo-prote-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid rgb(117, 66, 6) 3px;
+  padding: 0.5rem;
+}
+.plan-suplemento h3 {
+  margin-top: 0.5rem;
+  color: rgb(0, 0, 0);
+  background-color: rgba(243, 161, 54, 0.5019607843);
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.4rem;
+  border: solid rgba(243, 161, 54, 0.8156862745) 2px;
+}
+.plan-suplemento p {
+  text-align: justify;
+  font-size: 1.4rem;
+  background-color: rgba(227, 157, 233, 0.692);
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  padding: 0.2rem;
+  border-radius: 8px;
+  border: solid rgba(243, 161, 54, 0.8156862745) 2px;
+}
+
+.plan-suplemento-info {
+  background-image: url(https://i.ibb.co/sv74M2F/streching-fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: start;
+  border: solid rgba(243, 161, 54, 0.5019607843);
+  padding: 1rem;
+}
+.plan-suplemento-info h3 {
+  margin-top: 0.5rem;
+  color: rgb(0, 0, 0);
+  background-color: rgba(243, 161, 54, 0.8156862745);
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.4rem;
+  border: solid #d295ee 2px;
+}
+.plan-suplemento-info p {
+  text-align: justify;
+  font-size: 1.6rem;
+  background-color: rgba(210, 149, 238, 0.7254901961);
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  padding: 0.2rem;
+  border-radius: 8px;
+  border: solid 2px rgba(255, 254, 254, 0.692);
+}
+
+.lista-suplemento li {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.plan-suplemento-info-parrafo-final-2 {
+  text-align: center;
+}
+.plan-suplemento-info-parrafo-final-2 img {
+  margin-top: 0.5rem;
+  width: 200px;
+  height: 200px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .lista-suplemento li {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .borde-control-3 {
+    text-align: center;
+  }
+  .borde-control-3 h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .borde-control-3 h3 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .borde-control-3 p {
+    font-size: 1rem;
+  }
+  .plan-suplemento-info-parrafo-final-2 p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .plan-suplemento-info-parrafo-final-2 img {
+    margin-top: 0.5rem;
+    width: 130px;
+    height: 130px;
+  }
+}
+@media only screen and (max-width: 476px) {
+  .lista-suplemento {
+    text-align: start;
+    margin-right: 0.3rem;
+  }
+  .lista-suplemento li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .borde-control-3 {
+    text-align: center;
+  }
+  .borde-control-3 h2 {
+    font-size: 3rem;
+  }
+  .borde-control-3 h3 {
+    font-size: 1.7rem;
+  }
+  .borde-control-3 p {
+    font-size: 1rem;
+  }
+  .plan-suplemento-info-parrafo-final-2 p {
+    font-size: 1rem;
+  }
+  .plan-suplemento-info-parrafo-final-2 img {
+    margin-top: 0.5rem;
+    width: 100px;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .content-img-info-3 img {
+    max-width: 310px;
+  }
+  .plan-suplemento-info-parrafo-final-2 p {
+    font-size: 0.8rem;
+  }
+  .plan-suplemento-info-parrafo-final-2 img {
+    margin-top: 1rem;
+    width: 70px;
+    height: 70px;
+  }
+}
+/*__________________________________Paginas "Videos"__________________________________________*/
+.texto-titulo-videos {
+  background-color: rgba(255, 255, 255, 0.568);
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.card {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-color: rgba(216, 236, 42, 0.452);
+  border: solid 1px black;
+}
+
+.card-imagen {
+  padding: 1rem 1rem 0 1rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.card-cuerpo {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.modal-header {
+  background-color: #000000;
+  border: solid 1px white;
+  font-weight: bold;
+}
+.modal-header h1 {
+  color: white;
+}
+
+.btn-close {
+  background-color: #ffffff;
+}
+
+.modal-body {
+  border: solid 1px white;
+}
+
+.modal-content {
+  background-color: rgba(216, 236, 42, 0.938);
+}
+
+.carousel-item p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.botones-videos {
+  background-color: rgba(5, 5, 5, 0.795);
+}
+
+.modal-footer {
+  border: solid 1px rgb(255, 254, 254);
+  background-color: #000000;
+}
+
+.fondo-videos {
+  background-image: url(https://i.ibb.co/zHhb4pw/fondo-gym-22.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 2rem 0 1rem 0;
+  width: 97%;
+  margin-left: 25px;
+  border: solid 2px black;
+  border-radius: 15px;
+}
+
+.video-disp::-webkit-media-controls {
+  opacity: 5;
+}
+
+.accordion {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+.accordion-item {
+  z-index: 1;
+}
+
+.accordion-button {
+  color: rgb(8, 8, 8);
+  background-color: rgb(216, 236, 42);
+  font-size: 2rem;
+  width: 28rem;
+  z-index: 1;
+}
+
+.accordion-body {
+  background-color: rgba(181, 181, 247, 0.425);
+  border: solid 4px rgba(157, 157, 243, 0.541);
+  font-size: 1.3rem;
+  border-radius: 0 0 14px 14px;
+}
+.accordion-body img {
+  width: 400px;
+}
+
+.video-disp {
+  padding: 0 0.4rem 0 0;
+  width: 460px;
+  height: 380px;
+}
+
+@media only screen and (max-width: 480px) {
+  .video-espesicico {
+    margin-right: 2rem;
+  }
+  .accordion-body {
+    padding: 0;
+  }
+  .accordion-body img {
+    width: 250px;
+  }
+  .video-disp {
+    width: 300px;
+    height: 210px;
+  }
+  .accordion-button {
+    width: 300px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(216, 236, 42);
+    font-size: 1.2rem;
+  }
+  .fondo-videos {
+    width: 100%;
+    margin-left: 25px;
+    border: solid 1px black;
+    border-radius: 15px;
+    margin-left: 0;
+    overflow: hidden;
+  }
+}
 /*______________________________________________________________________________________________*/
 /*___________________________________ SECCION MOVIL_____________________________________________*/
 /*______________________________________________________________________________________________*/
-
 @media (max-width: 1100px) {
   body {
     padding-top: 110px;
     margin: 0;
   }
-
-  @media only screen and (max-width: 480px) {
-    h1 {
-      font-size: 1.8rem;
-    }
-
-    .bloque1 p,
-    .bloque2 p,
-    .bloque3 p {
-      font-size: 1.2rem;
-    }
+}
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
   }
-
-  @media only screen and (max-width: 1024px) {
+  .bloque1 p,
+  .bloque2 p,
+  .bloque3 p {
+    font-size: 1.2rem;
   }
-
+}
+@media (max-width: 1100px) {
+  body {
+    padding-top: 110px;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  .bloque1 p,
+  .bloque2 p,
+  .bloque3 p {
+    font-size: 1.2rem;
+  }
   .header {
     background-color: white;
     height: 70px;
@@ -1571,7 +1455,6 @@ h1 {
     left: 3px;
     min-width: none;
   }
-
   .imagen {
     margin-bottom: 10px;
     height: 70px;
@@ -1579,17 +1462,14 @@ h1 {
     margin-top: 0px;
     margin-left: 10px;
   }
-
   .nav {
     display: flex;
     justify-content: space-between;
   }
-
   .nav-link {
     color: rgb(0, 0, 0);
     text-decoration: none;
   }
-
   .nav-menu {
     display: flex;
     align-items: center;
@@ -1609,7 +1489,6 @@ h1 {
     border-radius: 5px 0 0 5px;
     border: solid black 2px;
   }
-
   .nav-menu-item {
     font-size: 1rem;
     margin: 0 15px;
@@ -1618,17 +1497,17 @@ h1 {
     text-transform: uppercase;
     width: max-content;
   }
-
   .nav-menu-link {
     padding: 8px 14px;
   }
-
-  .nav-menu-link:hover,
+  .nav-menu-link:hover {
+    background: none;
+    color: rgb(66, 172, 17);
+  }
   .nav-menu-link-active {
     background: none;
     color: rgb(66, 172, 17);
   }
-
   .nav-toggle {
     color: rgb(209, 209, 209);
     display: block;
@@ -1639,26 +1518,22 @@ h1 {
     padding: 2px;
     font-size: 1.5rem;
   }
-
   .nav-menu_visible {
     left: 4%;
     z-index: 2;
   }
-
   /*________________________________________Seccion main Movil_______________________________________ */
-
   .contenedor {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 5px;
+    height: auto;
   }
-
-  .contenedor,
   h1 {
     margin-top: 5px;
     height: auto;
   }
-
   .bloque1,
   .bloque2,
   .bloque3 {
@@ -1672,39 +1547,33 @@ h1 {
     text-align: center;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
   }
-
   .bloque1 {
     background-position: center;
     height: auto;
   }
-
   .bloque1 h2 {
     font-size: 2rem;
     margin-top: 20px;
     padding: 0px;
   }
-
   .bloque1 p {
     color: rgb(0, 0, 0);
     padding: 1rem;
     margin-top: 0.2rem;
     font-size: 1.2rem;
   }
-
   .bloque1 a {
     border-radius: 5px;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
     margin-top: 5px;
     padding: 4px;
   }
-
   .bloque2 {
     background-image: url(https://i.ibb.co/chJTXW3/Fondo-bloques-2-new.jpg);
     background-size: cover;
     background-position: center;
     height: auto;
   }
-
   .bloque2 h2 {
     padding: 1rem;
     font-weight: bold;
@@ -1712,7 +1581,6 @@ h1 {
     margin-bottom: 5px;
     margin-top: 5px;
   }
-
   .bloque2 p {
     padding: 1rem;
     font-weight: bold;
@@ -1722,7 +1590,6 @@ h1 {
     text-decoration: blink;
     margin-top: 1px;
   }
-
   .bloque2 a {
     margin: 1.5rem;
     color: black;
@@ -1730,19 +1597,16 @@ h1 {
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
     padding: 4px;
   }
-
   .bloque3 {
     background-color: white;
     height: auto;
   }
-
   .bloque3 h2 {
     font-size: 2rem;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 1rem;
   }
-
   .bloque3 p {
     font-size: 1.2rem;
     padding: 1rem;
@@ -1752,14 +1616,12 @@ h1 {
     margin-top: 5px;
     text-decoration: blink;
   }
-
   .bloque3 a {
     border-radius: 5px;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
     margin-top: 5px;
     padding: 4px;
   }
-
   .whatapp {
     width: 50px;
     height: 50px;
@@ -1768,9 +1630,7 @@ h1 {
     right: 15px;
     z-index: 1;
   }
-
   /* ______________________________Seccion del Carrucel Movil________________________________________*/
-
   .videos-incio {
     flex-direction: row;
     height: 700px;
@@ -1778,7 +1638,6 @@ h1 {
     flex-wrap: wrap;
     margin-bottom: 40px;
   }
-
   .carrucel-pc {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -1786,7 +1645,6 @@ h1 {
     padding: 0;
     border: solid 2px black;
   }
-
   .ancho-max-carrusel {
     min-width: 330px;
   }
@@ -1795,21 +1653,16 @@ h1 {
     margin-bottom: 12px;
     font-size: 1.3em;
   }
-
   .tam-img-mov {
     height: 150px;
   }
-
   .margen-boton-izq {
     margin-left: 5px;
   }
-
   .margen-boton-der {
     margin-right: 5px;
   }
-
   /*___________________________Seccion Formulario Movil ______________________________________________*/
-
   .cuestionario-form1 {
     padding: 0;
     margin-bottom: 15px;
@@ -1817,12 +1670,10 @@ h1 {
     min-width: 300px;
     border: solid 2px black;
   }
-
   .cuestionario-form1 h2 {
     margin-top: 13px;
     font-weight: bold;
   }
-
   .formulario1 input {
     width: 55%;
     border: solid 2px rgb(75, 74, 74);
@@ -1830,51 +1681,39 @@ h1 {
     border-radius: 5px;
     font-weight: bold;
   }
-
   .button-item {
     font-size: 1rem;
   }
-
   /*_______________________________Seccion Legales Movil ______________________________________________*/
-
   .contacto-legales {
     justify-content: center;
     margin-right: 0px;
     left: 0;
   }
-
   .contacto-legales ol {
     margin: 0;
     padding: 0;
   }
-
   .contacto-legales img {
     width: 20px;
     height: 20px;
     margin: 0px 10px 0px 10px;
   }
-
   .contacto-legales h3 {
     display: none;
   }
-
   .legal {
     margin-top: 15px;
     font-size: 0.5rem;
   }
-
   .legal p {
     margin-bottom: 50px;
   }
-
   /*____________________________"Pag Alumnos" Movil_________________________________*/
-
   .contenedorConstruccion {
     z-index: -1;
   }
-
   /*_____________________________"Pagina Contactos" Movil___________________________*/
-
   .contacto-contenedor {
     display: flex;
     flex-direction: column;
@@ -1887,7 +1726,6 @@ h1 {
     margin: 0.1em 0 0.5em 0;
     padding: 0.5em 0.8em 0.5em 0.8em;
   }
-
   .contacto-contenedor h2 {
     background-image: url(https://i.ibb.co/0J2VR4t/fondo-harder.jpg);
     background-size: cover;
@@ -1899,7 +1737,6 @@ h1 {
     border-radius: 25px;
     padding: 0.3em;
   }
-
   .contacto-contenedor p {
     font-size: 1em;
     font-weight: bold;
@@ -1911,14 +1748,13 @@ h1 {
     margin-top: 0.3em;
     margin-bottom: 0.3em;
   }
-
   .sangria {
     text-indent: 0.5em;
     text-align: justify;
   }
-
-  /*___________________________pag. "Contacto" Formulario_____________________________________*/
-
+}
+/*___________________________pag. "Contacto" Formulario_____________________________________*/
+@media only screen and (max-width: 480px) {
   .contacto-formulario {
     display: flex;
     flex-direction: column;
@@ -1930,20 +1766,17 @@ h1 {
     border-radius: 25px;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
   }
-
   .form2 {
     display: flex;
     flex-direction: column;
     gap: 0.3em;
   }
-
   .contato-name {
     border: solid 2px black;
     border-radius: 5px;
     width: 23em;
     font-size: 0.7em;
   }
-
   .form2 label {
     font-size: 0.9em;
   }
@@ -1951,26 +1784,21 @@ h1 {
     height: 2.5em;
     background-color: rgb(208, 241, 208);
   }
-
   .form2 input:hover {
     background-color: rgba(43, 230, 43, 0.534);
   }
-
   .contacto-opciones {
     background-color: rgb(208, 241, 208);
   }
-
   .contacto-opciones:hover {
     background-color: rgba(43, 230, 43, 0.534);
   }
-
   #contacto-date {
     width: 16em;
     font-size: 0.9em;
     text-align: center;
     margin-left: 2em;
   }
-
   #estado,
   #objetivo {
     border: solid 2px black;
@@ -1981,7 +1809,6 @@ h1 {
     margin-top: 0.4em;
     margin-bottom: 0.3em;
   }
-
   .texto-form2 {
     border: solid 2px black;
     border-radius: 10px;
@@ -1989,7 +1816,6 @@ h1 {
     height: 17em;
     margin-top: 0.4em;
   }
-
   .contacto-boton {
     border-radius: 25px;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
@@ -1997,15 +1823,12 @@ h1 {
     margin: auto;
     font-size: 1.2em;
   }
-
   .tildes {
     display: flex;
     justify-content: center;
     text-align: center;
   }
-
   /*_____________________________"Pagina Sobre Mi" Movil_____________________________*/
-
   .sobre-mi-encabezado {
     display: flex;
     justify-content: center;
@@ -2017,12 +1840,10 @@ h1 {
     padding: 0 0.5em 0 0.5em;
     margin: 0 10px 20px 15px;
   }
-
   .sobre-mi-encabezado h2 {
     font-size: 2rem;
     text-align: center;
   }
-
   .sobre-mi-presentacion {
     border: solid 1px black;
     border-radius: 10px;
@@ -2030,7 +1851,6 @@ h1 {
     width: 95%;
     overflow: hidden;
   }
-
   .sobre-mi-presentacion img {
     height: 300px;
     padding: 2em;
@@ -2040,13 +1860,11 @@ h1 {
     background-color: rgba(255, 255, 255, 0.288);
     border-radius: 14px;
   }
-
   .sobre-mi-presentacion p {
     padding: 0 1em 0 1em;
     background-color: rgba(255, 255, 255, 0.507);
     border-radius: 14px;
   }
-
   .sobre-mi-clases {
     border: solid 1px black;
     border-radius: 10px;
@@ -2054,7 +1872,6 @@ h1 {
     width: 95%;
     overflow: hidden;
   }
-
   .sobre-mi-planes {
     border: solid 1px black;
     border-radius: 10px;
@@ -2062,43 +1879,35 @@ h1 {
     width: 95%;
     overflow: hidden;
   }
-
   .sobre-mi-planes p {
     padding: 0 1em 1em 1em;
     background-color: rgba(255, 255, 255, 0.438);
     border-radius: 14px;
   }
-
   .sobre-mi-imagenes {
     border-color: #ffffff;
     overflow: hidden;
   }
-
   .sobre-mi-imagenes img {
     width: 410px;
     margin-bottom: 5px;
     margin-bottom: 10px;
     overflow: wrap;
   }
-
   .textps-p- {
     text-align: center;
   }
-
   .sobre-mi-clases p {
     padding: 0;
     padding: 0 0.3em 0 0.3em;
   }
-
   .adaptacion-letra {
     font-size: 0.5rem;
   }
-
   .sobre-mi-formacion-img {
     display: flex;
     flex-wrap: wrap;
   }
-
   .sobre-mi-formacion h5 {
     font-size: 1.7rem;
     margin-top: 0.8rem;
@@ -2107,20 +1916,19 @@ h1 {
     padding: 0.5rem;
     border-radius: 14px;
   }
-
   .sobre-mi-formacion p {
     font-size: 1rem;
     margin-bottom: 0;
     font-weight: bold;
   }
-
   .sobre-mi-formacion-img img {
     width: 250px;
     margin-top: 0.8rem;
   }
-
   .sobre-mi-despedida p {
     font-size: 1.3rem;
     margin-top: 0.5rem;
   }
 }
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,358 @@
+/*_________Articulo suplementos _________*/
+
+.borde-control-3 {
+  margin-top: 1rem;
+  background-color: #f3a136d0;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem;
+  border: solid rgb(117, 66, 6) 3px;
+  border-radius: 24px;
+
+  h2 {
+    font-size: 2.6rem;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+.content-img-info-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3a136d0;
+  border-left: 3px solid rgb(117, 66, 6);
+}
+
+.plan-suplemento {
+  background-image: url(https://i.ibb.co/mbBsSfQ/fondo-prote-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid rgb(117, 66, 6) 3px;
+  padding: 0.5rem;
+
+  h3 {
+    margin-top: 0.5rem;
+    color: rgb(0, 0, 0);
+    background-color: #f3a13680;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 0.4rem;
+    border: solid #f3a136d0 2px;
+  }
+
+  p {
+    text-align: justify;
+    font-size: 1.4rem;
+    background-color: rgba(227, 157, 233, 0.692);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 0.2rem;
+    border-radius: 8px;
+    border: solid #f3a136d0 2px;
+  }
+}
+
+.plan-suplemento-info {
+  background-image: url(https://i.ibb.co/sv74M2F/streching-fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: start;
+  border: solid #f3a13680;
+  padding: 1rem;
+
+  h3 {
+    margin-top: 0.5rem;
+    color: rgb(0, 0, 0);
+    background-color: #f3a136d0;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 0.4rem;
+    border: solid #d295ee 2px;
+  }
+
+  p {
+    text-align: justify;
+    font-size: 1.6rem;
+    background-color: #d295eeb9;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 0.2rem;
+    border-radius: 8px;
+    border: solid 2px rgba(255, 254, 254, 0.692);
+  }
+}
+
+.lista-suplemento li {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.plan-suplemento-info-parrafo-final-2 {
+  text-align: center;
+
+  img {
+    margin-top: 0.5rem;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .lista-suplemento li {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .borde-control-3 {
+    text-align: center;
+
+    h2 {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 1.7rem;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .plan-suplemento-info-parrafo-final-2 {
+    p {
+      font-size: 1.4rem;
+      text-align: center;
+    }
+
+    img {
+      margin-top: 0.5rem;
+      width: 130px;
+      height: 130px;
+    }
+  }
+}
+
+@media only screen and (max-width: 476px) {
+  .lista-suplemento {
+    text-align: start;
+    margin-right: 0.3rem;
+
+    li {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .borde-control-3 {
+    text-align: center;
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-size: 1.7rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .plan-suplemento-info-parrafo-final-2 {
+    p {
+      font-size: 1rem;
+    }
+
+    img {
+      margin-top: 0.5rem;
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .content-img-info-3 img {
+    max-width: 310px;
+  }
+
+  .plan-suplemento-info-parrafo-final-2 {
+    p {
+      font-size: 0.8rem;
+    }
+
+    img {
+      margin-top: 1rem;
+      width: 70px;
+      height: 70px;
+    }
+  }
+}
+/*__________________________________Paginas "Videos"__________________________________________*/
+
+.texto-titulo-videos {
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: rgba(216, 236, 42, 0.452);
+    border: solid 1px black;
+  }
+  
+  .card-imagen {
+    padding: 1rem 1rem 0 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .card-cuerpo {
+    padding: 0 1rem 1rem 1rem;
+  }
+  
+  .modal-header {
+    background-color: #000000;
+    border: solid 1px white;
+    font-weight: bold;
+  
+    h1 {
+      color: white;
+    }
+  }
+  
+  .btn-close {
+    background-color: #ffffff;
+  }
+  
+  .modal-body {
+    border: solid 1px white;
+  }
+  
+  .modal-content {
+    background-color: rgba(216, 236, 42, 0.938);
+  }
+  
+  .carousel-item p {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .botones-videos {
+    background-color: rgba(5, 5, 5, 0.795);
+  }
+  
+  .modal-footer {
+    border: solid 1px rgb(255, 254, 254);
+    background-color: #000000;
+  }
+  
+  .fondo-videos {
+    background-image: url(https://i.ibb.co/zHhb4pw/fondo-gym-22.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 2rem 0 1rem 0;
+    width: 97%;
+    margin-left: 25px;
+    border: solid 2px black;
+    border-radius: 15px;
+  }
+  
+  .video-disp::-webkit-media-controls {
+    opacity: 5;
+  }
+  
+  .accordion {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+  
+  .accordion-item {
+    z-index: 1;
+  }
+  
+  .accordion-button {
+    color: rgb(8, 8, 8);
+    background-color: rgb(216, 236, 42);
+    font-size: 2rem;
+    width: 28rem;
+    z-index: 1;
+  }
+  
+  .accordion-body {
+    background-color: rgba(181, 181, 247, 0.425);
+    border: solid 4px rgba(157, 157, 243, 0.541);
+    font-size: 1.3rem;
+    border-radius: 0 0 14px 14px;
+  
+    img {
+      width: 400px;
+    }
+  }
+  
+  .video-disp {
+    padding: 0 0.4rem 0 0;
+    width: 460px;
+    height: 380px;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .video-espesicico {
+      margin-right: 2rem;
+    }
+  
+    .accordion-body {
+      padding: 0;
+  
+      img {
+        width: 250px;
+      }
+    }
+  
+    .video-disp {
+      width: 300px;
+      height: 210px;
+    }
+  
+    .accordion-button {
+      width: 300px;
+      color: rgb(255, 255, 255);
+      background-color: rgb(216, 236, 42);
+      font-size: 1.2rem;
+    }
+  
+    .fondo-videos {
+      width: 100%;
+      margin-left: 25px;
+      border: solid 1px black;
+      border-radius: 15px;
+      margin-left: 0;
+      overflow: hidden;
+    }
+  }
+  
