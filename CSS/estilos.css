@@ -104,7 +104,7 @@ body {
 }
 
 h1 {
-  color: rgb(0, 0, 0);
+  color: black;
   font-size: 3rem;
   text-align: center;
 }
@@ -156,7 +156,7 @@ h1 {
 .bloque1,
 .bloque2,
 .bloque3 {
-  border: solid 3px rgb(0, 0, 0);
+  border: solid 3px black;
   width: 30%;
   height: auto;
   text-align: center;
@@ -177,7 +177,7 @@ h1 {
   margin-top: 0px;
 }
 .bloque1 h2 {
-  color: rgb(0, 0, 0);
+  color: black;
   padding: 1.2em;
   font-size: 1.2em;
   font-weight: bold;
@@ -186,7 +186,7 @@ h1 {
 .bloque1 p {
   padding: 2em;
   font-weight: bold;
-  color: rgb(7, 7, 7);
+  color: black;
   font-size: 1.2em;
   text-decoration: double;
   background-color: rgba(240, 240, 240, 0.4509803922);
@@ -197,7 +197,7 @@ h1 {
   margin-top: 5em;
   background-color: rgba(216, 236, 42, 0.452);
   padding: 1em;
-  color: rgb(12, 12, 12);
+  color: black;
   font-size: 1.2em;
   text-decoration: none;
   border-radius: 5px;
@@ -219,13 +219,13 @@ h1 {
   padding: 2em;
   font-weight: bold;
   font-size: 1.2em;
-  color: rgb(14, 13, 13);
+  color: black;
   background-color: rgba(240, 240, 240, 0.4509803922);
 }
 .bloque2 p {
   padding: 1.6em;
   font-weight: bold;
-  color: rgb(7, 7, 7);
+  color: black;
   font-size: 1.2em;
   text-decoration: double;
   background-color: rgba(240, 240, 240, 0.4509803922);
@@ -263,13 +263,13 @@ h1 {
   padding-bottom: 2em;
   font-weight: bold;
   font-size: 1.2em;
-  color: rgb(14, 13, 13);
+  color: black;
   background-color: rgba(240, 240, 240, 0.4509803922);
 }
 .bloque3 p {
   padding: 2em;
   font-weight: bold;
-  color: rgb(0, 0, 0);
+  color: black;
   font-size: 1.2em;
   text-decoration: double;
   background-color: rgba(240, 240, 240, 0.4509803922);
@@ -279,7 +279,7 @@ h1 {
   margin: 15px 30px;
   background-color: rgba(216, 236, 42, 0.452);
   padding: 1em;
-  color: rgb(10, 10, 10);
+  color: black;
   font-size: 1.2em;
   text-decoration: none;
   margin-top: 2.5em;
@@ -344,13 +344,13 @@ h1 {
 }
 
 .boton-color {
-  background-color: #000000;
+  background-color: black;
   height: auto;
 }
 
 .carousel-caption h5 {
   color: aliceblue;
-  background-color: rgba(0, 0, 0, 0.5215686275);
+  background-color: black;
 }
 
 .carousel-control-next-icon,
@@ -780,7 +780,7 @@ h1 {
 
 /*_________________Paginas "Info"_________________________*/
 .borde-control {
-  background-color: rgba(0, 0, 0, 0.7254901961);
+  background-color: black;
   color: rgb(183, 185, 47);
   padding: 0.5rem;
   border: solid white 3px;
@@ -871,9 +871,9 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(5, 5, 5);
-  border-left: 3px solid #ffffff;
-  border-right: 3px solid #ffffff;
+  background-color: black;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
 }
 .content-img-info img {
   max-width: 350px;
@@ -898,7 +898,7 @@ h1 {
 .borde-control-2 {
   margin-top: 1rem;
   background-color: rgba(210, 149, 238, 0.7254901961);
-  color: rgb(0, 0, 0);
+  color: black;
   padding: 0.5rem;
   border: solid white 3px;
   border-radius: 24px;
@@ -921,8 +921,8 @@ h1 {
   justify-content: center;
   align-items: center;
   background-color: rgba(227, 157, 233, 0.692);
-  border-left: 3px solid #ffffff;
-  border-right: 3px solid #ffffff;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
 }
 
 .plan-streching {

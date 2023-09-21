@@ -1,5 +1,10 @@
 /*_________Articulo suplementos _________*/
 
+@mixin fex-center {
+  display: flex;
+  justify-content: center;
+}
+
 .borde-control-3 {
   margin-top: 1rem;
   background-color: $color-naranja;
@@ -25,8 +30,7 @@
 }
 
 .content-img-info-3 {
-  display: flex;
-  justify-content: center;
+  @include fex-center;
   align-items: center;
   background-color: $color-naranja;
   border-left: 3px solid rgb(117, 66, 6);
@@ -287,8 +291,7 @@
 }
 
 .accordion {
-  display: flex;
-  justify-content: center;
+  @include fex-center;
   width: auto;
 }
 

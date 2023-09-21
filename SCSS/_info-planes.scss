@@ -1,7 +1,12 @@
 /*_________________Paginas "Info"_________________________*/
 
+@mixin fex-center {
+  display: flex;
+  justify-content: center;
+}
+
 .borde-control {
-  background-color: #000000b9;
+  background-color: $color-negro;
   color: rgb(183, 185, 47);
   padding: 0.5rem;
   border: solid $color-blanco 3px;
@@ -81,8 +86,7 @@
 }
 
 .plan-musculacion-info-parrafo-final {
-  display: flex;
-  justify-content: center;
+  @include fex-center;
 
   p {
     text-align: center;
@@ -97,12 +101,11 @@
 }
 
 .content-img-info {
-  display: flex;
-  justify-content: center;
+  @include fex-center;
   align-items: center;
-  background-color: rgb(5, 5, 5);
-  border-left: 3px solid #ffffff;
-  border-right: 3px solid #ffffff;
+  background-color: $color-negro;
+  border-left: 3px solid $color-blanco;
+  border-right: 3px solid $color-blanco;
 
   img {
     max-width: 350px;
@@ -136,7 +139,7 @@
 .borde-control-2 {
   margin-top: 1rem;
   background-color: #d295eeb9;
-  color: rgb(0, 0, 0);
+  color: $color-negro;
   padding: 0.5rem;
   border: solid $color-blanco 3px;
   border-radius: 24px;
@@ -158,12 +161,11 @@
 }
 
 .content-img-info-2 {
-  display: flex;
-  justify-content: center;
+  @include fex-center;
   align-items: center;
   background-color: $color-violeta;
-  border-left: 3px solid #ffffff;
-  border-right: 3px solid #ffffff;
+  border-left: 3px solid $color-blanco;
+  border-right: 3px solid $color-blanco;
 }
 
 .plan-streching {
@@ -267,8 +269,7 @@
 }
 
 .content-img-info-3 {
-  display: flex;
-  justify-content: center;
+  @include fex-center;
   align-items: center;
   background-color: $color-naranja;
   border-left: 3px solid rgb(117, 66, 6);

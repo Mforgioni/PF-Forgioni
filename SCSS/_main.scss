@@ -1,14 +1,17 @@
 /*_________________________________________Seccion main___________________________________________ */
-
-.contenedor {
+@mixin fex-center {
   display: flex;
   justify-content: center;
+}
+
+.contenedor {
+ @include fex-center;
 }
 
 .bloque1,
 .bloque2,
 .bloque3 {
-  border: solid 3px rgb(0, 0, 0);
+  border: solid 3px $color-negro;
   width: 30%;
   height: auto;
   text-align: center;
@@ -29,7 +32,7 @@
   margin-top: 0px;
 
   h2 {
-    color: rgb(0, 0, 0);
+    color: $color-negro;
     padding: 1.2em;
     font-size: 1.2em;
     font-weight: bold;
@@ -39,7 +42,7 @@
   p {
     padding: 2em;
     font-weight: bold;
-    color: rgb(7, 7, 7);
+    color: $color-negro;
     font-size: 1.2em;
     text-decoration: double;
     background-color: #f0f0f073;
@@ -51,7 +54,7 @@
     margin-top: 5em;
     background-color: $color-verde-tfit-transp;
     padding: 1em;
-    color: rgb(12, 12, 12);
+    color: $color-negro;
     font-size: 1.2em;
     text-decoration: none;
     border-radius: 5px;
@@ -75,14 +78,14 @@
     padding: 2em;
     font-weight: bold;
     font-size: 1.2em;
-    color: rgb(14, 13, 13);
+    color: $color-negro;
     background-color: #f0f0f073;
   }
 
   p {
     padding: 1.6em;
     font-weight: bold;
-    color: rgb(7, 7, 7);
+    color: $color-negro;
     font-size: 1.2em;
     text-decoration: double;
     background-color: #f0f0f073;
@@ -123,14 +126,14 @@
     padding-bottom: 2em;
     font-weight: bold;
     font-size: 1.2em;
-    color: rgb(14, 13, 13);
+    color: $color-negro;
     background-color: #f0f0f073;
   }
 
   p {
     padding: 2em;
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: $color-negro;
     font-size: 1.2em;
     text-decoration: double;
     background-color: #f0f0f073;
@@ -141,7 +144,7 @@
     margin: 15px 30px;
     background-color: $color-verde-tfit-transp;
     padding: 1em;
-    color: rgb(10, 10, 10);
+    color: $color-negro;
     font-size: 1.2em;
     text-decoration: none;
     margin-top: 2.5em;
@@ -209,13 +212,13 @@
 }
 
 .boton-color {
-  background-color: #000000;
+  background-color: $color-negro;
   height: auto;
 }
 
 .carousel-caption h5 {
   color: aliceblue;
-  background-color: #00000085;
+  background-color: $color-negro;
 }
 
 .carousel-control-next-icon,
@@ -374,7 +377,7 @@
 
   input {
     height: 2em;
-    background-color: rgba(232, 247, 96, 0.24);
+    background-color: $color-verde-selec;
 
     &:hover {
       background-color: $color-verde-tfit-transp;
@@ -383,7 +386,7 @@
 }
 
 .contacto-opciones {
-  background-color: rgba(232, 247, 96, 0.24);
+  background-color: $color-verde-selec;
 
   &:hover {
     background-color: $color-verde-tfit-transp;
@@ -407,7 +410,7 @@
 }
 
 .texto-form2 {
-  background-color: rgba(232, 247, 96, 0.24);
+  background-color: $color-verde-selec;
   border: solid 2px $color-negro;
   border-radius: 10px;
   width: 98%;
@@ -424,15 +427,13 @@
 }
 
 .tildes {
-  display: flex;
-  justify-content: center;
+  @include fex-center;
   text-align: center;
 }
 /*_____________________________"Seccion Pagina Sobre Mi"____________________________________________*/
 
 .sobre-mi-encabezado {
-  display: flex;
-  justify-content: center;
+  @include fex-center;
   border: solid 1px $color-negro;
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.568);
   border-radius: 8px;
@@ -525,8 +526,7 @@
 }
 
 .foto-perfil-usuario {
-  display: flex;
-  justify-content: center;
+  @include fex-center;
   width: 100%;
 }
 
@@ -597,8 +597,7 @@
 }
 
 .sobre-mi-formacion-img {
-  display: flex;
-  justify-content: center;
+  @include fex-center;
   justify-content: space-around;
   border-radius: 15px;
   padding: 1em;

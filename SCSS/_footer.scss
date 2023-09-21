@@ -1,8 +1,10 @@
 /*_________________________________Seccion Footer, redes y legales____________________________________*/
-
-.contacto-legales {
+@mixin fex-center {
   display: flex;
   justify-content: center;
+}
+.contacto-legales {
+ @include fex-center;
   position: fixed;
   background-color: $color-blanco;
   bottom: 0;
