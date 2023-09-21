@@ -49,7 +49,7 @@
     display: block;
     margin: 15px 30px;
     margin-top: 5em;
-    background-color: rgba(216, 236, 42, 0.452);
+    background-color: $color-verde-tfit-transp;
     padding: 1em;
     color: rgb(12, 12, 12);
     font-size: 1.2em;
@@ -93,7 +93,7 @@
     margin: 15px 30px;
     margin-top: 3em;
     padding: 1em;
-    background-color: rgba(216, 236, 42, 0.452);
+    background-color: $color-verde-tfit-transp;
     text-decoration: none;
     margin-bottom: 4em;
     border-radius: 5px;
@@ -139,7 +139,7 @@
   a {
     display: block;
     margin: 15px 30px;
-    background-color: rgba(216, 236, 42, 0.452);
+    background-color: $color-verde-tfit-transp;
     padding: 1em;
     color: rgb(10, 10, 10);
     font-size: 1.2em;
@@ -278,19 +278,19 @@
   border: solid 1px $color-negro;
 
   &:hover {
-    background-color: rgba(216, 236, 42, 0.452);
+    background-color: $color-verde-tfit-transp;
   }
 }
 
 .button-item {
   padding: 2px;
   border: solid 1px $color-negro;
-  background-color: rgba(216, 236, 42, 0.452);
+  background-color: $color-verde-tfit-transp;
   box-shadow: 2px 15px 15px rgba(0, 0, 0, 0.568);
   margin-bottom: 1em;
 
   &:hover {
-    background-color: rgba(216, 236, 42, 0.452);
+    background-color: $color-verde-tfit-transp;
     color: $color-blanco;
   }
 }
@@ -377,7 +377,7 @@
     background-color: rgba(232, 247, 96, 0.24);
 
     &:hover {
-      background-color: rgba(216, 236, 42, 0.452);
+      background-color: $color-verde-tfit-transp;
     }
   }
 }
@@ -386,7 +386,7 @@
   background-color: rgba(232, 247, 96, 0.24);
 
   &:hover {
-    background-color: rgba(216, 236, 42, 0.452);
+    background-color: $color-verde-tfit-transp;
   }
 }
 
