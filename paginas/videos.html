@@ -1,777 +1,846 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Cache-Control" content="max-age=3600, mus-revalidatr">
-  <meta name="description"
-    content="Descubre una variedad de ejercicios para fortalecer tu cuerpo y mejorar tu salud en T-Fit. Nuestros videos de ejercicios te guiarán en entrenamientos efectivos para diferentes áreas, como abdominales y glúteos. Únete a nosotros y comienza tu viaje hacia un estilo de vida activo y saludable.">
-
-  <title>T-Fit Videos</title>
-  <link rel="icon" href="../imagenes/NuevoLogo-removebg-preview__1_-removebg-preview (1).png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <link rel="stylesheet" href="../CSS/estilos.css">
-  <script defer src="../javascript/programas.js"></script>
-  <script src="https://kit.fontawesome.com/3243ac43a1.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="max-age=3600, mus-revalidatr">
+    <meta name="description"
+        content="Descubre una variedad de ejercicios para fortalecer tu cuerpo y mejorar tu salud en T-Fit. Nuestros videos de ejercicios te guiarán en entrenamientos efectivos para diferentes áreas, como abdominales y glúteos. Únete a nosotros y comienza tu viaje hacia un estilo de vida activo y saludable.">
+    <title>T-Fit Videos</title>
+    <link rel="icon" href="../imagenes/NuevoLogo-removebg-preview__1_-removebg-preview (1).png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <script defer src="../javascript/programas.js"></script>
+    <script src="https://kit.fontawesome.com/3243ac43a1.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <header class="header">
-    <nav class="nav">
-      <img class="imagen" src="https://i.ibb.co/P5JRpG6/Nuevo-Logo-removebg-preview-1-removebg-preview-1.png"
-        alt="logotipo">
+    <header class="header">
+        <nav class="nav">
+            <img class="imagen" src="https://i.ibb.co/P5JRpG6/Nuevo-Logo-removebg-preview-1-removebg-preview-1.png"
+                alt="logotipo">
 
-      <button class="nav-toggle">
-        <!-- Boton de menu y cierre X de la biblioteca kit.fontawesome.com -->
-        <!-- La etiqueta Style="display: none debe colocarse en html o js para que funcone el codigo" -->
-        <i class="fa-solid fa-bars"></i>
-        <i class="fa-solid fa-times" style="display: none;"></i>
-      </button>
-      <ul class="nav-menu nav-menu_hidden">
-        <li class="nav-menu-item">
-          <a href="..//index.html" class="nav-menu-link nav-link">Inicio</a>
-        </li>
-        <li class="nav-menu-item">
-          <a href="../paginas/alumnos.html" class="nav-menu-link nav-link">Alumnos</a>
-        </li>
-        <li class="nav-menu-item">
-          <a href="videos.html" class="nav-menu-link nav-link fondo-seleccionado">Videos</a>
-        </li>
-        <li class="nav-menu-item">
-          <a href="../paginas/sobreMi.html" class="nav-menu-link nav-link">Sobre mi</a>
-        </li>
-        <li class="nav-menu-item">
-          <a href="../paginas/contacto.html" class="nav-menu-link nav-link nav-menu-link-active">Contacto</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+            <button class="nav-toggle">
+                <!-- Boton de menu y cierre X de la biblioteca kit.fontawesome.com -->
+                <!-- La etiqueta Style="display: none debe colocarse en html o js para que funcone el codigo" -->
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-times" style="display: none;"></i>
+            </button>
 
-  <div class="fondo-videos">
+            <ul class="nav-menu nav-menu_hidden">
+                <li class="nav-menu-item">
+                    <a href="..//index.html" class="nav-menu-link nav-link">Inicio</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="../paginas/alumnos.html" class="nav-menu-link nav-link">Alumnos</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="videos.html" class="nav-menu-link nav-link fondo-seleccionado">Videos</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="../paginas/sobreMi.html" class="nav-menu-link nav-link">Sobre mi</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="../paginas/contacto.html" class="nav-menu-link nav-link nav-menu-link-active">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="container text-center ciudad-cuerpo">
-      <h2 class="texto-titulo-videos">Videos de Ejercicios:</h2>
-      <div class="row">
-        <div class="col d-flex justify-content-center">
-          <!-- Card 1 -->
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <img src="../imagenes/cards-abdominales.jpg" class="card-img-top" alt="Imagen anatomia">
-              <h5 class="card-title">Ejercicios de abdomen</h5>
-              <p class="card-text">
-                Hacer abdominales fortalece el núcleo, mejora la postura, previene lesiones y beneficia la salud general
-                y la estética. Soporte medio del cuerpo.</p>
-
-              <!-- Button modal -->
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCentro">
-                Abrir Galería
-              </button>
-
-              <!-- Modal -->
-              <div class="modal fade" id="modalCentro" tabindex="-1" aria-labelledby="modalCentroLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="modalCentroLabel">Galería de Videos</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-
-                      <!-- Slider carrusel -->
-                      <div id="carouselExample1" class="carousel slide">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-1.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Crunch Invertido</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-2.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Tijeras Horizontales</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-3.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Tijeras Laterales</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-4.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Crunch Sentado</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-5.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Crunch</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="340" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-6.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Crunch Manos a la Rodilla</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-7.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Crunch Rodillas 90°</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-13.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Plancha izometrica, codos apoyados.</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-14.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Plancha + Climber lado opuesto.</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-9.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Plancha + Climbers rodilla afuera.</p>
-                          </div>
-
-                          <!-- Agrega aquí los otros videos -->
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1"
-                          data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon botones-videos" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1"
-                          data-bs-slide="next">
-                          <span class="carousel-control-next-icon botones-videos" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                    </div>
-                    <!-- Acordion -->
-                    <div class="modal-footer">
-                      <div class="accordion" id="accordionCentro">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseCentro" aria-expanded="true" aria-controls="collapseCentro">
-                              Musculos Trabajados
+    <div class="fondo-videos">
+        <div class="container text-center ciudad-cuerpo">
+            <h2 class="texto-titulo-videos">Videos de Ejercicios:</h2>
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <!-- Card 1 -->
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <img src="../imagenes/cards-abdominales.jpg" class="card-img-top" alt="Imagen anatomia">
+                            <h5 class="card-title">Ejercicios de abdomen</h5>
+                            <p class="card-text">
+                                Hacer abdominales fortalece el núcleo, mejora la postura, previene lesiones y beneficia
+                                la salud general
+                                y la estética. Soporte medio del cuerpo.</p>
+                            <!-- Button modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#modalCentro">
+                                Abrir Galería
                             </button>
-                          </h2>
-                          <div id="collapseCentro" class="accordion-collapse collapse"
-                            data-bs-parent="#accordionCentro">
-                            <div class="accordion-body">
-                              <p>
-                                <img src="../imagenes/video-info-1.jpg" alt="foto anatomia">
-                                <img src="../imagenes/video-info-9.jpg" alt="foto anatomia">
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalCentro" tabindex="-1" aria-labelledby="modalCentroLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="modalCentroLabel">Galería de Videos</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- Slider carrusel -->
+                                            <div id="carouselExample1" class="carousel slide">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-1.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Crunch Invertido</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-2.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Tijeras Horizontales</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-3.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Tijeras Laterales</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-4.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Crunch Sentado</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-5.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Crunch</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="340" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-6.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Crunch Manos a la Rodilla</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-7.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Crunch Rodillas 90°</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-13.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Plancha izometrica, codos apoyados.</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-14.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Plancha + Climber lado opuesto.</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-9.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Plancha + Climbers rodilla afuera.</p>
+                                                    </div>
+                                                    <!-- Agrega aquí los otros videos -->
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselExample1" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon botones-videos"
+                                                        aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselExample1" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon botones-videos"
+                                                        aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <!-- Acordion -->
+                                        <div class="modal-footer">
+                                            <div class="accordion" id="accordionCentro">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapseCentro"
+                                                            aria-expanded="true" aria-controls="collapseCentro">
+                                                            Musculos Trabajados
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseCentro" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionCentro">
+                                                        <div class="accordion-body">
+                                                            <p>
+                                                                <img src="../imagenes/video-info-1.jpg"
+                                                                    alt="foto anatomia">
+                                                                <img src="../imagenes/video-info-9.jpg"
+                                                                    alt="foto anatomia">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col d-flex justify-content-center">
-          <!-- Card 2 -->
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <img src="../imagenes/card-gluteos.jpg" class="card-img-top" alt="Imagen anatomia">
-              <h5 class="card-title">Ejercicios de Gluteos</h5>
-              <p class="card-text">Trabajar los glúteos es importante para fortalecer la parte inferior del cuerpo,
-                mejorar la postura y previene lesiones de la espalda baja.</p>
-
-              <!-- Button modal -->
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCentro2">
-                Abrir Galería
-              </button>
-
-              <!-- Modal -->
-              <div class="modal fade" id="modalCentro2" tabindex="-1" aria-labelledby="modalCentroLabel2"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="modalCentroLabel1">Galería de Videos</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-
-                      <!-- Slider carrusel -->
-                      <div id="carouselExample2" class="carousel slide">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-8.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Flexion de Caderas</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-11.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Tijera Horizontal en Plancha,</p>
-                          </div>
-
-
-                          <!-- Agrega aquí los otros videos -->
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2"
-                          data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon botones-videos" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2"
-                          data-bs-slide="next">
-                          <span class="carousel-control-next-icon botones-videos" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                    </div>
-                    <!-- Acordion -->
-                    <div class="modal-footer">
-                      <div class="accordion" id="accordionCentro">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseCentro" aria-expanded="true" aria-controls="collapseCentro">
-                              Musculos trabajados
+                <div class="col d-flex justify-content-center">
+                    <!-- Card 2 -->
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <img src="../imagenes/card-gluteos.jpg" class="card-img-top" alt="Imagen anatomia">
+                            <h5 class="card-title">Ejercicios de Gluteos</h5>
+                            <p class="card-text">Trabajar los glúteos es importante para fortalecer la parte inferior
+                                del cuerpo,
+                                mejorar la postura y previene lesiones de la espalda baja.</p>
+                            <!-- Button modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#modalCentro2">
+                                Abrir Galería
                             </button>
-                          </h2>
-                          <div id="collapseCentro" class="accordion-collapse collapse"
-                            data-bs-parent="#accordionCentro">
-                            <div class="accordion-body">
-                              <p>
-                                <img src="../imagenes/video-info-8.jpg" alt="Imagen anatomia">
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalCentro2" tabindex="-1" aria-labelledby="modalCentroLabel2"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="modalCentroLabel1">Galería de Videos</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- Slider carrusel -->
+                                            <div id="carouselExample2" class="carousel slide">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-8.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Flexion de Caderas</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-11.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Tijera Horizontal en Plancha,</p>
+                                                    </div>
+                                                    <!-- Agrega aquí los otros videos -->
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselExample2" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon botones-videos"
+                                                        aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselExample2" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon botones-videos"
+                                                        aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <!-- Acordion -->
+                                        <div class="modal-footer">
+                                            <div class="accordion" id="accordionCentro">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapseCentro"
+                                                            aria-expanded="true" aria-controls="collapseCentro">
+                                                            Musculos trabajados
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseCentro" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionCentro">
+                                                        <div class="accordion-body">
+                                                            <p>
+                                                                <img src="../imagenes/video-info-8.jpg"
+                                                                    alt="Imagen anatomia">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col d-flex justify-content-center">
-          <!-- Card 3 -->
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <img src="../imagenes/card-espalda.jpg" class="card-img-top" alt="Imagen anatomia">
-              <h5 class="card-title">Ejercicios de Espalda</h5>
-              <p class="card-text">Entrenar la espalda es crucial para una postura saludable y prevenir lesiones y
-                corregir la postura. Es el soporte pricipal de todo nuestro cuerpo.</p>
-
-              <!-- Button modal -->
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCentro3">
-                Abrir Galería
-              </button>
-
-              <!-- Modal -->
-              <div class="modal fade" id="modalCentro3" tabindex="-1" aria-labelledby="modalCentroLabel3"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="modalCentroLabel3">Galería de Videos</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-
-                      <!-- Slider carrusel -->
-                      <div id="carouselExample3" class="carousel slide">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-10.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Superman</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-15.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Lumbares</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-17.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Gato Bueno, Gato Malo</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="auto" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-19.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Polea al Pecho, Agarre Supino.</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="auto" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-20.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Polea al Pecho, Agárre Prono.</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-21.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Remo Polea, Agarre Supino</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-22.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Remo Polea, Agarre Prono</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-24.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Remo Polea, Agarre Neutro</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="auto" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-26.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Vuelo Trasero, Polea Invertida</p>
-                          </div>
-                          <div class="carousel-item">
-                            <video controls width="320" height="240" autoplay loop preload="auto">
-                              <source src="../videos-gif/video-12.mp4" type="video/mp4">
-                              Tu navegador no soporta la reproducción de video.
-                            </video>
-                            <p>Protracción retracción escapular en plancha, apoyo codos.</p>
-                          </div>
-
-                          <!-- Agregar aquí los otros videos -->
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3"
-                          data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon botones-videos" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3"
-                          data-bs-slide="next">
-                          <span class="carousel-control-next-icon botones-videos" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                    </div>
-                    <!-- Acordion -->
-                    <div class="modal-footer">
-                      <div class="accordion" id="accordionCentro">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseCentro" aria-expanded="true" aria-controls="collapseCentro">
-                              Musculos trabajados
+                <div class="col d-flex justify-content-center">
+                    <!-- Card 3 -->
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <img src="../imagenes/card-espalda.jpg" class="card-img-top" alt="Imagen anatomia">
+                            <h5 class="card-title">Ejercicios de Espalda</h5>
+                            <p class="card-text">Entrenar la espalda es crucial para una postura saludable y prevenir
+                                lesiones y
+                                corregir la postura. Es el soporte pricipal de todo nuestro cuerpo.</p>
+                            <!-- Button modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#modalCentro3">
+                                Abrir Galería
                             </button>
-                          </h2>
-                          <div id="collapseCentro" class="accordion-collapse collapse"
-                            data-bs-parent="#accordionCentro">
-                            <div class="accordion-body">
-                              <p>
-                                <img src="../imagenes/vieo-info-espalda-alta.jpg" alt="Video ejersisio">
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalCentro3" tabindex="-1" aria-labelledby="modalCentroLabel3"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="modalCentroLabel3">Galería de Videos</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- Slider carrusel -->
+                                            <div id="carouselExample3" class="carousel slide">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-10.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Superman</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-15.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Lumbares</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-17.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Gato Bueno, Gato Malo</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="auto" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-19.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Polea al Pecho, Agarre Supino.</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="auto" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-20.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Polea al Pecho, Agárre Prono.</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-21.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Remo Polea, Agarre Supino</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-22.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Remo Polea, Agarre Prono</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-24.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Remo Polea, Agarre Neutro</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="auto" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-26.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Vuelo Trasero, Polea Invertida</p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <video controls width="320" height="240" autoplay loop
+                                                            preload="auto">
+                                                            <source src="../videos-gif/video-12.mp4" type="video/mp4">
+                                                            Tu navegador no soporta la reproducción de video.
+                                                        </video>
+                                                        <p>Protracción retracción escapular en plancha, apoyo codos.</p>
+                                                    </div>
+
+                                                    <!-- Agregar aquí los otros videos -->
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselExample3" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon botones-videos"
+                                                        aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselExample3" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon botones-videos"
+                                                        aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <!-- Acordion -->
+                                        <div class="modal-footer">
+                                            <div class="accordion" id="accordionCentro">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapseCentro"
+                                                            aria-expanded="true" aria-controls="collapseCentro">
+                                                            Musculos trabajados
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseCentro" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionCentro">
+                                                        <div class="accordion-body">
+                                                            <p>
+                                                                <img src="../imagenes/vieo-info-espalda-alta.jpg"
+                                                                    alt="Video ejersisio">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
                 </div>
-              </div>
+                <!-- Agrega más bloques similares para los otros videos -->
             </div>
-          </div>
+            <div class="container text-centers contenedor-extra">
+                <!-- Cards 4 -->
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../imagenes/card-hombros.jpg" class="card-img-top card-imagen"
+                                alt="imagen anatomica">
+                            <div class="card-body card-cuerpo">
+                                <h5 class="card-title">Ejercicios de Hombros</h5>
+                                <p class="card-text">Entrenar los hombros es esencial para mejorar la estabilidad de la
+                                    parte superior
+                                    del cuerpo, permitiendo movimientos más funcionales y previniendo lesiones en esta
+                                    área crítica.
+                                    También contribuye a una apariencia física más equilibrada y saludable.</p>
+                                <!-- Button modal -->
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#modalMuseo">
+                                    Abrir Galería
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="modalMuseo" tabindex="-1" aria-labelledby="modalMuseoLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="modalMuseoLabel">Galería de Videos</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+
+                                                <!-- Slider carrusel -->
+                                                <div id="carouselExample" class="carousel slide">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <video controls width="320" height="240" autoplay loop
+                                                                preload="auto">
+                                                                <source src="../videos-gif/video-25.mp4"
+                                                                    type="video/mp4">
+                                                                Tu navegador no soporta la reproducción de video.
+                                                            </video>
+                                                            <p>Vuelo trasero, Polea Invertida.</p>
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <video controls width="320" height="240" autoplay loop
+                                                                preload="auto">
+                                                                <source src="../videos-gif/video-27.mp4"
+                                                                    type="video/mp4">
+                                                                Tu navegador no soporta la reproducción de video.
+                                                            </video>
+                                                            <p>Vuelo Frontal con mancuernas.</p>
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <video controls width="320" height="240" autoplay loop
+                                                                preload="auto">
+                                                                <source src="../videos-gif/video-30.mp4"
+                                                                    type="video/mp4">
+                                                                Tu navegador no soporta la reproducción de video.
+                                                            </video>
+                                                            <p>Vuelo frontal a un brazo.</p>
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <video controls width="320" height="240" autoplay loop
+                                                                preload="auto">
+                                                                <source src="../videos-gif/video-26.mp4"
+                                                                    type="video/mp4">
+                                                                Tu navegador no soporta la reproducción de video.
+                                                            </video>
+                                                            <p>Vuelo Lateral.</p>
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <video controls width="320" height="240" autoplay loop
+                                                                preload="auto">
+                                                                <source src="../videos-gif/video-29.mp4"
+                                                                    type="video/mp4">
+                                                                Tu navegador no soporta la reproducción de video.
+                                                            </video>
+                                                            <p>Vuelo frontal, agarre Prono.</p>
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <video controls width="320" height="240" autoplay loop
+                                                                preload="auto">
+                                                                <source src="../videos-gif/video-27.mp4"
+                                                                    type="video/mp4">
+                                                                Tu navegador no soporta la reproducción de video.
+                                                            </video>
+                                                            <p>Vuelo frontal, agarre neutro.</p>
+                                                        </div>
+                                                        <!-- Agregar aquí los otros videos -->
+                                                    </div>
+                                                    <button class="carousel-control-prev" type="button"
+                                                        data-bs-target="#carouselExample" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon botones-videos"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Previous</span>
+                                                    </button>
+                                                    <button class="carousel-control-next" type="button"
+                                                        data-bs-target="#carouselExample" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon botones-videos"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <!-- Acordion -->
+                                            <div class="modal-footer">
+                                                <div class="accordion" id="accordionGluteo10">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapseGluteo1" aria-expanded="true"
+                                                                aria-controls="collapseGluteo1">
+                                                                Musculos Comprometidos.
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapseGluteo1" class="accordion-collapse collapse"
+                                                            data-bs-parent="#accordionGluteo10">
+                                                            <div class="accordion-body">
+                                                                <img src="../imagenes/video-info-hombro.jpg"
+                                                                    alt="foto anatomia">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <!-- Cards 5 -->
+                        <div class="card" style="width: 18rem;">
+                            <img src="../imagenes/card-pirnas.jpg" class="card-img-top card-imagen"
+                                alt="Foto musculos pierna">
+                            <div class="card-body card-cuerpo">
+                                <h5 class="card-title">Ejercicios de Piernas.</h5>
+                                <p class="card-text">""Fortalecer las piernas no solo mejora la apariencia, sino también
+                                    la salud y el
+                                    rendimiento. Ayuda a prevenir lesiones, promueve la estabilidad y aumenta la
+                                    capacidad para realizar
+                                    actividades diarias con facilidad.</p>
+                                <!-- Button modal -->
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#modalIglesia">
+                                    Abrir Galería
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="modalIglesia" tabindex="-1"
+                                    aria-labelledby="modalNvaCordobaLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="modalIglesiaLabel">Galería de Videos
+                                                </h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <!-- Slider carrusel -->
+                                                <div id="carouselExample4" class="carousel slide">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <video controls width="320" height="240" autoplay loop
+                                                                preload="auto">
+                                                                <source src="../videos-gif/video-11.mp4"
+                                                                    type="video/mp4">
+                                                                Tu navegador no soporta la reproducción de video.
+                                                            </video>
+                                                            <p>Tijeras horizontales en plancha.</p>
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <video controls width="320" height="240" autoplay loop
+                                                                preload="auto">
+                                                                <source src="../videos-gif/video-33.mp4"
+                                                                    type="video/mp4">
+                                                                Tu navegador no soporta la reproducción de video.
+                                                            </video>
+                                                            <p>Estocada Bulgara.</p>
+                                                        </div>
+                                                        <!-- Agregar aquí los otros videos -->
+                                                    </div>
+                                                    <button class="carousel-control-prev" type="button"
+                                                        data-bs-target="#carouselExample4" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon botones-videos"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Previous</span>
+                                                    </button>
+                                                    <button class="carousel-control-next" type="button"
+                                                        data-bs-target="#carouselExample4" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon botones-videos"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <!-- Acordion -->
+                                            <div class="modal-footer">
+                                                <div class="accordion" id="accordionNvaCordobas">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapseNvaCordobas"
+                                                                aria-expanded="true" aria-controls="collapseNvaCordoba">
+                                                                Musculos comprometidos.
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapseNvaCordobas"
+                                                            class="accordion-collapse collapse"
+                                                            data-bs-parent="#accordionNvaCordobas">
+                                                            <div class="accordion-body">
+                                                                <img src="../imagenes/video-info-piernas-1.jpg"
+                                                                    alt="imagen anatomica">
+                                                                <img src="../imagenes/video-info-piernas-2.jpg"
+                                                                    alt="imagen anatomica">
+                                                                <img src="../imagenes/video-info-piernas-3.jpg"
+                                                                    alt="imagen anatomica">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <!-- Cards 6 -->
+                        <div class="card" style="width: 18rem;">
+                            <img src="../imagenes/card-brazos.jpg" class="card-img-top card-imagen"
+                                alt="Foto musculo brazo">
+                            <div class="card-body card-cuerpo">
+                                <h5 class="card-title">Ejercicios de brazos</h5>
+                                <p class="card-text">PROXIMAMENTE...</p>
+                                <!-- Button modal -->
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#modalBarrioGuemesss">
+                                    Abrir Galería
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="modalBarrioGuemesss" tabindex="-1"
+                                    aria-labelledby="modalBarrioGuemesssLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="modalBarrioGuemesssLabel">Galería
+                                                    de Fotos</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <!-- Slider carrusel -->
+                                                <div id="carouselExample6" class="carousel slide">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            video proximamente...
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            video proximamente...
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            video proximamente...
+                                                        </div>
+                                                    </div>
+                                                    <button class="carousel-control-prev" type="button"
+                                                        data-bs-target="#carouselExample6" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon botones-videos"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Previous</span>
+                                                    </button>
+                                                    <button class="carousel-control-next" type="button"
+                                                        data-bs-target="#carouselExample6" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon botones-videos"
+                                                            aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <!-- Acordion -->
+                                            <div class="modal-footer">
+                                                <div class="accordion" id="arrioaccordionBGuemesss">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapseBarrioGuemesss"
+                                                                aria-expanded="true"
+                                                                aria-controls="collapseBarrioGuemesss">
+                                                                Musculos trabajados.
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapseBarrioGuemesss"
+                                                            class="accordion-collapse collapse"
+                                                            data-bs-parent="#accordionBarrioGuemesss">
+                                                            <div class="accordion-body">
+                                                                <p>info proximamente...</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Agrega más bloques similares para los otros videos -->
-      </div>
-      <div class="container text-centers contenedor-extra">
-        <!-- Cards 4 -->
-        <div class="row">
-          <div class="col d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-              <img src="../imagenes/card-hombros.jpg" class="card-img-top card-imagen" alt="imagen anatomica">
-              <div class="card-body card-cuerpo">
-                <h5 class="card-title">Ejercicios de Hombros</h5>
-                <p class="card-text">Entrenar los hombros es esencial para mejorar la estabilidad de la parte superior
-                  del cuerpo, permitiendo movimientos más funcionales y previniendo lesiones en esta área crítica.
-                  También contribuye a una apariencia física más equilibrada y saludable.</p>
-
-                <!-- Button modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMuseo">
-                  Abrir Galería
-                </button>
-
-                <!-- Modal -->
-                <div class="modal fade" id="modalMuseo" tabindex="-1" aria-labelledby="modalMuseoLabel"
-                  aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="modalMuseoLabel">Galería de Videos</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-
-                        <!-- Slider carrusel -->
-                        <div id="carouselExample" class="carousel slide">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <video controls width="320" height="240" autoplay loop preload="auto">
-                                <source src="../videos-gif/video-25.mp4" type="video/mp4">
-                                Tu navegador no soporta la reproducción de video.
-                              </video>
-                              <p>Vuelo trasero, Polea Invertida.</p>
-                            </div>
-                            <div class="carousel-item">
-                              <video controls width="320" height="240" autoplay loop preload="auto">
-                                <source src="../videos-gif/video-27.mp4" type="video/mp4">
-                                Tu navegador no soporta la reproducción de video.
-                              </video>
-                              <p>Vuelo Frontal con mancuernas.</p>
-                            </div>
-                            <div class="carousel-item">
-                              <video controls width="320" height="240" autoplay loop preload="auto">
-                                <source src="../videos-gif/video-30.mp4" type="video/mp4">
-                                Tu navegador no soporta la reproducción de video.
-                              </video>
-                              <p>Vuelo frontal a un brazo.</p>
-                            </div>
-                            <div class="carousel-item">
-                              <video controls width="320" height="240" autoplay loop preload="auto">
-                                <source src="../videos-gif/video-26.mp4" type="video/mp4">
-                                Tu navegador no soporta la reproducción de video.
-                              </video>
-                              <p>Vuelo Lateral.</p>
-                            </div>
-                            <div class="carousel-item">
-                              <video controls width="320" height="240" autoplay loop preload="auto">
-                                <source src="../videos-gif/video-29.mp4" type="video/mp4">
-                                Tu navegador no soporta la reproducción de video.
-                              </video>
-                              <p>Vuelo frontal, agarre Prono.</p>
-                            </div>
-                            <div class="carousel-item">
-                              <video controls width="320" height="240" autoplay loop preload="auto">
-                                <source src="../videos-gif/video-27.mp4" type="video/mp4">
-                                Tu navegador no soporta la reproducción de video.
-                              </video>
-                              <p>Vuelo frontal, agarre neutro.</p>
-                            </div>
-
-                            <!-- Agregar aquí los otros videos -->
-                          </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon botones-videos" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon botones-videos" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>
-                        </div>
-                      </div>
-                      <!-- Acordion -->
-                      <div class="modal-footer">
-                        <div class="accordion" id="accordionGluteo10">
-                          <div class="accordion-item">
-                            <h2 class="accordion-header">
-                              <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseGluteo1" aria-expanded="true" aria-controls="collapseGluteo1">
-                                Musculos Comprometidos.
-                              </button>
-                            </h2>
-                            <div id="collapseGluteo1" class="accordion-collapse collapse"
-                              data-bs-parent="#accordionGluteo10">
-                              <div class="accordion-body">
-                                <img src="../imagenes/video-info-hombro.jpg" alt="foto anatomia">
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <!-- Cards 5 -->
-            <div class="card" style="width: 18rem;">
-              <img src="../imagenes/card-pirnas.jpg" class="card-img-top card-imagen" alt="Foto musculos pierna">
-              <div class="card-body card-cuerpo">
-                <h5 class="card-title">Ejercicios de Piernas.</h5>
-                <p class="card-text">""Fortalecer las piernas no solo mejora la apariencia, sino también la salud y el
-                  rendimiento. Ayuda a prevenir lesiones, promueve la estabilidad y aumenta la capacidad para realizar
-                  actividades diarias con facilidad.</p>
-                <!-- Button modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalIglesia">
-                  Abrir Galería
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="modalIglesia" tabindex="-1" aria-labelledby="modalNvaCordobaLabel"
-                  aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="modalIglesiaLabel">Galería de Videos</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-
-                        <!-- Slider carrusel -->
-                        <div id="carouselExample4" class="carousel slide">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <video controls width="320" height="240" autoplay loop preload="auto">
-                                <source src="../videos-gif/video-11.mp4" type="video/mp4">
-                                Tu navegador no soporta la reproducción de video.
-                              </video>
-                              <p>Tijeras horizontales en plancha.</p>
-                            </div>
-                            <div class="carousel-item">
-                              <video controls width="320" height="240" autoplay loop preload="auto">
-                                <source src="../videos-gif/video-33.mp4" type="video/mp4">
-                                Tu navegador no soporta la reproducción de video.
-                              </video>
-                              <p>Estocada Bulgara.</p>
-                            </div>
-
-                            <!-- Agregar aquí los otros videos -->
-                          </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon botones-videos" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon botones-videos" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>
-                        </div>
-                      </div>
-                      <!-- Acordion -->
-                      <div class="modal-footer">
-                        <div class="accordion" id="accordionNvaCordobas">
-                          <div class="accordion-item">
-                            <h2 class="accordion-header">
-                              <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseNvaCordobas" aria-expanded="true"
-                                aria-controls="collapseNvaCordoba">
-                                Musculos comprometidos.
-                              </button>
-                            </h2>
-                            <div id="collapseNvaCordobas" class="accordion-collapse collapse"
-                              data-bs-parent="#accordionNvaCordobas">
-                              <div class="accordion-body">
-                                <img src="../imagenes/video-info-piernas-1.jpg" alt="imagen anatomica">
-                                <img src="../imagenes/video-info-piernas-2.jpg" alt="imagen anatomica">
-                                <img src="../imagenes/video-info-piernas-3.jpg" alt="imagen anatomica">
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <!-- Cards 6 -->
-            <div class="card" style="width: 18rem;">
-              <img src="../imagenes/card-brazos.jpg" class="card-img-top card-imagen" alt="Foto musculo brazo">
-              <div class="card-body card-cuerpo">
-                <h5 class="card-title">Ejercicios de brazos</h5>
-                <p class="card-text">PROXIMAMENTE...</p>
-                <!-- Button modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                  data-bs-target="#modalBarrioGuemesss">
-                  Abrir Galería
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="modalBarrioGuemesss" tabindex="-1"
-                  aria-labelledby="modalBarrioGuemesssLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="modalBarrioGuemesssLabel">Galería
-                          de Fotos</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-
-                        <!-- Slider carrusel -->
-                        <div id="carouselExample6" class="carousel slide">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              video proximamente...
-                            </div>
-                            <div class="carousel-item">
-                              video proximamente...
-                            </div>
-                            <div class="carousel-item">
-                              video proximamente...
-                            </div>
-                          </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample6"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon botones-videos" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample6"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon botones-videos" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>
-                        </div>
-                      </div>
-                      <!-- Acordion -->
-                      <div class="modal-footer">
-                        <div class="accordion" id="arrioaccordionBGuemesss">
-                          <div class="accordion-item">
-                            <h2 class="accordion-header">
-                              <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseBarrioGuemesss" aria-expanded="true"
-                                aria-controls="collapseBarrioGuemesss">
-                                Musculos trabajados.
-                              </button>
-                            </h2>
-                            <div id="collapseBarrioGuemesss" class="accordion-collapse collapse"
-                              data-bs-parent="#accordionBarrioGuemesss">
-                              <div class="accordion-body">
-                                <p>info proximamente...</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        <!-- finaliza contenedor fondo-Videos -->
     </div>
 
-    <!-- finaliza contenedor fondo-Videos -->
-  </div>
+    <footer class="contacto-legales">
+        <ol>
+            <li>
+                <a href="https://www.facebook.com/Tfit.Cba?mibextid=2JQ9oc" target="_blank">
+                    <img src="https://i.ibb.co/DQYQ8s1/facebook-2504903.png" alt="Facebook icon">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100064064528929" target="_blank">
+                    <h3>t_fitcba</h3>
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com/t_fitcba?igshid=MzRlODBiNWFlZA==" target="_blank"></a>
+                <img src="https://i.ibb.co/r5bKxNW/instagram-3955027.png" alt="Istagram incon">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/t_fitcba/" target="_blank">
+                    <h3>@T_fitcba</h3>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:tfitcba@gmail.com" target="_blank">
+                    <img src="https://i.ibb.co/RBwLztD/gmail-732200.png" alt="Mail icon">
+                </a>
+            </li>
+            <li>
+                <a href="mailto:tfitcba@gmail.com" target="_blank">
+                    <h3>t-fitcba@gmail.com</h3>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://i.ibb.co/qrnGbsg/phone-call-5585856.png" alt="Phone icon">
+                </a>
+            </li>
+            <li>
+                <h3>351-3488449</h3>
+            </li>
+        </ol>
+    </footer>
 
-  <footer class="contacto-legales">
-    <ol>
-      <li>
-        <a href="https://www.facebook.com/Tfit.Cba?mibextid=2JQ9oc" target="_blank">
-          <img src="https://i.ibb.co/DQYQ8s1/facebook-2504903.png" alt="Facebook icon">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/profile.php?id=100064064528929" target="_blank">
-          <h3>t_fitcba</h3>
-        </a>
-      </li>
-      <li>
-        <a href="https://instagram.com/t_fitcba?igshid=MzRlODBiNWFlZA==" target="_blank"></a>
-        <img src="https://i.ibb.co/r5bKxNW/instagram-3955027.png" alt="Istagram incon">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/t_fitcba/" target="_blank">
-          <h3>@T_fitcba</h3>
-        </a>
-      </li>
-      <li>
-        <a href="mailto:tfitcba@gmail.com" target="_blank">
-          <img src="https://i.ibb.co/RBwLztD/gmail-732200.png" alt="Mail icon">
-        </a>
-      </li>
-      <li>
-        <a href="mailto:tfitcba@gmail.com" target="_blank">
-          <h3>t-fitcba@gmail.com</h3>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="https://i.ibb.co/qrnGbsg/phone-call-5585856.png" alt="Phone icon">
-        </a>
-      </li>
-      <li>
-        <h3>351-3488449</h3>
-      </li>
-    </ol>
-  </footer>
+    <div class="legal">
+        <p>Aviso Legal y Política de Privacidad.
+            Bienvenido a t-fitcba.com.ar, el sitio web de Mario Retamal. Al acceder y utilizar este sitio, aceptas
+            cumplir con estos términos. Si no estás de acuerdo con alguno de ellos, te recomendamos que no utilices
+            este sitio.
+            1. Privacidad y Protección de Datos Personales: Respetamos tu privacidad y nos comprometemos a proteger
+            tus datos personales. Nuestra Política de Privacidad describe cómo recopilamos, utilizamos y protegemos
+            la información que nos proporcionas.
+            2. Propiedad Intelectual: Todo el contenido y diseño de este sitio web, incluyendo texto, imágenes,
+            logotipos y otros elementos, están protegidos por derechos de autor y otras leyes de propiedad
+            intelectual. No está permitida la reproducción, distribución o uso no autorizado de ningún contenido sin
+            nuestro consentimiento escrito.
+            3. Uso Adecuado: Este sitio web es proporcionado con fines informativos y educativos. No proporcionamos
+            asesoramiento médico ni profesional. Te recomendamos que consultes a un profesional de la salud antes de
+            realizar cualquier cambio en tu rutina de ejercicios o dieta.
+            4. Enlaces a Terceros: Este sitio web puede contener enlaces a sitios web de terceros. No tenemos
+            control sobre el contenido o las prácticas de estos sitios enlazados y no asumimos ninguna
+            responsabilidad por ellos.
+            5. Cambios en los Términos: Nos reservamos el derecho de realizar cambios en estos términos y
+            condiciones en cualquier momento. Los cambios entrarán en vigencia inmediatamente después de su
+            publicación en este sitio.
+            Al utilizar este sitio web, aceptas estos términos y condiciones en su totalidad. Gracias por visitar
+            www.t-fitcba.com.ar
+        </p>
+    </div>
 
-  <div class="legal">
-    <p>Aviso Legal y Política de Privacidad.
-      Bienvenido a t-fitcba.com.ar, el sitio web de Mario Retamal. Al acceder y utilizar este sitio, aceptas
-      cumplir con estos términos. Si no estás de acuerdo con alguno de ellos, te recomendamos que no utilices
-      este sitio.
-      1. Privacidad y Protección de Datos Personales: Respetamos tu privacidad y nos comprometemos a proteger
-      tus datos personales. Nuestra Política de Privacidad describe cómo recopilamos, utilizamos y protegemos
-      la información que nos proporcionas.
-      2. Propiedad Intelectual: Todo el contenido y diseño de este sitio web, incluyendo texto, imágenes,
-      logotipos y otros elementos, están protegidos por derechos de autor y otras leyes de propiedad
-      intelectual. No está permitida la reproducción, distribución o uso no autorizado de ningún contenido sin
-      nuestro consentimiento escrito.
-      3. Uso Adecuado: Este sitio web es proporcionado con fines informativos y educativos. No proporcionamos
-      asesoramiento médico ni profesional. Te recomendamos que consultes a un profesional de la salud antes de
-      realizar cualquier cambio en tu rutina de ejercicios o dieta.
-      4. Enlaces a Terceros: Este sitio web puede contener enlaces a sitios web de terceros. No tenemos
-      control sobre el contenido o las prácticas de estos sitios enlazados y no asumimos ninguna
-      responsabilidad por ellos.
-      5. Cambios en los Términos: Nos reservamos el derecho de realizar cambios en estos términos y
-      condiciones en cualquier momento. Los cambios entrarán en vigencia inmediatamente después de su
-      publicación en este sitio.
-      Al utilizar este sitio web, aceptas estos términos y condiciones en su totalidad. Gracias por visitar
-      www.t-fitcba.com.ar
-    </p>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous">
+    </script>
 </body>
-
 </html>
